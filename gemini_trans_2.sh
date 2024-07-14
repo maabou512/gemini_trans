@@ -2,8 +2,7 @@
 
 # Machine Translation using Gemini API 
 # Command: 
-# bash ../scripts/gemini_trans_1.sh [arg1]
-# arg1: original file to be translated  
+# bash ../scripts/gemini_trans_2.sh  
 
 # Steps ( [x] : This script's scope)  
 ## [ ] 1. Convert original file (such as HTML) into XLIFF(.xlf) using **Tikal** 
