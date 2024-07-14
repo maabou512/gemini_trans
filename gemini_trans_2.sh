@@ -2,12 +2,13 @@
 
 #Note: step 1-4 is done in previous process (gemini_trans_1.sh) 　
 
-# Set variables()
-export PYTHONPATH=/home/tani/Gemini/gem_venv/lib/python3.11/site-packages/
-tikal_path="/home/tani/translation/okapi-apps_gtk2-linux-x86_64_0.37/lib" 
+# Set variables
+export PYTHONPATH="path/to/venv/lib/python_ver/site-packages/"
+tikal_path="path/to/tikal/" 
 java_path=`which java`
 python_path=`which python3`
 
+# import variables set in gemini_trans_1.sh  
 source ./conf.sh
 
 echo "Original file: "${original_file}
