@@ -1,22 +1,37 @@
 #!/bin/bash
 
+# Machine Translation using Gemini API 
+# Command: 
+# bash ../scripts/gemini_trans_1.sh [arg1]
+# arg1: original file to be translated  
+
+# Steps ( [x] : This script's scope)  
+## [ ] 1. Convert original file (such as HTML) into XLIFF(.xlf) using **Tikal** 
+## [ ] 2. Extract JP part which will be translated by Gemini
+## [ ] 3. Make patch file for 1 and 2 
+## [ ] 4. Translate with Python script 
+## [x] 5. Compare line counts pre-translated file and post-translated file
+## [x] 6. Apply reverse patch file made in step 3 to merge translated JP parts into XLIFF
+
 #Note: step 1-4 is done in previous process (gemini_trans_1.sh) 　
 
-# Set variables
+# Set variables()
 export PYTHONPATH="path/to/venv/lib/python_ver/site-packages/"
 tikal_path="path/to/tikal/" 
 java_path=`which java`
 python_path=`which python3`
+script_path="path/to/these/scripts"
+pre_trans_file="pre_jp_only_${original_file}.xlf"
+patch_file="jp_part.patch"
+post_trans_file="post_jp_only_${original_file}.xlf"
 
-# import variables set in gemini_trans_1.sh  
-source ./conf.sh
+# import variables set in gemini_trans_1.sh 
+source ${script_path}/conf.sh
 
 echo "Original file: "${original_file}
 
-
-
-# 5. Check whether line counts are correct or not
-
+# 5. Compare line counts pre-translated file and post-translated file
+# --------------------------------------------
 # Check if both files exist
 if [ -f ${pre_trans_file} ] && [ -f ${post_trans_file} ]; then
   # Both files exist, proceed with processing
@@ -29,8 +44,6 @@ else
   echo "Error: Both of (1) \"${pre_trans_file}\" and (2) \"${post_trans_file} \"must exist."
   exit 1
 fi
-
-# --------------------------------------------
 ## Check if two arguments (filenames) are provided
 ##  Get the line counts of each file
 pre_file_lines=$(wc -l < "${pre_trans_file}")
@@ -50,12 +63,11 @@ else
 fi
 # --------------------------------------------
 
-
-# 6. Apply patch file to translated JP parts
+# 6. Apply reverse patch  to translated JP parts
 patched_file="patch_${post_trans_file}"
 patch -R  ${post_trans_file} ${patch_file} --output ${patched_file} #Reverse patch 
 
-# 7. Convert XLIFF file into HTML 
+# 7. Convert XLIFF file into original format
 # Check if the directory exists
 
 if [ ! -d html_out ]; then
@@ -92,9 +104,3 @@ else
 fi
 
 echo "**** Gemini Translation Done ********" 
-
-
-
-
-
-
