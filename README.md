@@ -28,14 +28,14 @@ output_file=${original_file}.xlf
 2. Extract JP part which will be translated by Gemini
 3. Make patch file for 1 and 2 <br>
 4. Translate with Python script <br>
----> 1-4: **[gemini_trans_1.sh](./gemini_trans_1.sh)** :You need arg1 as file extention(e.g."html") <br>
-(4: executed by **[gemini_trans.py](./gemini_trans.py)**)
+---> 1-4: **[gemini_trans_1.sh](./scripts/gemini_trans_1.sh)** :You need arg1 as file extention(e.g."html") <br>
+(4: executed by **[gemini_trans.py](./scripts/gemini_trans.py)**)
 5. Compare line counts pre-translated file and post-translated file
 6. Apply reverse patch file made in step 3 to merge translated JP parts into XLIFF<br>
---> 5-6: **[gemini_trans_2.sh](./gemini_trans_2.sh)**<br>
-(maybe you need text processing by **[post_processing.sh](./post_processing.sh))
+--> 5-6: **[gemini_trans_2.sh](./scripts/gemini_trans_2.sh)**<br>
+(maybe you need text processing by **[post_processing.sh](./scripts/post_processing.sh)**)
 7. Create final, translated file(such as HTML) <br>
---> 7: **[gemini_trans_3.sh](./gemini_trans_3.sh)**
+--> 7: **[gemini_trans_3.sh](./scripts/gemini_trans_3.sh)**
 
 ## My environment
 * Ubuntu 22.04LTS 
