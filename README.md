@@ -27,8 +27,8 @@ output_file=${original_file}.xlf
 1. Convert original file (such as HTML) into XLIFF(.xlf) using **Tikal** 
 2. Extract JP part which will be translated by Gemini
 3. Make patch file for 1 and 2 <br>
-4. Translate with Python script 
----> 1-4: **[gemini_trans_1.sh](./gemini_trans_1.sh)** :You need arg1 as file extention(e.g."html") 
+4. Translate with Python script <br>
+---> 1-4: **[gemini_trans_1.sh](./gemini_trans_1.sh)** :You need arg1 as file extention(e.g."html") <br>
 (4: executed by **[gemini_trans.py](./gemini_trans.py)**)
 5. Compare line counts pre-translated file and post-translated file
 6. Apply reverse patch file made in step 3 to merge translated JP parts into XLIFF
