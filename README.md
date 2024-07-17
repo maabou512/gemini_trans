@@ -12,14 +12,14 @@
 * python_path=`which python3`
 * script_path="./scripts" 
 
-## files processing in PJ directory are following (automatically assigined) 
+## Files processed in PJ directory are following (automatically assigined) 
 original_file: "input"${1}" (input.html incase of html)
 patch_file="jp_part.patch"
 pre_trans_file="pre_jp_only_${original_file}.xlf"
 post_trans_file="post_jp_only_${original_file}.xlf"
 output_file=${original_file}.xlf
 
-## final output
+## Final output
 * ```output``` directory in the PJ directory
 * filename is same as orignal file(input.html in case of html)
 
