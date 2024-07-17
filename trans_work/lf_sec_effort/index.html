@@ -1,0 +1,954 @@
+<!doctype html><html><head>
+    <meta charset="UTF-8">
+    <meta name="description" content="本日は、4 つの Linux Foundation プロジェクトコミュニティ、Open Source Security Foundation (OpenSSF)、FINOS Common Cloud Controls Project、OpenChain、および SPDX の最近の取り組みと影響について重点的に説明します。">
+    <title>スポットライト：Linux Foundation のセキュリティに関する取り組み</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:description" content="Today we highlight the recent efforts and impact of four Linux Foundation project communities: The Open Source Security Foundation (OpenSSF), FINOS Common Cloud Controls Project, OpenChain, and SPDX.">
+    <meta property="og:title" content="A Spotlight on Security Efforts at the Linux Foundation">
+    <meta name="twitter:description" content="Today we highlight the recent efforts and impact of four Linux Foundation project communities: The Open Source Security Foundation (OpenSSF), FINOS Common Cloud Controls Project, OpenChain, and SPDX.">
+    <meta name="twitter:title" content="A Spotlight on Security Efforts at the Linux Foundation">
+
+    
+
+    
+    <style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="https://www.linuxfoundation.org/hs-fs/hub/8112310/hub_generated/template_assets/77282239896/1669227111472/2022_-_BZ_Linux_Foundation_Theme/assets/vendor/magnific.min.css">
+<link rel="stylesheet" href="https://www.linuxfoundation.org/hs-fs/hub/8112310/hub_generated/template_assets/85121828485/1712254049681/2022_-_BZ_Linux_Foundation_Theme/assets/css/partials/mega-header.min.css">
+<link rel="stylesheet" href="https://www.linuxfoundation.org/hs-fs/hub/8112310/hub_generated/module_assets/77362524751/1712755318894/module_77362524751_Main_Mega_Footer.min.css">
+<style>
+  @font-face {
+    font-family:"Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", "Roboto Slab";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Roboto_Slab/regular.woff2") format("woff2"), url("/_hcms/googlefonts/Roboto_Slab/regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Roboto Slab";
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Roboto_Slab/300.woff2") format("woff2"), url("/_hcms/googlefonts/Roboto_Slab/300.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Open_Sans/regular.woff2") format("woff2"), url("/_hcms/googlefonts/Open_Sans/regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Open_Sans/700.woff2") format("woff2"), url("/_hcms/googlefonts/Open_Sans/700.woff") format("woff");
+  }
+</style>
+
+    <script type="application/ld+json">
+{
+  "mainEntityOfPage" : {
+    "@type" : "WebPage",
+    "@id" : "https://www.linuxfoundation.org/blog/a-spotlight-on-security-efforts-at-the-linux-foundation"
+  },
+  "author" : {
+    "name" : "Ashwin Ramaswami",
+    "url" : "https://www.linuxfoundation.org/blog/author/ashwin-ramaswami",
+    "@type" : "Person"
+  },
+  "headline" : "A Spotlight on Security Efforts at the Linux Foundation",
+  "datePublished" : "2024-02-05T16:21:31.000Z",
+  "dateModified" : "2024-03-15T20:15:23.171Z",
+  "publisher" : {
+    "name" : "The Linux Foundation",
+    "logo" : {
+      "url" : "https://f.hubspotusercontent10.net/hubfs/8112310/Linux%20Logo.png",
+      "@type" : "ImageObject"
+    },
+    "@type" : "Organization"
+  },
+  "@context" : "https://schema.org",
+  "@type" : "BlogPosting",
+  "image" : [ "https://www.linuxfoundation.org/hubfs/blog_security_spotlight.png" ]
+}
+</script>
+
+
+    
+<!--  Added by GoogleTagManager integration -->
+<script>
+var _hsp = window._hsp = window._hsp || [];
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+var useGoogleConsentModeV2 = true;
+var waitForUpdateMillis = true ? 1000 : 0;
+
+
+
+var hsLoadGtm = function loadGtm() {
+    if(window._hsGtmLoadOnce) {
+      return;
+    }
+
+    if (useGoogleConsentModeV2) {
+
+      gtag('set','developer_id.dZTQ1Zm',true);
+
+      gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'analytics_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'wait_for_update': waitForUpdateMillis
+      });
+
+      _hsp.push(['useGoogleConsentModeV2'])
+    }
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WWBXMJK');
+
+    window._hsGtmLoadOnce = true;
+};
+
+_hsp.push(['addPrivacyConsentListener', function(consent){
+  if(consent.allowed || (consent.categories && consent.categories.analytics)){
+    hsLoadGtm();
+  }
+}]);
+
+</script>
+
+<!-- /Added by GoogleTagManager integration -->
+
+
+<script type="text/javascript" src="//d2c7xlmseob604.cloudfront.net/tracker.min.js" defer></script>
+<script>
+  $(document).ready( function() { 
+	SmartlingContextTracker.init({
+		orgId: '-BHEtmsmrUGOM8sNYfeBSQ'
+	});
+  });
+</script>
+
+<script src="https://cmp.osano.com/16A0DbT9yDNIaQkvZ/3b49aaa9-15ab-4d47-a8fb-96cc25b5543c/osano.js"></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WWBXMJK');</script>
+<!-- End Google Tag Manager -->
+<link rel="amphtml" href="https://www.linuxfoundation.org/blog/a-spotlight-on-security-efforts-at-the-linux-foundation?hs_amp=true">
+
+<meta property="og:image" content="https://www.linuxfoundation.org/hubfs/blog_security_spotlight.png">
+<meta property="og:image:width" content="1800">
+<meta property="og:image:height" content="1010">
+
+<meta name="twitter:image" content="https://www.linuxfoundation.org/hubfs/blog_security_spotlight.png">
+
+
+<meta property="og:url" content="https://www.linuxfoundation.org/blog/a-spotlight-on-security-efforts-at-the-linux-foundation">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="canonical" href="https://www.linuxfoundation.org/blog/a-spotlight-on-security-efforts-at-the-linux-foundation">
+
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/rss+xml" href="https://www.linuxfoundation.org/blog/rss.xml">
+<meta name="twitter:domain" content="www.linuxfoundation.org">
+<script src="//platform.linkedin.com/in.js" type="text/javascript">
+    lang: en_US
+</script>
+
+<meta http-equiv="content-language" content="ja">
+
+
+
+
+
+
+    <link href="https://www.linuxfoundation.org/hs-fs/hub/8112310/hub_generated/template_assets/77283435922/1712081688750/2022_-_BZ_Linux_Foundation_Theme/assets/css/main.min.css" rel="stylesheet">
+    
+    
+  <meta name="generator" content="HubSpot"></head>
+  
+   
+  
+  <body class=" ">
+<!--  Added by GoogleTagManager integration -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWBXMJK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- /Added by GoogleTagManager integration -->
+
+    
+      <div id="hs_cos_wrapper_language_switcher" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-language_switcher" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_language_switcher_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_language_switcher" style="" data-hs-cos-general-type="widget" data-hs-cos-type="language_switcher"></span></div>
+      <div id="hs_cos_wrapper_module_16560108726164" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+<section id="mega-menu" class="section--module_16560108726164
+                section--mega-menu
+                bg--black__slight
+                page_header">
+  
+   
+   <div class="top__bar
+               bg--secondary">
+      <div class="top__bar-wrapper
+                  section-wrapper
+                  flex-row
+                  jc--space-between">
+          
+         <p class="top__bar--callout text-color--white"><span style="font-size: 16px;"><span style="color: #ffffff;">オープンソースサミットヨーロッパに登録する｜9月16～18日 - オーストリア、ウィーン </span> <a href="https://events.linuxfoundation.org/open-source-summit-europe/" rel="noopener" style="text-decoration: underline;">今すぐ登録</a></span></p>
+         <div class="right-items
+                     flex-row
+                     align-items--center
+                     jc--end">
+           
+            <div class="menu--language"> 
+             
+              <svg class="icon--globe" width="13" height="12" viewbox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.33333 0.166748C3.11159 0.166748 0.5 2.77834 0.5 6.00008C0.5 9.22182 3.11159 11.8334 6.33333 11.8334C9.55507 11.8334 12.1667 9.22182 12.1667 6.00008C12.1667 2.77834 9.55507 0.166748 6.33333 0.166748ZM8.26892 8.57804C8.17718 8.6693 8.08098 8.76503 8.00289 8.84336C7.93256 8.91393 7.88293 9.00095 7.85776 9.09528C7.82224 9.22841 7.79355 9.36295 7.74556 9.49208L7.33653 10.5941C7.01287 10.6646 6.67792 10.7044 6.33333 10.7044V10.0604C6.37308 9.76352 6.15363 9.20747 5.80104 8.85489C5.65991 8.71376 5.58065 8.52229 5.58065 8.32259V7.56967C5.58065 7.29588 5.43317 7.0442 5.19348 6.91178C4.85548 6.72478 4.3747 6.46345 4.0454 6.29763C3.77537 6.16167 3.52557 5.98856 3.30094 5.78604L3.28212 5.7691C3.12149 5.6241 2.97886 5.46031 2.85733 5.28126C2.63669 4.95737 2.27728 4.42461 2.04372 4.07837C2.5252 3.00815 3.39291 2.14867 4.47114 1.68177L5.03589 1.96426C5.28616 2.0894 5.58065 1.90757 5.58065 1.62767V1.36188C5.76858 1.33153 5.95981 1.31225 6.15433 1.30495L6.81999 1.97061C6.967 2.11762 6.967 2.35589 6.81999 2.5029L6.70968 2.61298L6.46646 2.8562C6.39308 2.92958 6.39308 3.04884 6.46646 3.12223L6.57678 3.23254C6.65017 3.30593 6.65017 3.42518 6.57678 3.49857L6.38861 3.68674C6.35328 3.722 6.30539 3.7418 6.25548 3.74178H6.04402C5.99509 3.74178 5.94805 3.76083 5.91277 3.79518L5.67944 4.02216C5.65083 4.05001 5.63182 4.08623 5.62514 4.12559C5.61846 4.16495 5.62446 4.20541 5.64227 4.24114L6.00897 4.97478C6.07154 5.09991 5.98051 5.24716 5.84079 5.24716H5.70813C5.66273 5.24716 5.61899 5.23069 5.58488 5.20106L5.3666 5.01147C5.3172 4.96862 5.25751 4.93936 5.19338 4.92658C5.12925 4.91379 5.06289 4.91792 5.00084 4.93856L4.26767 5.18294C4.2117 5.20161 4.16302 5.23741 4.12853 5.28529C4.09404 5.33316 4.07549 5.39067 4.0755 5.44968C4.0755 5.55623 4.13572 5.65337 4.23098 5.70112L4.4916 5.83143C4.71294 5.94222 4.95709 5.99985 5.20454 5.99985C5.45198 5.99985 5.73589 6.64175 5.95722 6.75253H7.52729C7.72698 6.75253 7.91821 6.8318 8.05958 6.97293L8.38159 7.29494C8.51611 7.42952 8.59167 7.61202 8.59163 7.8023C8.59159 7.94648 8.56305 8.08924 8.50767 8.22237C8.45229 8.35549 8.37115 8.47636 8.26892 8.57804ZM10.3085 6.42935C10.1723 6.39524 10.0535 6.31174 9.97564 6.19484L9.55272 5.56046C9.49084 5.46778 9.45781 5.35884 9.45781 5.24739C9.45781 5.13595 9.49084 5.02701 9.55272 4.93432L10.0135 4.24326C10.0681 4.16164 10.1429 4.09531 10.2308 4.05156L10.5362 3.89891C10.8542 4.5321 11.0376 5.24434 11.0376 6.00008C11.0376 6.20401 11.0202 6.40371 10.9948 6.60082L10.3085 6.42935Z" fill="white" />
+              </svg><select class="menu--language__list" onchange="window.open(this.options[this.selectedIndex].value, '_self');"><option value="https://linuxfoundation.org/">英語</option> 
+                  <option value="https://www.linuxfoundation.jp">日本</option> 
+                  <option value="https://www.linuxfoundation.org/zh/chinese/">中国</option> 
+                  <option value="https://linuxfoundation.eu">ヨーロッパ</option></select></div> 
+            <div class="top__bar-menu text-color--white"><span id="hs_cos_wrapper_module_16560108726164_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16560108726164_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://openprofile.dev/" role="menuitem" target="_blank" rel="noopener">サインイン</a></li>
+ </ul>
+</div></span></div><a href="#search-popup" class="search-popup-link"><svg width="18" height="18" class="icon icon-search header-search-icon" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M12.0409 0.757324C8.07935 0.757324 4.85339 3.98328 4.85339 7.94482C4.85339 9.66589 5.45703 11.2438 6.47058 12.4819L0.743042 18.2095L1.77625 19.2427L7.50378 13.5151C8.74194 14.5287 10.3198 15.1323 12.0409 15.1323C16.0024 15.1323 19.2284 11.9064 19.2284 7.94482C19.2284 3.98328 16.0024 0.757324 12.0409 0.757324ZM12.0409 2.19482C15.2247 2.19482 17.7909 4.76099 17.7909 7.94482C17.7909 11.1287 15.2247 13.6948 12.0409 13.6948C8.85706 13.6948 6.29089 11.1287 6.29089 7.94482C6.29089 4.76099 8.85706 2.19482 12.0409 2.19482Z" fill="white" />
+               </svg></a><div id="search-popup" class="hs-search-field
+                        mfp-hide">
+                <h4>検索</h4>
+                <div class="hs-search-field__bar">
+                  <form action="/hs-search-results"><input type="text" class="hs-search-field__input" name="term" autocomplete="off" aria-label="検索" placeholder="サイト内検索..."> <input type="hidden" name="type" value="SITE_PAGE"> <input type="hidden" name="type" value="LANDING_PAGE"> <input type="hidden" name="type" value="BLOG_POST"> <input type="hidden" name="type" value="LISTING_PAGE"></form>
+                </div>
+                <ul class="hs-search-field__suggestions"></ul>
+            </div>
+           
+           
+         </div>
+      </div>
+   </div>
+  
+   
+   <header id="js-top-header" class="section-wrapper">
+      <div class="header__row header__main">
+         <div class="header_branding"><a href="/"> <img src="https://www.linuxfoundation.org/hubfs/LF%20Logo%20White.svg"> </a></div>
+         <div class="header_content
+            flex-row
+            jc--space-between
+            align-items--center         
+            pt--sm
+            pb--sm">
+            <div class="header-left"><button class="burger-button menu-toggle" onclick="myFunction(this); openSlideMenu();" type="button"> <span></span> </button></div>
+            <div class="header-right">
+               <div class="header-button"><a class="hs-button
+                  hs-button--primary
+                  mt--none" href="https://www.linuxfoundation.org/about/join">参加する</a></div>
+            </div>
+         </div>
+         
+      </div>
+   </header>
+   <nav class="mega-menu__nav-menu
+               bg--white
+      mega__menu" role="navigation">
+      <div class="mega__menu-content">
+         <div class="row">
+            <div id="burger-menu">
+               <div class="menu-items
+                           section-wrapper
+                           flex-row
+                           jc--space-between
+                           pt--md
+                           pb--md">
+                  
+                  <div class="menu__row-list
+                     open-menu--1">
+                     
+                     <div class="child-menu
+                        dropdown--1" aria-expanded="false">
+                        <p class="row-list-title letter__spacing"><input type="checkbox" class="menu_arrow menu_arrow-invert" name="menu_arrow" id="menu_arrow"> <label for="menu_arrow dropdown--1"></label> ABOUT</p>
+                        <div class="menu-links"><span id="hs_cos_wrapper_module_16560108726164_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16560108726164_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/about" role="menuitem" target="_self">LFについて</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/about/members" role="menuitem" target="_self">法人会員</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/about/individual-supporters" role="menuitem" target="_self">個人のサポーター</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/about/leadership" role="menuitem" target="_self">リーダーシップ</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/about/diversity-inclusivity" role="menuitem" target="_self">ダイバーシティ＆インクルージョン</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/careers" role="menuitem" target="_self">キャリア</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/brand-guidelines" role="menuitem" target="_self">ブランドガイドライン</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/about/contact" role="menuitem" target="_self">お問い合わせ</a></li>
+ </ul>
+</div></span></div>
+                     </div>
+                      
+                  </div>
+                  
+                  <div class="menu__row-list
+                     open-menu--2">
+                     
+                     <div class="child-menu
+                        dropdown--1" aria-expanded="false">
+                        <p class="row-list-title letter__spacing"><input type="checkbox" class="menu_arrow menu_arrow-invert" name="menu_arrow" id="menu_arrow"> <label for="menu_arrow dropdown--1"></label>プロジェクト</p>
+                        <div class="menu-links"><span id="hs_cos_wrapper_module_16560108726164_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16560108726164_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/projects" role="menuitem" target="_self">すべてのプロジェクトを表示</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/projects/hosting" role="menuitem" target="_self">プロジェクトをホストする</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/projects/partnerships" role="menuitem" target="_self">パートナー プログラム</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/security" role="menuitem" target="_self">セキュリティ</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/projects/standards" role="menuitem" target="_self">標準仕様</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/projects/digital-trust" role="menuitem" target="_self">デジタル・トラスト</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/projects/sustainability" role="menuitem" target="_self">持続可能性</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/projects/management" role="menuitem" target="_self">管理とベストプラクティス</a></li>
+ </ul>
+</div></span></div>
+                     </div>
+                      
+                  </div>
+                  
+                  <div class="menu__row-list
+                     open-menu--3">
+                     
+                     <div class="child-menu
+                        dropdown--1" aria-expanded="false">
+                        <p class="row-list-title letter__spacing"><input type="checkbox" class="menu_arrow menu_arrow-invert" name="menu_arrow" id="menu_arrow"> <label for="menu_arrow dropdown--1"></label>リソース</p>
+                        <div class="menu-links"><span id="hs_cos_wrapper_module_16560108726164_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16560108726164_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/blog" role="menuitem" target="_self">ブログ</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/resources/publications" role="menuitem" target="_self">出版物</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/resources/open-source-guides" role="menuitem" target="_self">オープンソースガイド</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/webinars" role="menuitem" target="_self">ウェビナー</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/resources/case-studies" role="menuitem" target="_self">ケーススタディ</a></li>
+ </ul>
+</div></span></div>
+                     </div>
+                     
+                     <div class="child-menu
+                        dropdown--2" aria-expanded="false">
+                        <p class="row-list-title letter__spacing"><input type="checkbox" class="menu_arrow menu_arrow-invert" name="menu_arrow" id="menu_arrow"> <label for="menu_arrow dropdown--2"></label>ニュースルーム</p>
+                        <div class="menu-links"><span id="hs_cos_wrapper_module_16560108726164_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16560108726164_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/press" role="menuitem" target="_self">プレスリリース</a></li>
+ </ul>
+</div></span></div>
+                     </div>
+                      
+                  </div>
+                  
+                  <div class="menu__row-list
+                     open-menu--4">
+                     
+                     <div class="child-menu
+                        dropdown--1" aria-expanded="false">
+                        <p class="row-list-title letter__spacing"><input type="checkbox" class="menu_arrow menu_arrow-invert" name="menu_arrow" id="menu_arrow"> <label for="menu_arrow dropdown--1"></label> LFリサーチ</p>
+                        <div class="menu-links"><span id="hs_cos_wrapper_module_16560108726164_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16560108726164_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/research" role="menuitem" target="_self">最新の研究</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/research/leadership" role="menuitem" target="_self">リーダーシップ＆アドバイザリーボード</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/research/surveys" role="menuitem" target="_self">サーベイ</a></li>
+ </ul>
+</div></span></div>
+                     </div>
+                     
+                     <div class="child-menu
+                        dropdown--2" aria-expanded="false">
+                        <p class="row-list-title letter__spacing"><input type="checkbox" class="menu_arrow menu_arrow-invert" name="menu_arrow" id="menu_arrow"> <label for="menu_arrow dropdown--2"></label> LF トレーニング</p>
+                        <div class="menu-links"><span id="hs_cos_wrapper_module_16560108726164_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16560108726164_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="ナビゲーションメニュー">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://training.linuxfoundation.org" role="menuitem" target="_blank" rel="noopener">トレーニング ホーム</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://training.linuxfoundation.org/full-catalog/" role="menuitem" target="_blank" rel="noopener">コース カタログ</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://training.linuxfoundation.org/resources/" role="menuitem" target="_self">トレーニング リソース</a></li>
+ </ul>
+</div></span></div>
+                     </div>
+                      
+                  </div>
+                  
+                  <div class="menu__row-list
+                     open-menu--5">
+                     
+                     <div class="child-menu
+                        dropdown--1" aria-expanded="false">
+                        <p class="row-list-title letter__spacing"><input type="checkbox" class="menu_arrow menu_arrow-invert" name="menu_arrow" id="menu_arrow"> <label for="menu_arrow dropdown--1"></label> イベント</p>
+                        <div class="menu-links"><span id="hs_cos_wrapper_module_16560108726164_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16560108726164_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="ナビゲーションメニュー">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://events.linuxfoundation.org/" role="menuitem" target="_self">今後のイベント</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://events.linuxfoundation.org/about/sponsor/" role="menuitem" target="_self">スポンサー</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://linuxfoundation.smapply.io/" role="menuitem" target="_self">トークを申請</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://events.linuxfoundation.org/about/code-of-conduct/" role="menuitem" target="_self">行動規範 (Code of conduct)</a></li>
+ </ul>
+</div></span></div>
+                     </div>
+                      
+                  </div>
+                  
+                  <div class="menu__row-list
+                     open-menu--6">
+                     
+                     <div class="child-menu
+                        dropdown--1" aria-expanded="false">
+                        <p class="row-list-title letter__spacing"><input type="checkbox" class="menu_arrow menu_arrow-invert" name="menu_arrow" id="menu_arrow"> <label for="menu_arrow dropdown--1"></label> LFX プラットフォーム</p>
+                        <div class="menu-links"><span id="hs_cos_wrapper_module_16560108726164_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16560108726164_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="ナビゲーションメニュー">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://lfx.linuxfoundation.org/" role="menuitem" target="_self">LFX Home</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://myprofile.lfx.linuxfoundation.org/" role="menuitem" target="_self">LFX ツール</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://community.lfx.dev/" role="menuitem" target="_self">LFX コミュニティフォーラム</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://openprofile.dev/" role="menuitem" targe注目
+                  </div>
+                   
+               </div>
+               <div class="mega__menu-footer">
+                  <div class="footer_content
+                              section-wrapper
+                               flex-row
+                               jc--space-between
+                               align-items--center
+                               pt--xs
+                               pb--xs">
+                    
+                     <div class="footer-left
+                                 col6
+                                 flex-row
+                                 align-items--center">
+                       
+                        <div class="header-button__wrapper
+                                    mobile-only">
+                          <div class="header-button"><a class="hs-button
+                              hs-button--primary
+                              mt--none" href="https://www.linuxfoundation.org/about/join">参加する</a></div>
+                         </div>
+                       
+                       
+                        <p class="footer-social-title
+                                  letter__spacing">Follow Us</p>
+                        <div class="footer-social-icons"><a href="https://twitter.com/linuxfoundation" target="_blank" rel="noopener"> <span id="hs_cos_wrapper_module_16560108726164_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="Twitter1_layer"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" /></g></svg></span> </a> <a href="https://www.facebook.com/TheLinuxFoundation" target="_blank" rel="noopener"> <span id="hs_cos_wrapper_module_16560108726164_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 320 512" aria-hidden="true"><g id="Facebook F2_layer"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" /></g></svg></span> </a> <a href="https://www.youtube.com/user/TheLinuxFoundation" target="_blank" rel="noopener"> <span id="hs_cos_wrapper_module_16560108726164_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" aria-hidden="true"><g id="YouTube3_layer"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" /></g></svg></span> </a> <a href="https://www.linkedin.com/company/208777" target="_blank" rel="noopener"> <span id="hs_cos_wrapper_module_16560108726164_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-hidden="true"><g id="LinkedIn In4_layer"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" /></g></svg></span> </a> <a href="https://github.com/LF-Engineering" target="_blank" rel="noopener"> <span id="hs_cos_wrapper_module_16560108726164_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 496 512" aria-hidden="true"><g id="GitHub5_layer"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" /></g></svg></span> </a></div>
+                     </div>
+                     <div class="footer-right
+                        col6
+                        align-items--center"><span id="hs_cos_wrapper_module_16560108726164_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16560108726164_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="ナビゲーションメニュー">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://openprofile.dev/" role="menuitem" target="_self">マイアカウント</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://openprofile.dev/" role="menuitem" target="_self">ログイン</a></li>
+ </ul>
+</div></span><div class="menu--language
+                                   mobile-only"> 
+                         
+                          <svg class="icon--globe" width="18" height="18" viewbox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.33333 0.166748C3.11159 0.166748 0.5 2.77834 0.5 6.00008C0.5 9.22182 3.11159 11.8334 6.33333 11.8334C9.55507 11.8334 12.1667 9.22182 12.1667 6.00008C12.1667 2.77834 9.55507 0.166748 6.33333 0.166748ZM8.26892 8.57804C8.17718 8.6693 8.08098 8.76503 8.00289 8.84336C7.93256 8.91393 7.88293 9.00095 7.85776 9.09528C7.82224 9.22841 7.79355 9.36295 7.74556 9.49208L7.33653 10.5941C7.01287 10.6646 6.67792 10.7044 6.33333 10.7044V10.0604C6.37308 9.76352 6.15363 9.20747 5.80104 8.85489C5.65991 8.71376 5.58065 8.52229 5.58065 8.32259V7.56967C5.58065 7.29588 5.43317 7.0442 5.19348 6.91178C4.85548 6.72478 4.3747 6.46345 4.0454 6.29763C3.77537 6.16167 3.52557 5.98856 3.30094 5.78604L3.28212 5.7691C3.12149 5.6241 2.97886 5.46031 2.85733 5.28126C2.63669 4.95737 2.27728 4.42461 2.04372 4.07837C2.5252 3.00815 3.39291 2.14867 4.47114 1.68177L5.03589 1.96426C5.28616 2.0894 5.58065 1.90757 5.58065 1.62767V1.36188C5.76858 1.33153 5.95981 1.31225 6.15433 1.30495L6.81999 1.97061C6.967 2.11762 6.967 2.35589 6.81999 2.5029L6.70968 2.61298L6.46646 2.8562C6.39308 2.92958 6.39308 3.04884 6.46646 3.12223L6.57678 3.23254C6.65017 3.30593 6.65017 3.42518 6.57678 3.49857L6.38861 3.68674C6.35328 3.722 6.30539 3.7418 6.25548 3.74178H6.04402C5.99509 3.74178 5.94805 3.76083 5.91277 3.79518L5.67944 4.02216C5.65083 4.05001 5.63182 4.08623 5.62514 4.12559C5.61846 4.16495 5.62446 4.20541 5.64227 4.24114L6.00897 4.97478C6.07154 5.09991 5.98051 5.24716 5.84079 5.24716H5.70813C5.66273 5.24716 5.61899 5.23069 5.58488 5.20106L5.3666 5.01147C5.3172 4.96862 5.25751 4.93936 5.19338 4.92658C5.12925 4.91379 5.06289 4.91792 5.00084 4.93856L4.26767 5.18294C4.2117 5.20161 4.16302 5.23741 4.12853 5.28529C4.09404 5.33316 4.07549 5.39067 4.0755 5.44968C4.0755 5.55623 4.13572 5.65337 4.23098 5.70112L4.4916 5.83143C4.71294 5.94222 4.95709 5.99985 5.20454 5.99985C5.45198 5.99985 5.73589 6.64175 5.95722 6.75253H7.52729C7.72698 6.75253 7.91821 6.8318 8.05958 6.97293L8.38159 7.29494C8.51611 7.42952 8.59167 7.61202 8.59163 7.8023C8.59159 7.94648 8.56305 8.08924 8.50767 8.22237C8.45229 8.35549 8.37115 8.47636 8.26892 8.57804ZM10.3085 6.42935C10.1723 6.39524 10.0535 6.31174 9.97564 6.19484L9.55272 5.56046C9.49084 5.46778 9.45781 5.35884 9.45781 5.24739C9.45781 5.13595 9.49084 5.02701 9.55272 4.93432L10.0135 4.24326C10.0681 4.16164 10.1429 4.09531 10.2308 4.05156L10.5362 3.89891C10.8542 4.5321 11.0376 5.24434 11.0376 6.00008C11.0376 6.20401 11.0202 6.40371 10.9948 6.60082L10.3085 6.42935Z" fill="black" />
+                          </svg><a href="https://linuxfoundation.org/" target="_blank">英語</a> |  <a href="https://www.linuxfoundation.jp" target="_blank">日本語</a> |  <a href="https://www.linuxfoundation.org/zh/chinese/" target="_blank">中国語</a> |  <a href="https://linuxfoundation.eu" target="_blank">ヨーロッパ</a></div> 
+                    </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </nav>
+</section></div>
+    
+
+    <main id="main">
+      
+
+<main id="main-content" class="body-container-wrapper">
+  <div class="body-container body-container--blog-post">
+ 
+    
+    <div class="section-wrapper
+                flex-row
+                jc--space-around
+                pt--md
+                pb--md">
+      <div class="blog-item__header mb--md mt--md">6 分で読めます<h1 class="blog-post__title"><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">スポットライト：Linux Foundation のセキュリティに関する取り組み</span></h1>
+        <h6 class="post-author__info">Ashwin Ramaswami | 2024年2月5日</h6>
+      </div>
+
+      
+        <div id="sticky-anchor">
+        
+        
+        
+        <div id="sticky" class="col2 sidebar-left  mt--xs">
+          <div class="blog-single__share">
+            <section id="social-share" class="section-wrapper
+                          section--social-icons">
+              <div class="social-icons__wrapper">
+                <div class="social-icons__container
+                            flex-row
+                            jc--">
+
+                    <div class="social-links
+                                flex-column"><a href="mailto:?subject=A%20Spotlight%20on%20Security%20Efforts%20at%20the%20Linux%20Foundation&amp;body=https%3A%2F%2Fwww.linuxfoundation.org%2Fblog%2Fa-spotlight-on-security-efforts-at-the-linux-foundation" title="メールで共有" class="social-links__link"><div class="icon social-icons__email">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z" /></svg>            
+                        </div></a> <a href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fwww.linuxfoundation.org%2Fblog%2Fa-spotlight-on-security-efforts-at-the-linux-foundation" title="Twitterでシェア" target="_blank" class="social-links__link"><div class="icon social-icons__twitter">
+                          <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" height="25" width="25" aria-labelledby="twitter3" role="img"><title id="twitter3">Twitter でフォロー</title><g id="twitter3_layer"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></g></svg>
+                        </div></a> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.linuxfoundation.org%2Fblog%2Fa-spotlight-on-security-efforts-at-the-linux-foundation" title="Facebookでシェア" target="_blank" class="social-links__link"><div class="icon social-icons__facebook">
+                          <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 264 512" height="25" width="25" aria-labelledby="facebook-f1" role="img"><title id="facebook-f1">Facebook でフォロー</title><g id="facebook-f1_layer"><path d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"></path></g></svg>
+                        </div></a> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.linuxfoundation.org%2Fblog%2Fa-spotlight-on-security-efforts-at-the-linux-foundation&amp;title=&amp;summary=&amp;source=" title="LinkedInでシェア" target="_blank" class="social-links__link"><div class="icon social-icons__linkedin">
+                          <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" height="25" width="25" aria-labelledby="linkedin-in2" role="img"><title id="linkedin-in2">>LinkedIn deフォロー</title><g id="linkedin-in2_layer"><path d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z"></path></g></svg>
+                        </div></a></div>
+                </div>
+              </div>
+            </section>
+            
+          </div>
+        </div>
+        
+      
+      </div>
+      
+
+      <div class="col8 section--blog-post">
+        <div class="blog-post__post-info"><span id="hs_cos_wrapper_post_body" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="rich_text"><p>Linux Foundationのすべてのプロジェクトコミュニティにおいて、セキュリティは引き続き注力分野となっています。昨年1年間のコミュニティの活動について詳しく紹介するとともに、2024年以降に取り組むべき課題について考えてみたいと思います。</p>
+<!--more--><p>本日は、Linux Foundationプロジェクトコミュニティのうち、Open Source Security Foundation（OpenSSF）、FINOS Common Cloud Controls Project、OpenChain、SPDXの4つの最近の取り組みと成果に焦点を当てます。各コミュニティは、それぞれ異なる観点からセキュリティの側面に取り組んでおり、すべての人にとってより安全なソフトウェアエコシステムを持つという共通の目標に貢献しています。</p>
+<h4 style="font-weight: bold;">OpenSSF</h4>
+<p><a href="https://openssf.org/" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">Open Source Security Foundation</a> (OpenSSF) は、私たちすべてが依存しているオープンソースソフトウェア (OSS) の開発、メンテナンス、および消費を、持続可能な方法でより安全に行うことを目指す、Linux Foundation に属する組織です。これには、コラボレーションの促進、ベストプラクティスの確立、革新的なソリューションの開発が含まれます。</p>
+<p>OpenSSFは、さまざまな業界の100を超えるメンバーを擁しています。さらに、OpenSSFには、<a href="https://openssf.org/community/openssf-working-groups/" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">10のワーキンググループ</a>があり、その中には、オープンソース開発者のためのベストプラクティスに関するワーキンググループや、サプライチェーンの整合性に関するワーキンググループなどがあります。OpenSSF内のその他のイニシアチブとしては、ビルドアーティファクトとコンポーネントのセキュリティ保護と検証に使用されるプロジェクトである<a href="https://www.sigstore.dev/" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">Sigstore</a>や、資金提供とツーリングを通じてOSSメンテナーと提携し、未発見の脆弱性を体系的に発見して修正するイニシアチブである<a href="https://alpha-omega.dev/" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">Alpha-Omega</a>などのプロジェクトがあります。</p>
+<p>2023 年、OpenSSF は、<a href="https://openssf.org/training/courses/" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">fundamentals of developing secure software</a> のコースに 22,000 人を超えるソフトウェア開発者を登録しました。また、<a href="https://best.openssf.org/Concise-Guide-for-Developing-More-Secure-Software" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">Concise Guide for Developing More Secure Software</a>、<a href="https://best.openssf.org/Concise-Guide-for-Evaluating-Open-Source-Software" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">Concise Guide for Evaluating Open Source Software</a>、<a href="https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">Compiler Options Hardening Guide for C and C++</a> など、コミュニティを支援するための新しいガイドも開始しました。<a href="https://www.bestpractices.dev/" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">OpenSSF Best Practices Badge program, which provides a larger checklist of best practices,</a> には、現在 6,400 件を超えるプロジェクトが参加しています。人工知能/機械学習 (AI/ML) セキュリティと、多様性、公平性、包括性 (DEI) に関する新しいワーキンググループなど、2023 年には新しい取り組みが開始されました。</p>
+<p>OpenSSFは、9月に開催された<a href="https://openssf.org/press-release/2023/09/13/openssf-gathers-us-government-and-industry-leaders-at-secure-open-source-software-summit-2023/" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">セキュアオープンソースソフトウェアサミット</a>のように、官民連携で重要なインフラストラクチャの保護に取り組んでいます。また、米国ホワイトハウスの国家サイバーディレクター室（ONCD）とそのパートナーであるオープンソースソフトウェアセキュリティイニシアチブ（OS3I）からの、オープンソースソフトウェア（OSS）のセキュリティとメモリ安全プログラミング言語に関する<a href="https://openssf.org/blog/2023/11/08/openssf-responds-to-us-federal-government-rfi-on-open-source-software-security/" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">情報提供要請（RFI）への回答</a>もその1つです。また、OpenSSFは、ソフトウェアのセキュリティを向上させるために「AIとサイバーセキュリティの最高の人材」を集めることを目的とした、<a href="https://aicyberchallenge.com/" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">DARPA AIサイバーチャレンジ（AIxCC）</a>の研究チャレンジアドバイザーも務めています。OpenSSFはまた、カナダ、スペイン、日本でOpenSSF Daysを開催するなど、世界中で参加者を増やす取り組みも行いました。詳細については、<a href="https://openssf.org/download-the-2023-openssf-annual-report/" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">2023 OpenSSF年次レポート</a>をご覧ください。</p>
+<h4 style="font-weight: bold;">FINOS Common Cloud Controlsプロジェクト</h4>
+<p><a href="https://www.finos.org/common-cloud-controls-project" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">FINOS Common Cloud Controls</a> (FINOS CCC) は、金融サービス業界における準拠したパブリッククラウド展開のために一貫したコントロールを記述するように設計されたオープンスタンダードプロジェクトです。この標準は、主要なクラウドサービスプロバイダー全体の共通サービスに対する、サイバーセキュリティ、回復力、コンプライアンスの各コントロールの統一されたセットを目指しています。サービスと脅威の統一された分類法を作成することで、クラウドの集中によるシステムリスクの軽減にも役立ちます。Citi によって最初に提案された FINOS CCC は、2023 年 7 月に Fintech Open Source Foundation である <a href="https://www.finos.org/press/finos-announces-formation-of-common-cloud-controls" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">結成されました</a>。2023 年 10 月に、プロジェクトは<a href="https://www.finos.org/press/finos-announces-open-sourcing-common-cloud-controls" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">オープンソース化</a>され、現在正式に参加と貢献が可能になっています。このプロジェクトは現在、<a href="https://github.com/finos/common-cloud-controls" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">GitHub</a> で公開されており、誰でも参加および貢献できます。</p>
+<p>2023年11月1日、ニューヨークで開催されたOpen Source in Finance Forum（OSFF）で、FINOS CCC<a href="https://www.finos.org/blog/finos-ccc-osff-2023-need-for-an-open-source-financial-services-public-cloud-standard" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">が紹介されました</a>。CitiのCTOであるJim Adams氏が主導し、共通サービス分類、脅威を認識したコントロール、Open Security Controls Assessment Language（OSCAL）を使用した自動評価を含むFINOSのアプローチを紹介しました。<a href="https://pages.nist.gov/OSCAL/" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">OSCAL</a>は、セキュリティ制御関連情報を表現するための機械可読なフレームワークであり、業界およびNISTと共同で開発されています。FINOS CCCおよび関連するイニシアチブの目標は、金融サービス業界のニーズに対応するために、業界と標準化団体を結びつける協調的なエコシステムを構築することです。</p>
+<h4 style="font-weight: bold;">OpenChain プロジェクト</h4>
+<p><a href="https://www.openchainproject.org/" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">OpenChain</a>は、高品質なオープンソースライセンスコンプライアンスプログラムとオープンソースセキュリティ保証プログラムの主要な要件に関する国際標準を開発および維持するLinux Foundationプロジェクトです。OpenChain プロジェクトには、ソフトウェアサプライチェーンのセキュリティと回復力を向上させるために活動する、1,000社を超える企業の広範なグローバルコミュニティがあります。</p>
+<p>2023 年 12 月、OpenChain Project の<a href="https://www.openchainproject.org/security-assurance" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">ISO/IEC 18974:2023</a> が正式な ISO 規格として公開されました。ISO/IEC 18974:2023 は、以前は OpenChain セキュリティ保証仕様 1.1 として知られており、質の高いオープンソースセキュリティ保証プログラムの主要な要件を定義する、デファクトスタンダードの業界標準です。この規格を採用することで、組織は、CVE、GitHub 依存関係アラート、パッケージマネージャーアラートなどのセキュリティ脆弱性の問題について、オープンソースソフトウェアをより適切にチェックできます。詳細については、<a href="https://www.openchainproject.org/security-assurance" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">https://www.openchainproject.org/security-assurance</a> をご覧ください。</p>
+<h4 style="font-weight: bold;">SPDXプロジェクト</h4>
+<p>最後に、<a href="https://spdx.dev/" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">SPDX プロジェクト</a>の取り組みを強調したいと思います。SPDX は、ソフトウェアを構成するコンポーネントのリストである SBOM（Software Bill of Materials）を記述するオープンスタンダードです。共通フォーマットとして、SPDX は重要なリリースデータの共有に関連する冗長な作業を削減し、配布とコンプライアンスを効率化します。SPDX 仕様は、国際的なオープンスタンダード（<a href="https://www.iso.org/standard/81870.html" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">ISO/IEC 5692:2021</a>）です。</p>
+<p>2023 年には、SPDX 3.0 のリリースに向けて作業が続けられました。<a href="https://www.linuxfoundation.org/press/spdx-sbom-3-release-candidate" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">リリース候補</a>は 5 月に発表されました。この新しいバージョンは、新しいセキュリティユースケースに SPDX 標準を拡張するのに役立つだけでなく、AI およびデータ来歴のトレーサビリティも向上させます。焦点は、ソフトウェアエンジニア、セキュリティ専門家、データサイエンティスト、法務およびコンプライアンス専門家が簡単にオンボーディングして利用できるようにすることです。SPDX コミュニティは、<a href="https://github.com/spdx/spdx-3-model/blob/main/Contributing.md" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">GitHub</a> での SPDX 3.0 モデルへのフィードバックと貢献を引き続き受け付けています。</p>
+<h4 style="font-weight: bold;">2024年に向けて</h4>
+<p>最後に、Linux Foundationは、すべてのプロジェクトにおいてセキュリティの維持に取り組んでいます。Linux Foundationがホストするプロジェクトの脆弱性開示ポリシーは<a href="https://www.linuxfoundation.org/blog/blog/how-to-report-security-vulnerabilities-to-the-linux-foundation" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">このページ</a>に掲載されており、そこで、私たちの活動において脆弱性を発見した場合にどのように報告すべきかについて説明されています。</p>
+<p>2024 年も、サイバーセキュリティに関するこれらすべての取り組みを基盤として、すべての人にとってより優れたエコシステムを確保していきたいと考えています。私たちは、セキュリティの最先端技術を進歩させることに焦点を当てたイベントを引き続き開催します。たとえば、2024 年 6 月 26 日から 27 日にワシントン州シアトルで開催される<a href="https://events.linuxfoundation.org/cloudnativesecuritycon-north-america/" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">CloudNativeSecurityCon North America</a>や、今後の OpenSSF Days などです。ソフトウェアセキュリティに関する最新のトレンドとベストプラクティスを常に把握しておくために、LF トレーニングと認定が提供する、Kubernetes Security Essentials から Security and the Linux Kernel までのサイバーセキュリティに特化した<a href="https://training.linuxfoundation.org/cybersecurity/" data-feathr-click-track="true" data-feathr-link-aids="5e59d3cf27f56a08159cd952">コース</a>の受講を検討してください。私たちは、この取り組みを継続し、今後のイベントやイニシアチブに参加して、すべてのコミュニティのセキュリティを強化していくことを楽しみにしています。</p></span></div>
+        
+        
+      
+      
+      
+        
+      
+     </div>
+      
+
+      
+      <div class="col3 sidebar-right ml--sm">
+        <div class="blog-post__sidebar">
+          <h6 class="blog-post__recommended-title
+                     relative
+                    align--center
+                    text-color--white
+                    pt--xs
+                    pb--xs">類似記事<svg class="icon--caret" width="15" height="9" viewbox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.7625 3.03799e-07L7.5 5.56275L13.2375 2.28172e-06L15 1.71255L7.5 9L-3.03799e-07 1.71255L1.7625 3.03799e-07Z" fill="white" /></svg>
+          </h6>
+          
+               
+                    
+                       
+                       
+                           
+                       
+                   
+               
+                    
+               
+           
+          <h6 class="blog-post__browse-title
+                     relative
+                    align--center
+                    text-color--white
+                    pt--xs
+                    pb--xs">カテゴリを閲覧<svg class="icon--caret" width="15" height="9" viewbox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.7625 3.03799e-07L7.5 5.56275L13.2375 2.28172e-06L15 1.71255L7.5 9L-3.03799e-07 1.71255L1.7625 3.03799e-07Z" fill="white" /></svg>
+          </h6>
+          
+            <p id="hubspot-topic_data"><a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/2023">2023</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/compliance-and-security">コンプライアンスとセキュリティ</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/cloud-computing-ja">クラウドコンピューティング</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/projects">プロジェクト</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/linux-how-to">Linuxハウツー</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/open-source">オープンソース</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/diversity-inclusion">ダイバーシティ＆インクルージョン</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/open-source-best-practices">オープンソースのベストプラクティス</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/2022">2022</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/training-certification">トレーニングと認定</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/lf-research">LFリサーチ</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/2024">2024</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/cross-technology">クロステクノロジー</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/newsletter">ニュースレター</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/lfx-press-release">LFX</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/linux-foundation">Linux Foundation</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/research">リサーチ</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/ai">AI</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/blog">ブログ</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/legal">リーガル</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/topic-data">トピック：データ</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/cloud-native-computing-foundation-ja">Cloud Native Computing Foundation</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/linux">Linux</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/networking-edge">ネットワーキングとエッジ</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/cybersecurity">サイバーセキュリティ</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/software-development">ソフトウェア開発</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/announcements">お知らせ</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/data-governance">データガバナンス</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/lf-energy">LFエネルギー</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/open-mainframe">Open Mainframe</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/open-models">オープンモデル</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/openchain">OpenChain</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/system-administration">システム管理</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/topic-security">トピック：セキュリティ</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/topic-sustainability">トピック：サステナビリティ</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/ebpf">eBPF</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/generative-ai">生成AI</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/human-capital">人材</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/kernel">カーネル</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/license-compliance">ライセンスコンプライアンス</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/maintainer">メンテナー</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/openssf">openssf</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/tech-talent">テック人材</a> <a class="topic-link flex-column mb--xs" href="https://www.linuxfoundation.org/blog/tag/techtalentsurvey">techtalentsurvey</a></p>
+        </div>
+      </div>
+
+  </div>
+  </div>
+</main>
+
+    </main>
+
+    
+      
+      <div id="hs_cos_wrapper_module_16613593312364" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+  <section id="sticky-form" class="section--module_16613593312364
+                  section--footer_form
+                  ">
+  
+    <div class="form__container
+                hs-form
+                
+                bg--secondary
+                
+                pb--md
+                pt--md">
+    <div class="section-wrapper">
+      
+      <div class="footer_form_title"><h3>Linux Foundation とつながっていてください</h3></div>
+      
+      <div class="footer__form
+                  align-items--center"><span id="hs_cos_wrapper_module_16613593312364_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form" style="" data-hs-cos-general-type="widget" data-hs-cos-type="form"><h3 id="hs_cos_wrapper_form_794011230_title" class="hs_cos_wrapper form-title" data-hs-cos-general-type="widget_field" data-hs-cos-type="text"></h3>
+
+<div id="hs_form_target_form_794011230"></div></span></div>
+    </div>
+  </div>
+  
+</section>
+  <footer class="section--module_16613593312364
+                 section--footer
+                 pt--xs">
+  <div class="footer
+              section-wrapper">
+    <div class="footer__wrapper">
+      <div class="footer__container
+                  flex-row
+                  jc--space-between">
+        <div class="footer__left
+                    pt--xs
+                    col4">
+          <div class="footer__logo"><a href="https://linuxfoundation.org"> <img src="https://www.linuxfoundation.org/hubfs/LF%20Logo%20White.svg" alt="LF ロゴ ホワイト" height="50" style="height:50px;"> </a></div>
+          <p class="footer__title">Linux Foundationについて</p>
+           <p class="footer__content">Linux Foundationは、開発者がオープンソーステクノロジープロジェクトのコード作成、管理、および拡張を行うための、中立的で信頼できるハブを提供します。</p>
+             <div class="footer__info-menu"><span id="hs_cos_wrapper_module_16613593312364_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16613593312364_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/about" role="menuitem" target="_self">LFについて</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/about/leadership" role="menuitem" target="_self">リーダーシップ</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/careers" role="menuitem" target="_self">キャリア</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/about/members" role="menuitem" target="_self">法人会員</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/about/diversity-inclusivity" role="menuitem" target="_self">ダイバーシティ＆インクルージョン</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/brand-guidelines" role="menuitem" target="_self">ブランドガイドライン</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/about/contact" role="menuitem" target="_self">お問い合わせ</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://linuxfoundation.store/" role="menuitem" target="_blank" rel="noopener">ストア</a></li>
+ </ul>
+</div></span></div>
+               <div class="footer__social-links"><a href="https://twitter.com/linuxfoundation" target="_blank" rel="noopener"> <span id="hs_cos_wrapper_module_16613593312364_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" aria-hidden="true"><g id="Twitter1_layer"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" /></g></svg></span></a> <a href="https://www.facebook.com/TheLinuxFoundation" target="_blank" rel="noopener"> <span id="hs_cos_wrapper_module_16613593312364_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 320 512" aria-hidden="true"><g id="Facebook F2_layer"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" /></g></svg></span></a> <a href="https://www.youtube.com/user/TheLinuxFoundation" target="_blank" rel="noopener"> <span id="hs_cos_wrapper_module_16613593312364_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" aria-hidden="true"><g id="YouTube3_layer"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" /></g></svg></span></a> <a href="https://www.linkedin.com/company/208777" target="_blank" rel="noopener"> <span id="hs_cos_wrapper_module_16613593312364_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" aria-hidden="true"><g id="LinkedIn In4_layer"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" /></g></svg></span></a> <a href="https://github.com/LF-Engineering" target="_blank" rel="noopener"> <span id="hs_cos_wrapper_module_16613593312364_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_icon" style="" data-hs-cos-general-type="widget" data-hs-cos-type="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 496 512" aria-hidden="true"><g id="GitHub5_layer"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" /></g></svg></span></a></div>
+         </div>
+        <div class="footer__right
+                    col8
+                    pt--xs
+                    align-items--top">
+          <div class="footer__right-content">
+            <div class="footer__right-content-menu
+                        menu-items-footer
+                        flex-row">
+              
+              <div class="footer__row-list
+                          open-menu--1">
+                
+                <div class="menu-group col3">
+                  <div class="child-menu_links
+                              dropdown--1" aria-expanded="false"><input class="footer_menu_arrow 
+                                  footer_menu_arrow-invert" type="checkbox" name="footer_menu_arrow" id="footer_menu_arrow"> <label for="footer_menu_arrow dropdown--1"></label><p class="footer__menu-title
+                               letter__spacing">プロジェクト</p>
+                    <div class="menu-row"><span id="hs_cos_wrapper_module_16613593312364_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16613593312364_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/projects" role="menuitem" target="_self">すべてのプロジェクトを表示</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/projects/hosting" role="menuitem" target="_self">プロジェクトをホストする</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/security" role="menuitem" target="_self">セキュリティ</a></li>
+ </ul>
+</div></span></div>
+                  </div>
+                </div>
+                
+                <div class="menu-group col3">
+                  <div class="child-menu_links
+                              dropdown--2" aria-expanded="false"><input class="footer_menu_arrow 
+                                  footer_menu_arrow-invert" type="checkbox" name="footer_menu_arrow" id="footer_menu_arrow"> <label for="footer_menu_arrow dropdown--2"></label><p class="footer__menu-title
+                               letter__spacing">ニュースルーム</p>
+                    <div class="menu-row"><span id="hs_cos_wrapper_module_16613593312364_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16613593312364_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/press" role="menuitem" target="_self">報道関係者向け情報</a></li>
+ </ul>
+</div></span></div>
+                  </div>
+                </div>
+                
+                <div class="menu-group col3">
+                  <div class="child-menu_links
+                              dropdown--3" aria-expanded="false"><input class="footer_menu_arrow 
+                                  footer_menu_arrow-invert" type="checkbox" name="footer_menu_arrow" id="footer_menu_arrow"> <label for="footer_menu_arrow dropdown--3"></label><p class="footer__menu-title
+                               letter__spacing">LFリサーチ</p>
+                    <div class="menu-row"><span id="hs_cos_wrapper_module_16613593312364_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16613593312364_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/research" role="menuitem" target="_self">最新の研究</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/research/leadership" role="menuitem" target="_self">リーダーシップ＆アドバイザリーボード</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/research/surveys" role="menuitem" target="_self">アンケート調査</a></li>
+ </ul>
+</div></span></div>
+                  </div>
+                </div>
+                
+                <div class="menu-group col3">
+                  <div class="child-menu_links
+                              dropdown--4" aria-expanded="false"><input class="footer_menu_arrow 
+                                  footer_menu_arrow-invert" type="checkbox" name="footer_menu_arrow" id="footer_menu_arrow"> <label for="footer_menu_arrow dropdown--4"></label><p class="footer__menu-title
+                               letter__spacing">LFX プラットフォーム</p>
+                    <div class="menu-row"><span id="hs_cos_wrapper_module_16613593312364_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16613593312364_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://lfx.linuxfoundation.org" role="menuitem" target="_blank" rel="noopener">LFX Home</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://myprofile.lfx.linuxfoundation.org/" role="menuitem" target="_blank" rel="noopener">LFXツール</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://community.lfx.dev/" role="menuitem" target="_blank" rel="noopener">LFXコミュニティフォーラム</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://openprofile.dev/" role="menuitem" target="_blank" rel="noopener">LFxアカウントを作成する</a></li>
+ </ul>
+</div></span></div>
+                  </div>
+                </div>
+                
+              </div>
+              
+              <div class="footer__row-list
+                          open-menu--2">
+                
+                <div class="menu-group col3">
+                  <div class="child-menu_links
+                              dropdown--1" aria-expanded="false"><input class="footer_menu_arrow 
+                                  footer_menu_arrow-invert" type="checkbox" name="footer_menu_arrow" id="footer_menu_arrow"> <label for="footer_menu_arrow dropdown--1"></label><p class="footer__menu-title
+                               letter__spacing">リソース</p>
+                    <div class="menu-row"><span id="hs_cos_wrapper_module_16613593312364_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16613593312364_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/blog" role="menuitem" target="_self">ブログ</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/resources/publications" role="menuitem" target="_self">出版物</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/resources/open-source-guides" role="menuitem" target="_self">オープンソースガイド</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/webinars" role="menuitem" target="_self">ウェビナー</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.linuxfoundation.org/resources/case-studies" role="menuitem" target="_self">ケーススタディ</a></li>
+ </ul>
+</div></span></div>
+                  </div>
+                </div>
+                
+                <div class="menu-group col3">
+                  <div class="child-menu_links
+                              dropdown--2" aria-expanded="false"><input class="footer_menu_arrow 
+                                  footer_menu_arrow-invert" type="checkbox" name="footer_menu_arrow" id="footer_menu_arrow"> <label for="footer_menu_arrow dropdown--2"></label><p class="footer__menu-title
+                               letter__spacing">イベント</p>
+                    <div class="menu-row"><span id="hs_cos_wrapper_module_16613593312364_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16613593312364_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://events.linuxfoundation.org/about/calendar/" role="menuitem" target="_blank" rel="noopener">今後のイベント</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://events.linuxfoundation.org/about/sponsor/" role="menuitem" target="_blank" rel="noopener">イベントにスポンサーをする</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://linuxfoundation.smapply.io/" role="menuitem" target="_blank" rel="noopener">トークを申し込む</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://events.linuxfoundation.org/about/code-of-conduct/" role="menuitem" target="_blank" rel="noopener">行動規範</a></li>
+ </ul>
+</div></span></div>
+                  </div>
+                </div>
+                
+                <div class="menu-group col3">
+                  <div class="child-menu_links
+                              dropdown--3" aria-expanded="false"><input class="footer_menu_arrow 
+                                  footer_menu_arrow-invert" type="checkbox" name="footer_menu_arrow" id="footer_menu_arrow"> <label for="footer_menu_arrow dropdown--3"></label><p class="footer__menu-title
+                               letter__spacing">LFトレーニング</p>
+                    <div class="menu-row"><span id="hs_cos_wrapper_module_16613593312364_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu"><div id="hs_menu_wrapper_module_16613593312364_" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://training.linuxfoundation.org/" role="menuitem" target="_blank" rel="noopener">トレーニング ホーム</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://training.linuxfoundation.org/full-catalog/" role="menuitem" target="_self">コースカタログ</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://training.linuxfoundation.org/resources/" role="menuitem" target="_self">トレーニング資料</a></li>
+ </ul>
+</div></span></div>
+                  </div>
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+          <div class="footer__info">
+            <p class="content_info"><span style="font-size: 14px; color: #ffffff;">Copyright © 2024 The Linux Foundation®. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="/legal/trademark-usage" rel="noopener" style="font-size: 14px; color: #ffffff;">商標使用</a> page. Linux is a registered trademark of Linus Torvalds. <a href="/legal/terms/" rel="noopener" style="font-size: 14px; color: #ffffff;">利用規約</a> | <a href="/legal/privacy-policy/" rel="noopener" style="font-size: 14px; color: #ffffff;">プライバシーポリシー</a> | <a href="/legal/bylaws/" rel="noopener" style="font-size: 14px; color: #ffffff;">定款</a> | <a href="/legal/antitrust-policy/" rel="noopener" style="font-size: 14px; color: #ffffff;">反トラストポリシー</a> | <a href="/legal/good-standing-policy/" rel="noopener" style="font-size: 14px; color: #ffffff;">グッドスタンディングポリシー</a> | <a href="/legal/generative-ai" rel="noopener" style="font-size: 14px; color: #ffffff;">生成AIポリシー</a></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer></div>
+    
+
+    
+    
+<!-- HubSpot performance collection script -->
+<script defer src="https://static.hsappstatic.net/content-cwv-embed/static-1.971/embed.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+var hsVars = hsVars || {}; hsVars['language'] = 'en';
+</script>
+
+<script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
+<script src="https://www.linuxfoundation.org/hs-fs/hub/8112310/hub_generated/template_assets/80245626652/1669227112886/2022_-_BZ_Linux_Foundation_Theme/assets/js/magnific-popup.min.js"></script>
+<script src="https://www.linuxfoundation.org/hs-fs/hub/8112310/hub_generated/module_assets/76935915621/1668017286064/module_76935915621_Main_Mega_Header.min.js"></script>
+
+           <script>
+              function myFunction(x) {
+                x.classList.toggle("change");
+              }
+
+              function openSlideMenu() {
+                document.getElementById('burger-menu').classList.toggle("open");
+              }
+
+              function closeSlideMenu() {
+                document.getElementById('burger-menu').style.width = '0px';
+              }
+
+           </script> 
+         
+<script src="https://www.linuxfoundation.org/hs-fs/hub/8112310/hub_generated/template_assets/77282240621/1669227119072/2022_-_BZ_Linux_Foundation_Theme/assets/js/main.min.js"></script>
+<script src="https://www.linuxfoundation.org/hs-fs/hub/8112310/hub_generated/module_assets/77362524751/1712755318121/module_77362524751_Main_Mega_Footer.min.js"></script>
+
+    <!--[if lte IE 8]>
+    <script charset="utf-8" src="https://js.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
+
+<script data-hs-allowed="true" src="/_hcms/forms/v2.js"></script>
+
+    <script data-hs-allowed="true">
+        var options = {
+            portalId: '8112310',
+            formId: 'e5c83800-1206-402c-9050-decfe094cca8',
+            formInstanceId: '5827',
+            
+            pageId: '155702047752',
+            
+            region: 'na1',
+            
+            
+            
+            
+            pageName: "A Spotlight on Security Efforts at the Linux Foundation",
+            
+            
+            
+            inlineMessage: "Thanks for submitting the form. You have been added to the subscriber list.&nbsp;",
+            
+            
+            rawInlineMessage: "Thanks for submitting the form. You have been added to the subscriber list.&nbsp;",
+            
+            
+            hsFormKey: "d78a56f32c4de50bbbf338eac0be7a07",
+            
+            
+            css: '',
+            target: '#hs_form_target_form_794011230',
+            
+            
+            
+            
+            
+            contentType: "blog-post",
+            
+            
+            
+            formsBaseUrl: '/_hcms/forms/',
+            
+            
+            
+            formData: {
+                cssClass: 'hs-form stacked hs-custom-form'
+            }
+        };
+
+        options.getExtraMetaDataBeforeSubmit = function() {
+            var metadata = {};
+            
+
+            if (hbspt.targetedContentMetadata) {
+                var count = hbspt.targetedContentMetadata.length;
+                var targetedContentData = [];
+                for (var i = 0; i < count; i++) {
+                    var tc = hbspt.targetedContentMetadata[i];
+                     if ( tc.length !== 3) {
+                        continue;
+                     }
+                     targetedContentData.push({
+                        definitionId: tc[0],
+                        criterionId: tc[1],
+                        smartTypeId: tc[2]
+                     });
+                }
+                metadata["targetedContentMetadata"] = JSON.stringify(targetedContentData);
+            }
+
+            return metadata;
+        };
+
+        hbspt.forms.create(options);
+    </script>
+
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "blog-post"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/www.linuxfoundation.org\/blog\/a-spotlight-on-security-efforts-at-the-linux-foundation"]);
+_hsq.push(["setPageId", "155702047752"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 155702047752,
+    "legacyPageId": "155702047752",
+    "contentFolderId": null,
+    "contentGroupId": 83687468938,
+    "abTestId": null,
+    "languageVariantId": 155702047752,
+    "languageCode": "en",
+    
+    
+}]);
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="/hs/scriptloader/8112310.js?businessUnitId=0"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    render_id: "8a41b1e8-e10c-4058-94c3-5ef3d2811472",
+    ticks: 1720702359469,
+    page_id: 155702047752,
+    
+    content_group_id: 83687468938,
+    portal_id: 8112310,
+    app_hs_base_url: "https://app.hubspot.com",
+    cp_hs_base_url: "https://cp.hubspot.com",
+    language: "en",
+    analytics_page_type: "blog-post",
+    scp_content_type: "",
+    analytics_page_id: "155702047752",
+    category_id: 3,
+    folder_id: 0,
+    is_hubspot_user: false
+}
+</script>
+
+
+<script defer src="/hs/hsstatic/HubspotToolsMenu/static-1.321/js/index.js"></script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWBXMJK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0";
+  fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'facebook-jssdk'));</script> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+ 
+
+
+    
+  
+
+</body></html>
