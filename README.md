@@ -32,9 +32,9 @@ output_file=${original_file}.xlf
 (4: executed by **[gemini_trans.py](./gemini_trans.py)**)
 5. Compare line counts pre-translated file and post-translated file
 6. Apply reverse patch file made in step 3 to merge translated JP parts into XLIFF
---> 5-6: **[gemini_trans_2.sh](./gemini_trans_2.sh)**
+--> 5-6: **[gemini_trans_2.sh](./gemini_trans_2.sh)**<br>
 (maybe you need text processing by **[post_processing.sh](./post_processing.sh))
-7. Create final, translated file(such as HTML) 
+7. Create final, translated file(such as HTML) <br>
 --> 7: **[gemini_trans_3.sh](./gemini_trans_3.sh)**
 
 ## My environment
