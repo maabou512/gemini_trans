@@ -1,0 +1,373 @@
+<target xml:lang="ja">フランスの送電系統運用者であるRTEが、次世代の変電所の監視と制御の構築にLF EnergyとLF Edgeをどのように活用しているか – LF Energy</target> 
+```
+<target xml:lang="ja">LFエナジー » フィード</target>
+```<target xml:lang="ja">LF Energy » コメントフィード</target> 
+```xml
+<target xml:lang="ja">RSD</target>
+``````xml
+<target xml:lang="ja">The Linux Foundation プロジェクト</target>
+``````xml
+<target xml:lang="ja"><g id="1"><x id="2"/></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"></g></target>
+``````
+<target xml:lang="ja"><g id="1">メインコンテンツにスキップ</g></target>
+``````xml
+<target xml:lang="ja">入力を開始してください...</target>
+```<target xml:lang="ja">検索</target>
+```xml
+<target xml:lang="ja"><x id="1"/></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">検索を閉じる</g><g id="3"></g></g></target>
+```<target xml:lang="ja">LFエナジー</target>
+
+<target xml:lang="ja"><g id="1"> <x id="2"/> </g></target>
+```xml
+<target xml:lang="ja"><g id="1"><g id="2"></g><g id="3">検索</g></g></target>
+``````xml
+<target xml:lang="ja">ナビゲーションメニュー</target>
+``````xml
+<target xml:lang="ja"><g id="1"> <g id="2">メニュー</g><g id="3"> <g id="4"> <g id="5"></g> </g> </g> </g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">情報</g><g id="3"><g id="4"></g></g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">なぜオープンソースエネルギーなのか</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">なぜLFエナジーなのか</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">指針</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">メンバー</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">参加する</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">ガバナンス</g><g id="3"><g id="4"></g></g></g></target>
+``````
+<target xml:lang="ja"><g id="1"><g id="2">運営委員会</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">技術諮問委員会</g></g></target>
+```<target xml:lang="ja"><g id="1"><g id="2">エグゼクティブリーダーシップとサポート</g></g></target>
+```xml
+<target xml:lang="ja"><g id="1"><g id="2">LFESS運営委員会メンバー</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">追悼 – シュリ・グッドマン博士</g></g></target>
+```<target xml:lang="ja"><g id="1"><g id="2">LFエナジーとホストされているプロジェクトのブランドガイドライン</g><g id="3"><g id="4"></g></g></g></target>
+<target xml:lang="ja"><g id="1"><g id="2">会議およびウェビナーツールのガイドライン</g></g></target>
+<target xml:lang="ja"><g id="1"><g id="2">お問い合わせ</g></g></target>
+```xml
+<target xml:lang="ja"><g id="1"><g id="2">スワッグ ショップ</g></g></target>
+``````
+<target xml:lang="ja"><g id="1"><g id="2">プロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">すべてのプロジェクト</g></g></target>
+```<target xml:lang="ja"><g id="1"><g id="2">プロジェクトをホストする</g></g></target>
+```xml
+<target xml:lang="ja"><g id="1"><g id="2">アーリーアダプションプロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">EVerest</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">GXF</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">OperatorFabric</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">PowSyBl</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">SEAPATH</g></g></target>
+```<target xml:lang="ja"><g id="1"><g id="2">SOGNO</g></g></target>
+```xml
+<target xml:lang="ja"><g id="1"><g id="2">インキュベーション中プロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">CoMPAS</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">Dynawo</g></g> </target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">FledgePOWER</g></g> </target>
+``````
+<target xml:lang="ja"><g id="1"><g id="2">FlexMeasures</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">菌糸</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">OpenEEmeter</g></g> </target>
+``````
+<target xml:lang="ja"><g id="1"><g id="2">openLEADR</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">OpenSTEF</g></g></target>
+```<target xml:lang="ja"><g id="1"><g id="2">電力網モデル</g></g></target>
+<target xml:lang="ja"><g id="1"><g id="2">シェイプシフター</g></g></target>
+<target xml:lang="ja"><g id="1"><g id="2">サンドボックス</g><g id="3"><g id="4"></g></g></g></target>
+```xml
+<target xml:lang="ja"><g id="1"><g id="2">Arras</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">Battery Data Alliance</g> </g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">CitrineOS</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">covXtreme</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">グリッドキャパシティマップ</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">GRIP</g></g></target>
+``````
+<target xml:lang="ja"><g id="1"><g id="2">OpenGEH</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">OpenSynth</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">リアルタイムデータ摂取プラットフォーム（RTDIP）</g></g></target>
+``````
+<target xml:lang="ja"><g id="1"><g id="2">TROLIE</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">ワーキンググループ</g><g id="3"><g id="4"></g></g></g></target>
+```<target xml:lang="ja"><g id="1"><g id="2">アーチメイトワーキンググループ</g></g></target>
+<target xml:lang="ja"><g id="1"><g id="2">LFエナジー 人工知能(AI)</g></g></target>
+```
+<target xml:lang="ja"><g id="1"><g id="2">LFエネルギー基準および仕様</g></g></target>
+``````
+<target xml:lang="ja"><g id="1"><g id="2">LFエネルギーランドスケープ</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">LFエナジー機能アーキテクチャ</g></g></target>
+``````
+<target xml:lang="ja"><g id="1"><g id="2">トレーニング＆認定</g></g></target>
+```
+<target xml:lang="ja"><g id="1"><g id="2">研究</g><g id="3"><g id="4"></g></g></g></target>
+```xml
+<target xml:lang="ja"><g id="1"><g id="2">ケーススタディ</g></g></target>
+```<target xml:lang="ja"><g id="1"><g id="2">業界レポート</g></g></target>
+```xml
+<target xml:lang="ja"><g id="1"><g id="2">メディア</g><g id="3"><g id="4"></g></g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">ブログ</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">プレスリリース</g></g></target>
+```<target xml:lang="ja"><g id="1"><g id="2">メディア掲載</g></g></target>
+```xml
+<target xml:lang="ja"><g id="1"><g id="2">アンバサダー プログラム</g></g></target>
+```<target xml:lang="ja"><g id="1"><g id="2">ニュースレターを購読する</g></g></target>
+<target xml:lang="ja"><g id="1"><g id="2">参加</g></g></target>
+<target xml:lang="ja"><g id="1">メンバー</g></target> 
+<target xml:lang="ja">メンバー</target> 
+```xml
+<target xml:lang="ja"><g id="1"><g id="2"></g><g id="3">検索</g></g></target>
+```<target xml:lang="ja">フランスの送電系統運用者であるRTEが、次世代の変電所の監視と制御の構築にLF EnergyとLF Edgeをどのように活用しているか</target> 
+```xml
+<target xml:lang="ja"><x id="1"/></target>
+``````xml
+<target xml:lang="ja"><g id="1">メンバー</g>による投稿</target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2"><g id="3">作成者</g> <g id="4">Dan Brown</g></g></g> | <g id="5">2024年6月17日</g></target>
+```<target xml:lang="ja">フランスの送電事業者であるRTEが、次世代の変電所の監視と制御の構築にLF EnergyとLF Edgeを活用する方法</target> 
+<target xml:lang="ja"><g id="1"><g id="2">このケーススタディをPDF形式でダウンロードする</g></g></target>
+<target xml:lang="ja">概要</target>
+<target xml:lang="ja">フランスの送電系統運用者（TSO）であるRTEは、エネルギー移行とデジタル<x id="1"/>変革を加速させ、未来の制御システムを構築しています。そのためには、電力網を変革するための新しい技術の開発と導入、まずは複数のプロトコル変換の問題を解決することが必要です。</target>
+<target xml:lang="ja">RTEとそのパートナーであるDianomicは、産業用IoT <g id="3">LF Edge</g> プロジェクトである<g id="4">Fledge</g>をベースとした<g id="2">LF Energy</g>の電力システム向けマルチプロトコル変換ゲートウェイである<g id="1">FledgePOWER</g>がこの問題の解決に使用できることを確認しました。</target>
+<target xml:lang="ja"><g id="1">FledgePOWER</g>は、電力システムのプロトコル変換とユースケースに重点を置いた、シミュレーション、データ構成、およびチェックのためのツールボックスを提供します。<g id="2">IEC 61850</g>は、変電所のインテリジェント電子デバイス用の通信プロトコルを定義した国際標準であり、物理的な通信層を抽象化し、これらのデバイスの相互運用性を確保するように設計されました。</target> 
+
+```xml
+<target xml:lang="ja">FledgePOWERは、RTEやオランダの配電系統運用会社Allianderなど、さまざまなエネルギー関係者によって開発されたオープンソースツールであり、<g id="1">scanner</g>やクラウド上のデータセンター、変電所ネットワークなどの外部システムとのIEC 61850通信をサポートしています。</target>
+```<target xml:lang="ja">前述の課題に対処するため、RTEは、Fledgeの商用ディストリビューションであるFogLAMPを開発したDianomicと提携しました。<g id="1">FogLAMP</g>を<g id="2">FledgePOWER</g>と共に導入することで、RTEは、ローカルリモートターミナルユニット（RTU）の移行に伴う高コストとリスクを回避しながら、ビジネス目標を達成することができます。</target>
+```xml
+<target xml:lang="ja"><x id="1"/></target>
+``````xml
+<target xml:lang="ja"> </target>
+```<target xml:lang="ja"></target> 
+<target xml:lang="ja"><g id="1">メンバー</g></target> 
+```xml
+<target xml:lang="ja"> </target>
+``````
+<target xml:lang="ja"> </target>
+```<target xml:lang="ja"> </target> 
+<target xml:lang="ja"><g id="1">RTEの送電網 – 赤は400 kV変電所、緑は225 kV変電所です。 150、90、63 kV変電所は、読みやすくするために表示されていません。</g></target>
+<target xml:lang="ja">レガシー変電所システムが直面する課題</target>
+<target xml:lang="ja">RTEの従来の変電所システムは、柔軟性と拡張性に欠けており、最終的には複雑で費用のかかるメンテナンスが必要となり、多くの場合、変電所ごとに特定のベンダーロックインソリューションが必要でした。</target>
+```xml
+<target xml:lang="ja"><g id="1">TSO</g>は、保守コストを削減しながら、より優れた柔軟性、セキュリティ、およびスケーラビリティを提供できる、より最新の制御システムに移行したいと考えていると判断しました。<g id="2">RTE</g>は、これが、すべて変電所のテンプレートモデルとして機能し、再生可能エネルギーの統合を促進するための、オープンで標準化された<g id="3">IEC</g> <g id="4">61850</g>モデルを必要とすることを認識していました。</target>
+``````xml
+<target xml:lang="ja"><x id="1"/></target>
+``````xml
+<target xml:lang="ja"><g id="1">RTEの将来の電力系統制御アーキテクチャ</g></target>
+``````xml
+<target xml:lang="ja">FledgePOWER  ソリューションとして</target>
+```<target xml:lang="ja">Dianomic の商用 FogLAMP ソリューションの基盤である Fledge のオープンソースの性質により、RTE が直面する複数のプロトコル変換の課題に対処し、オープンソースのマルチプロトコルゲートウェイの利点を提供する上で、Fledge は理想的な選択肢となりました。Fledge は、ハードウェアに依存せず、産業グレードであり、インダストリー 4.0 アプリケーション開発および産業データパイプラインの課題に対応します。Fledge は、IoT、輸送、食品および農業、インフラストラクチャ、製造、JEA や Statkraft などの公益事業者ですでに使用されており、成功を収めています。他のオープンソーステクノロジーと同様に、Fledge はベンダーに依存しないことと、独自のロードマップを推進できるという利点も提供します。</target>
+<target xml:lang="ja">Fledgeは、オープンなアプリケーションプログラミングインターフェース（<g id="1">API</g>）を提供し、あらゆる産業データソースからあらゆる産業データの宛先およびクラウドまで、インテリジェントな産業データパイプラインとエッジアプリケーションをサポートするための拡張可能なアーキテクチャを備えています。</target>
+
+<target xml:lang="ja">FledgePOWERは以下のRTE要件を満たしていることがわかりました：</target> 
+<target xml:lang="ja">あらゆる産業データソースから、任意または複数の産業データ宛先へのインテリジェントな産業データパイプラインをサポートします</target> 
+<target xml:lang="ja"><g id="1">Members</g>変電所内の<g id="2">RTU</g>に戻る設定値制御用の双方向</target>
+<target xml:lang="ja">RTEおよびEDF – HNZで使用される自作プロトコルをサポートできる拡張可能なアーキテクチャ</target> 
+```xml
+<target xml:lang="ja"><g id="1">Members</g>への、または<g id="1">Members</g>からのすべてのデータパイプラインのための単一の管理API</target>
+``````xml
+<target xml:lang="ja"><g id="1">Enables</g> スケール、セキュリティ、および管理 <g id="2">management</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">Future-proof</g></target>
+``````xml
+<target xml:lang="ja">エッジ ML/AI 対応</target>
+``````xml
+<target xml:lang="ja"><x id="1"/></target>
+```<target xml:lang="ja"><g id="1">上記のプロトコルのリストは、RTEの2,600の変電所で使用されています。同じAPIを使用してすべてをサポートするマルチプロトコル双方向ゲートウェイは、データの相互運用性、スケール、セキュリティ、および管理の問題を解決します。</g></target>
+```xml
+<target xml:lang="ja">実装プロセス（課題と解決策）</target>
+```<target xml:lang="ja"><g id="1">Fledge</g> プラグインアーキテクチャにより、実装プロセスはシームレスに促進されました。このフレームワークにより、各プロトコルまたはデータ処理機能を、独自の独立したワークストリーム内で実装できます。</target>
+<target xml:lang="ja">Fledgeプラグインアーキテクチャにより実装が容易になりましたが、その疎結合性により、Fledgeコアサ<g id="1">ー</g>ビスインターフェースへの準拠を保証するために細心の注意を払う必要がありました。新しいFledgeコアバージョンに対して定期的に準拠テストを実施して、プラグインが最新バージョンのFledgeコア内で常に動作することを保証することが重要です。</target>
+```
+<target xml:lang="ja">Fledge および FledgePOWER 実装の結果</target>
+```<target xml:lang="ja"><g id="1">メンバー</g>は<g id="2">メンバー</g>を<g id="3">メンバー</g>しました。 <g id="4">メンバー</g>は<g id="5">メンバー</g>です。</target> 
+```xml
+<target xml:lang="ja">エネルギー業界への影響</target>
+```<target xml:lang="ja">多くの運用テクノロジー (OT) 環境と同様に、エネルギー市場では、さまざまなベンダーの多数のプロトコルが使用されており、データをマッピング、変換、保護、または理解するための標準化された方法がありません。これらのプロトコルには、IEC103/104、Modbus、DNP3、TASE2、<g id="1">Open Platform Communications Unified Architecture</g> (<g id="2">OPC-UA</g>)、S7、<g id="3">Message Queuing Telemetry Transport</g> (<g id="4">MQTT</g>)、IEC 61850 などがあります。</target>
+```
+<target xml:lang="ja"><g id="1">エネルギー業界</g>への<g id="2">サプライヤー</g>は、IEC 61850のサポートと推進を開始しました。IEC 61850は、<g id="3">変電所</g>建設の設計およびエンジニアリング段階だけでなく、データコンテキストを共有するための<g id="4">通信レイヤー</g>と<g id="5">セマンティックデータモデル</g>も提供します。</target>
+```<target xml:lang="ja">Fledgeは、IEC 61850や、振動、ビデオ、音響、放射線、トランザクションなど、その他の複雑なデータ型をサポートしています。FledgeベースのFledgePOWERを使用することで、RTEは、時代遅れの技術や機器から新しい時代へのスムーズな移行を実現しました。変電所の変圧器など、資本集約型の機器は20年以上の寿命があることを考えると、この進化は非常に重要です。</target> 
+```
+<target xml:lang="ja"><x id="1"/></target>
+```<target xml:lang="ja"><g id="1">IEC 61850規格は、エネルギーシステム全体であらゆるタイプのデバイス間におけるデータの相互運用性を保証します。</g></target>
+```xml
+<target xml:lang="ja">前進</target>
+``````xml
+<target xml:lang="ja">FledgeやFledgePOWERのような<g id="1">オープンソース</g>ソリューションは、シームレスな統合とデータ管理に不可欠です。<g id="2">IEC 61850</g>やその他の複雑なデータ型をサポートすることで、FledgePOWERはRTEが最新のテクノロジーにスムーズに移行できるようにし、今後長年にわたってグリッドの信頼性と持続可能性を保証します。</target>
+```<target xml:lang="ja">RTEはオープンソースの影響を示す一例です。Fledgeプロジェクトは、67のエネルギー企業とサプライヤーを抱えるLF EnergyのFledgePOWERと、167の石油・ガス企業とサプライヤーを抱えるOSDU（Open Groupプロジェクト）に拡大しており、すべてが共通の目標に向かって取り組んでいます。</target>
+<target xml:lang="ja">Fledgeは、エッジコンピューティング向けのオープンでモジュール式のフレームワークに対するLF Edgeのコミットメントを強化します。特に、Fledgeはアプリケーションを拡張しており、エッジコンピューティングエコシステムにおける影響力の高まりを反映しています。<x id="1"/> Fledgeの詳細については、<g id="2">https://lfedge.org/projects/fledge/</g> を、FledgePOWERの詳細については、<g id="3">https://lfenergy.org/projects/fledgepower/</g>をご覧ください。</target>
+```xml
+<target xml:lang="ja"><g id="1">すべてのブログ投稿に戻る</g> <x id="2"/> <g id="3">次のブログ投稿を表示する</g></target>
+``````xml
+<target xml:lang="ja"><x id="1"/></target>
+``````xml
+<target xml:lang="ja"><g id="1">メンバー</g>になる</target>
+``````xml
+<target xml:lang="ja">LFエナジーの戦略的方向性と、今後数千年にわたって業界を形作るプロジェクトに影響を与えるテーブル席を獲得してください。</target>
+```<target xml:lang="ja"><g id="1"><g id="2">参加する</g></g></target>
+```
+<target xml:lang="ja">LF Energyニュースレターにご登録ください</target>
+
+``````xml
+<target xml:lang="ja"><x id="1"/></target>
+```<target xml:lang="ja">Copyright © 2023 The Linux Foundation® . All rights reserved. The Linux Foundationは登録商標を保有しており、商標を使用しています。The Linux Foundationの商標リストについては、<g id="1">商標使用</g>ページをご覧ください。LinuxはLinus Torvaldsの登録商標です。 <g id="2">プライバシーポリシー</g>および<g id="3">利用規約</g>。</target>
+<target xml:lang="ja"><g id="1"><g id="2">メニューを閉じる</g> <g id="3"></g> </g></target>
+```
+<target xml:lang="ja"><g id="1">About</g></target>
+```
+```
+<target xml:lang="ja"><g id="1">概要</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">なぜオープンソースエネルギーなのか</g></target>
+``````
+<target xml:lang="ja"><g id="1">LFエナジーとは</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">基本理念</g></target>
+``````
+<target xml:lang="ja"><g id="1">メンバー</g></target>
+```
+```xml
+<target xml:lang="ja"><g id="1">参加する</g></target>
+```<target xml:lang="ja"><g id="1">ガバナンス</g></target>
+```xml
+<target xml:lang="ja"><g id="1">運営委員会</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">技術諮問委員会</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">エグゼクティブリーダーシップとサポート</g></target>
+``````
+<target xml:lang="ja"><g id="1">LFESS運営委員会メンバー</g></target>
+```
+```
+<target xml:lang="ja"><g id="1">追悼 – シュリ・グッドマン博士</g></target>
+```
+```
+<target xml:lang="ja"><g id="1">LF Energyおよびホストされているプロジェクトのブランドガイドライン</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">会議とウェビナーツールのガイドライン</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">お問い合わせ</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">スワッグ ショップ</g></target>
+```<target xml:lang="ja"><g id="1">プロジェクト</g></target>
+<target xml:lang="ja"><g id="1">すべてのプロジェクト</g></target>
+```xml
+<target xml:lang="ja"><g id="1">プロジェクトをホストする</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">アーリーアダプションプロジェクト</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">エベレスト</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">GXF</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">OperatorFabric</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">PowSyBl</g></target>
+``````
+<target xml:lang="ja"><g id="1">SEAPATH</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">SOGNO</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">インキュベーション プロジェクト</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">CoMPAS</g></target>
+``````
+<target xml:lang="ja"><g id="1">Dynawo</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">FledgePOWER</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">FlexMeasures</g></target>
+``````
+<target xml:lang="ja"><g id="1">菌糸</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">OpenEEmeter</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">openLEADR</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">OpenSTEF</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">電力網モデル</g></target>
+``````
+<target xml:lang="ja"><g id="1">シェイプシフター</g></target> 
+```
+```xml
+<target xml:lang="ja"><g id="1">サンドボックス</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">配列</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">バッテリーデータアライアンス</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">CitrineOS</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">covXtreme</g></target>
+``````
+<target xml:lang="ja"><g id="1">グリッドキャパシティマップ</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">GRIP</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">OpenGEH</g></target>
+``````
+<target xml:lang="ja"><g id="1">OpenSynth</g></target>
+```<target xml:lang="ja"><g id="1">リアルタイムデータ ingestion プラットフォーム (RTDIP)</g></target>
+```xml
+<target xml:lang="ja"><g id="1">TROLIE</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">ワーキンググループ</g></target>
+```<target xml:lang="ja"><g id="1">アーキメイトワーキンググループ</g></target>
+```xml
+<target xml:lang="ja"><g id="1">LFエナジー 人工知能（AI）</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">LFエネルギー基準および仕様</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">LFエネルギー地形</g></target>
+``````
+<target xml:lang="ja"><g id="1">LF Energy 機能アーキテクチャ</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">トレーニング＆認定</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">研究</g></target>
+``````
+<target xml:lang="ja"><g id="1">ケーススタディ</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">業界レポート</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">メディア</g></target>
+``````
+<target xml:lang="ja"><g id="1">ブログ</g></target>
+```<target xml:lang="ja"><g id="1">報道関係者向け情報</g></target>
+```xml
+<target xml:lang="ja"><g id="1">メディア報道</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">アンバサダープログラム</g></target>
+```<target xml:lang="ja"><g id="1">ニュースレターを購読する</g></target>
+<target xml:lang="ja"><g id="1">参加する</g></target>

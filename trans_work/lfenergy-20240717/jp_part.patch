@@ -1,0 +1,856 @@
+1,6d0
+< <?xml version="1.0" encoding="UTF-8"?>
+< <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+< <file original="input.html" source-language="en" target-language="ja" datatype="html" okp:inputEncoding="UTF-8">
+< <body>
+< <trans-unit id="tu1" restype="x-title">
+< <source xml:lang="en">How French Transmission System Operator, RTE, Leverages LF Energy and LF Edge to Build Next-Gen Substation Monitoring and Controls – LF Energy</source>
+8,10d1
+< </trans-unit>
+< <trans-unit id="tu2" restype="x-title">
+< <source xml:lang="en">LF Energy » Feed</source>
+12,14d2
+< </trans-unit>
+< <trans-unit id="tu3" restype="x-title">
+< <source xml:lang="en">LF Energy » Comments Feed</source>
+16,18d3
+< </trans-unit>
+< <trans-unit id="tu4" restype="x-title">
+< <source xml:lang="en">RSD</source>
+20,22d4
+< </trans-unit>
+< <trans-unit id="tu6" restype="x-alt">
+< <source xml:lang="en">The Linux Foundation Projects</source>
+24,26d5
+< </trans-unit>
+< <trans-unit id="tu5">
+< <source xml:lang="en"><g id="1"><x id="2"/></g></source>
+28,30d6
+< </trans-unit>
+< <trans-unit id="tu7">
+< <source xml:lang="en"><g id="1"></g></source>
+32,34d7
+< </trans-unit>
+< <trans-unit id="tu8">
+< <source xml:lang="en"><g id="1">Skip to main content</g></source>
+36,38d8
+< </trans-unit>
+< <trans-unit id="tu10" restype="x-value">
+< <source xml:lang="en">Start Typing...</source>
+40,42d9
+< </trans-unit>
+< <trans-unit id="tu11" restype="x-aria-label">
+< <source xml:lang="en">Search</source>
+44,46d10
+< </trans-unit>
+< <trans-unit id="tu9">
+< <source xml:lang="en"><x id="1"/></source>
+48,50d11
+< </trans-unit>
+< <trans-unit id="tu12">
+< <source xml:lang="en"><g id="1"><g id="2">Close Search</g> <g id="3"></g> </g></source>
+52,54d12
+< </trans-unit>
+< <trans-unit id="tu14" restype="x-alt">
+< <source xml:lang="en">LF Energy</source>
+56,58d13
+< </trans-unit>
+< <trans-unit id="tu13">
+< <source xml:lang="en"><g id="1"> <x id="2"/> </g></source>
+60,62d14
+< </trans-unit>
+< <trans-unit id="tu15">
+< <source xml:lang="en"><g id="1"><g id="2"></g><g id="3">search</g></g></source>
+64,66d15
+< </trans-unit>
+< <trans-unit id="tu17" restype="x-aria-label">
+< <source xml:lang="en">Navigation Menu</source>
+68,70d16
+< </trans-unit>
+< <trans-unit id="tu16">
+< <source xml:lang="en"><g id="1"> <g id="2">Menu</g><g id="3"> <g id="4"> <g id="5"></g> </g> </g> </g></source>
+72,74d17
+< </trans-unit>
+< <trans-unit id="tu18" resname="menu-item-8136-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">About</g><g id="3"><g id="4"></g></g></g></source>
+76,78d18
+< </trans-unit>
+< <trans-unit id="tu19" resname="menu-item-8138-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Why Open Source Energy</g></g></source>
+80,82d19
+< </trans-unit>
+< <trans-unit id="tu20" resname="menu-item-8137-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Why LF Energy</g></g></source>
+84,86d20
+< </trans-unit>
+< <trans-unit id="tu21" resname="menu-item-8139-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Guiding Principles</g></g></source>
+88,90d21
+< </trans-unit>
+< <trans-unit id="tu22" resname="menu-item-8140-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Members</g></g></source>
+92,94d22
+< </trans-unit>
+< <trans-unit id="tu23" resname="menu-item-8141-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Get Involved</g></g></source>
+96,98d23
+< </trans-unit>
+< <trans-unit id="tu24" resname="menu-item-8145-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Governance</g><g id="3"><g id="4"></g></g></g></source>
+100,102d24
+< </trans-unit>
+< <trans-unit id="tu25" resname="menu-item-8142-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Governing Board</g></g></source>
+104,106d25
+< </trans-unit>
+< <trans-unit id="tu26" resname="menu-item-8143-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Technical Advisory Council</g></g></source>
+108,110d26
+< </trans-unit>
+< <trans-unit id="tu27" resname="menu-item-8144-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Executive Leadership and Support</g></g></source>
+112,114d27
+< </trans-unit>
+< <trans-unit id="tu28" resname="menu-item-8146-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">LFESS Steering Committee Members</g></g></source>
+116,118d28
+< </trans-unit>
+< <trans-unit id="tu29" resname="menu-item-8147-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">In Memoriam – Dr. Shuli Goodman</g></g></source>
+120,122d29
+< </trans-unit>
+< <trans-unit id="tu30" resname="menu-item-8810-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Brand Guidelines for LF Energy and Hosted Projects</g><g id="3"><g id="4"></g></g></g></source>
+124,126d30
+< </trans-unit>
+< <trans-unit id="tu31" resname="menu-item-9453-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Guidelines for Meeting and Webinar Tools</g></g></source>
+128,130d31
+< </trans-unit>
+< <trans-unit id="tu32" resname="menu-item-8148-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Contact</g></g></source>
+132,134d32
+< </trans-unit>
+< <trans-unit id="tu33" resname="menu-item-9548-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Swag Shop</g></g></source>
+136,138d33
+< </trans-unit>
+< <trans-unit id="tu34" resname="menu-item-8149-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Projects</g><g id="3"><g id="4"></g></g></g></source>
+140,142d34
+< </trans-unit>
+< <trans-unit id="tu35" resname="menu-item-9209-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">All Projects</g></g></source>
+144,146d35
+< </trans-unit>
+< <trans-unit id="tu36" resname="menu-item-8150-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Host Your Project</g></g></source>
+148,150d36
+< </trans-unit>
+< <trans-unit id="tu37" resname="menu-item-8152-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Early Adoption Projects</g><g id="3"><g id="4"></g></g></g></source>
+152,154d37
+< </trans-unit>
+< <trans-unit id="tu38" resname="menu-item-8153-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">EVerest</g></g></source>
+156,158d38
+< </trans-unit>
+< <trans-unit id="tu39" resname="menu-item-8154-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">GXF</g></g></source>
+160,162d39
+< </trans-unit>
+< <trans-unit id="tu40" resname="menu-item-8155-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">OperatorFabric</g></g></source>
+164,166d40
+< </trans-unit>
+< <trans-unit id="tu41" resname="menu-item-8156-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">PowSyBl</g></g></source>
+168,170d41
+< </trans-unit>
+< <trans-unit id="tu42" resname="menu-item-8157-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">SEAPATH</g></g></source>
+172,174d42
+< </trans-unit>
+< <trans-unit id="tu43" resname="menu-item-8158-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">SOGNO</g></g></source>
+176,178d43
+< </trans-unit>
+< <trans-unit id="tu44" resname="menu-item-8159-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Incubating Projects</g><g id="3"><g id="4"></g></g></g></source>
+180,182d44
+< </trans-unit>
+< <trans-unit id="tu45" resname="menu-item-8160-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">CoMPAS</g></g></source>
+184,186d45
+< </trans-unit>
+< <trans-unit id="tu46" resname="menu-item-8171-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Dynawo</g></g></source>
+188,190d46
+< </trans-unit>
+< <trans-unit id="tu47" resname="menu-item-8161-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">FledgePOWER</g></g></source>
+192,194d47
+< </trans-unit>
+< <trans-unit id="tu48" resname="menu-item-8162-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">FlexMeasures</g></g></source>
+196,198d48
+< </trans-unit>
+< <trans-unit id="tu49" resname="menu-item-8164-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Hyphae</g></g></source>
+200,202d49
+< </trans-unit>
+< <trans-unit id="tu50" resname="menu-item-8165-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">OpenEEmeter</g></g></source>
+204,206d50
+< </trans-unit>
+< <trans-unit id="tu51" resname="menu-item-8166-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">openLEADR</g></g></source>
+208,210d51
+< </trans-unit>
+< <trans-unit id="tu52" resname="menu-item-8167-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">OpenSTEF</g></g></source>
+212,214d52
+< </trans-unit>
+< <trans-unit id="tu53" resname="menu-item-8173-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Power Grid Model</g></g></source>
+216,218d53
+< </trans-unit>
+< <trans-unit id="tu54" resname="menu-item-8168-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Shapeshifter</g></g></source>
+220,222d54
+< </trans-unit>
+< <trans-unit id="tu55" resname="menu-item-8169-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Sandbox</g><g id="3"><g id="4"></g></g></g></source>
+224,226d55
+< </trans-unit>
+< <trans-unit id="tu56" resname="menu-item-8170-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Arras</g></g></source>
+228,230d56
+< </trans-unit>
+< <trans-unit id="tu57" resname="menu-item-8846-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Battery Data Alliance</g></g></source>
+232,234d57
+< </trans-unit>
+< <trans-unit id="tu58" resname="menu-item-8995-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">CitrineOS</g></g></source>
+236,238d58
+< </trans-unit>
+< <trans-unit id="tu59" resname="menu-item-9310-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">covXtreme</g></g></source>
+240,242d59
+< </trans-unit>
+< <trans-unit id="tu60" resname="menu-item-8163-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Grid Capacity Map</g></g></source>
+244,246d60
+< </trans-unit>
+< <trans-unit id="tu61" resname="menu-item-9037-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">GRIP</g></g></source>
+248,250d61
+< </trans-unit>
+< <trans-unit id="tu62" resname="menu-item-8172-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">OpenGEH</g></g></source>
+252,254d62
+< </trans-unit>
+< <trans-unit id="tu63" resname="menu-item-9311-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">OpenSynth</g></g></source>
+256,258d63
+< </trans-unit>
+< <trans-unit id="tu64" resname="menu-item-8174-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Real Time Data Ingestion Platform (RTDIP)</g></g></source>
+260,262d64
+< </trans-unit>
+< <trans-unit id="tu65" resname="menu-item-8925-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">TROLIE</g></g></source>
+264,266d65
+< </trans-unit>
+< <trans-unit id="tu66" resname="menu-item-8178-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Working Groups</g><g id="3"><g id="4"></g></g></g></source>
+268,270d66
+< </trans-unit>
+< <trans-unit id="tu67" resname="menu-item-8179-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Archimate Working Group</g></g></source>
+272,274d67
+< </trans-unit>
+< <trans-unit id="tu68" resname="menu-item-9667-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">LF Energy Artificial Intelligence (AI)</g></g></source>
+276,278d68
+< </trans-unit>
+< <trans-unit id="tu69" resname="menu-item-8175-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">LF Energy Standards and Specifications</g></g></source>
+280,282d69
+< </trans-unit>
+< <trans-unit id="tu70" resname="menu-item-8182-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">LF Energy Landscape</g></g></source>
+284,286d70
+< </trans-unit>
+< <trans-unit id="tu71" resname="menu-item-8183-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">LF Energy Functional Architecture</g></g></source>
+288,290d71
+< </trans-unit>
+< <trans-unit id="tu72" resname="menu-item-8184-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Training &amp; Certification</g></g></source>
+292,294d72
+< </trans-unit>
+< <trans-unit id="tu73" resname="menu-item-8185-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Research</g><g id="3"><g id="4"></g></g></g></source>
+296,298d73
+< </trans-unit>
+< <trans-unit id="tu74" resname="menu-item-8186-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Case Studies</g></g></source>
+300,302d74
+< </trans-unit>
+< <trans-unit id="tu75" resname="menu-item-8187-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Industry Reports</g></g></source>
+304,306d75
+< </trans-unit>
+< <trans-unit id="tu76" resname="menu-item-8188-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Media</g><g id="3"><g id="4"></g></g></g></source>
+308,310d76
+< </trans-unit>
+< <trans-unit id="tu77" resname="menu-item-8189-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Blog</g></g></source>
+312,314d77
+< </trans-unit>
+< <trans-unit id="tu78" resname="menu-item-8191-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Press Releases</g></g></source>
+316,318d78
+< </trans-unit>
+< <trans-unit id="tu79" resname="menu-item-8190-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Media Coverage</g></g></source>
+320,322d79
+< </trans-unit>
+< <trans-unit id="tu80" resname="menu-item-8889-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Ambassador Program</g></g></source>
+324,326d80
+< </trans-unit>
+< <trans-unit id="tu81" resname="menu-item-9505-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Subscribe to our Newsletter</g></g></source>
+328,330d81
+< </trans-unit>
+< <trans-unit id="tu82" resname="menu-item-8192-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Join</g></g></source>
+332,334d82
+< </trans-unit>
+< <trans-unit id="tu83" resname="social-in-menu-id" restype="x-li">
+< <source xml:lang="en"></source>
+336,338d83
+< </trans-unit>
+< <trans-unit id="tu84" resname="search-btn-id" restype="x-li">
+< <source xml:lang="en"></source>
+340,342d84
+< </trans-unit>
+< <trans-unit id="tu85">
+< <source xml:lang="en"><g id="1"><g id="2"></g><g id="3">search</g></g></source>
+344,346d85
+< </trans-unit>
+< <trans-unit id="tu86" restype="x-h1">
+< <source xml:lang="en">How French Transmission System Operator, RTE, Leverages LF Energy and LF Edge to Build Next-Gen Substation Monitoring and Controls</source>
+348,350d86
+< </trans-unit>
+< <trans-unit id="tu87">
+< <source xml:lang="en"><x id="1"/></source>
+352,354d87
+< </trans-unit>
+< <trans-unit id="tu89" restype="x-title">
+< <source xml:lang="en">Posts by Dan Brown</source>
+356,358d88
+< </trans-unit>
+< <trans-unit id="tu88">
+< <source xml:lang="en"><g id="1"><g id="2"><g id="3">By</g> <g id="4">Dan Brown</g></g></g> | <g id="5">June 17, 2024</g></source>
+360,362d89
+< </trans-unit>
+< <trans-unit id="tu90" restype="x-h2">
+< <source xml:lang="en">How French Transmission System Operator, RTE, Leverages LF Energy and LF Edge to Build Next-Gen Substation Monitoring and Controls</source>
+364,366d90
+< </trans-unit>
+< <trans-unit id="tu91" restype="x-paragraph">
+< <source xml:lang="en"><g id="1"><g id="2">Download this case study in PDF format</g></g></source>
+368,370d91
+< </trans-unit>
+< <trans-unit id="tu92" restype="x-h2">
+< <source xml:lang="en">Overview</source>
+372,374d92
+< </trans-unit>
+< <trans-unit id="tu93" restype="x-paragraph">
+< <source xml:lang="en">French Transmission System Operator (TSO) RTE is accelerating the energy transition and its digital<x id="1"/> transformation to build the control system of the future. This requires the development and adoption of new technologies to transform the power grid, starting with solving the problem of multiple protocol translation.</source>
+376,378d93
+< </trans-unit>
+< <trans-unit id="tu94" restype="x-paragraph">
+< <source xml:lang="en">RTE and its partner, Dianomic, determined that <g id="1">FledgePOWER</g>, a multi-protocol translation gateway for power systems from <g id="2">LF Energy</g> based on the industrial IoT <g id="3">LF Edge</g> project <g id="4">Fledge</g>, could be used to address this issue.</source>
+380,382d94
+< </trans-unit>
+< <trans-unit id="tu95" restype="x-paragraph">
+< <source xml:lang="en">FledgePOWER provides a toolbox for simulation, data configuration, and checking focused uniquely on power systems’ protocols translation and power systems’ use cases. IEC 61850, an international standard defining communication protocols for intelligent electronic devices at electrical substations, was designed to abstract the physical communications layer and ensure interoperability of these devices.</source>
+384,386d95
+< </trans-unit>
+< <trans-unit id="tu96" restype="x-paragraph">
+< <source xml:lang="en">FledgePOWER, an open source tool developed by a variety of energy stakeholders including RTE and Dutch Distribution System Operator Alliander, supports IEC 61850 communications with external systems like scanners and data centers in the cloud and substation networks.</source>
+388,390d96
+< </trans-unit>
+< <trans-unit id="tu97" restype="x-paragraph">
+< <source xml:lang="en">To address the challenges mentioned previously, RTE partnered with Dianomic who developed FogLAMP, a commercial distribution of Fledge. The deployment of FogLAMP with FledgePOWER enables RTE to achieve its business objectives while avoiding the high costs and risks associated with local remote terminal unit (RTU) migration.</source>
+392,394d97
+< </trans-unit>
+< <trans-unit id="tu98" restype="x-paragraph">
+< <source xml:lang="en"><x id="1"/></source>
+396,398d98
+< </trans-unit>
+< <trans-unit id="tu99" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+400,402d99
+< </trans-unit>
+< <trans-unit id="tu100" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+404,406d100
+< </trans-unit>
+< <trans-unit id="tu101" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+408,410d101
+< </trans-unit>
+< <trans-unit id="tu102" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+412,414d102
+< </trans-unit>
+< <trans-unit id="tu103" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+416,418d103
+< </trans-unit>
+< <trans-unit id="tu104" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+420,422d104
+< </trans-unit>
+< <trans-unit id="tu105" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">RTE’s transmission grid – Red are 400 kV substations and Green are 225 kV substations. 150, 90 and 63 kV substations are not displayed for readability.</g></source>
+424,426d105
+< </trans-unit>
+< <trans-unit id="tu106" restype="x-h2">
+< <source xml:lang="en">Challenges facing legacy substation systems</source>
+428,430d106
+< </trans-unit>
+< <trans-unit id="tu107" restype="x-paragraph">
+< <source xml:lang="en">RTE’s legacy substation systems lacked flexibility and scalability, ultimately demanding complex and expensive maintenance, that often necessitated specific, vendor-locked solutions for each substation.</source>
+432,434d107
+< </trans-unit>
+< <trans-unit id="tu108" restype="x-paragraph">
+< <source xml:lang="en">The TSO determined that it wanted to migrate to more modern control systems which could offer better flexibility, security and scalability with reduced maintenance costs. RTE knew this would require an open and standardized IEC 61850 model to serve as the template model for all substations and facilitate integration of renewable energies.</source>
+436,438d108
+< </trans-unit>
+< <trans-unit id="tu109" restype="x-paragraph">
+< <source xml:lang="en"><x id="1"/></source>
+440,442d109
+< </trans-unit>
+< <trans-unit id="tu110" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">RTE’s future power system control architecture</g></source>
+444,446d110
+< </trans-unit>
+< <trans-unit id="tu111" restype="x-h2">
+< <source xml:lang="en">FledgePOWER as a solution</source>
+448,450d111
+< </trans-unit>
+< <trans-unit id="tu112" restype="x-paragraph">
+< <source xml:lang="en">The open source nature of Fledge, the foundation of Dianomic’s commercial FogLAMP solution, made it an ideal choice to address RTE’s challenge of multiple protocol translation and provide the benefits of an open source multi-protocol gateway. Fledge is hardware-agnostic, industrial-grade, and compatible with industry 4.0 application development and industrial data pipeline challenges. Fledge is already in use successfully across IoT, transportation, food and agriculture, infrastructure, manufacturing, and other utility providers such as JEA and Statkraft. Like other open source technologies, Fledge also offers the benefits of vendor neutrality and the ability to drive one’s own roadmap.</source>
+452,454d112
+< </trans-unit>
+< <trans-unit id="tu113" restype="x-paragraph">
+< <source xml:lang="en">Fledge offers open Application Programming Interfaces (APIs) and has an extensible architecture for supporting intelligent industrial data pipelines and edge applications from any industrial data source to any industrial data destination and cloud.</source>
+456,458d113
+< </trans-unit>
+< <trans-unit id="tu114" restype="x-paragraph">
+< <source xml:lang="en">FledgePOWER was found to meet the following RTE requirements:</source>
+460,462d114
+< </trans-unit>
+< <trans-unit id="tu115" restype="x-li">
+< <source xml:lang="en">Supports intelligent industrial data pipelines from any industrial data source to any, or multiple, industrial data destinations</source>
+464,466d115
+< </trans-unit>
+< <trans-unit id="tu116" restype="x-li">
+< <source xml:lang="en">Bidirectional for setpoint controls back to the RTUs in the substations</source>
+468,470d116
+< </trans-unit>
+< <trans-unit id="tu117" restype="x-li">
+< <source xml:lang="en">Extensible architecture capable of supporting home-built protocol used by RTE and EDF – HNZ</source>
+472,474d117
+< </trans-unit>
+< <trans-unit id="tu118" restype="x-li">
+< <source xml:lang="en">Single Management API for all data pipelines to and from all substations</source>
+476,478d118
+< </trans-unit>
+< <trans-unit id="tu119" restype="x-li">
+< <source xml:lang="en">Enables scale, security, and management</source>
+480,482d119
+< </trans-unit>
+< <trans-unit id="tu120" restype="x-li">
+< <source xml:lang="en">Future-proof</source>
+484,486d120
+< </trans-unit>
+< <trans-unit id="tu121" restype="x-li">
+< <source xml:lang="en">Edge ML/AI ready</source>
+488,490d121
+< </trans-unit>
+< <trans-unit id="tu122" restype="x-paragraph">
+< <source xml:lang="en"><x id="1"/></source>
+492,494d122
+< </trans-unit>
+< <trans-unit id="tu123" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">The list of protocols above are used in RTE’s 2,600 Substations. A Multiprotocol Bidirectional gateway that supports all of them using the same APIs solves the data interoperability, scale, security, and management problems.</g></source>
+496,498d123
+< </trans-unit>
+< <trans-unit id="tu124" restype="x-h2">
+< <source xml:lang="en">Implementation Process (with challenges and solutions)</source>
+500,502d124
+< </trans-unit>
+< <trans-unit id="tu125" restype="x-paragraph">
+< <source xml:lang="en">The implementation process was seamlessly facilitated by the Fledge plugins architecture. This framework enables the implementation of each protocol or data processing feature within its own independent workstream.</source>
+504,506d125
+< </trans-unit>
+< <trans-unit id="tu126" restype="x-paragraph">
+< <source xml:lang="en">While the Fledge plugin architecture facilitated implementation, its loose coupling required meticulous attention to ensure compliance with Fledge core services interfaces. Conducting regular compliance testing against new Fledge core versions is crucial to ensure that the plugins consistently operate within the latest iteration of the Fledge core.</source>
+508,510d126
+< </trans-unit>
+< <trans-unit id="tu127" restype="x-h2">
+< <source xml:lang="en">Results of Fledge &amp; FledgePOWER Implementation</source>
+512,514d127
+< </trans-unit>
+< <trans-unit id="tu128" restype="x-paragraph">
+< <source xml:lang="en">The initial deployment of a FledgePOWER-based gateway in the first substation confirms that leveraging FledgePOWER to update these substations results in significant cost reduction and complexity vs migrating the existing RTUs to more recent versions. By enhancing the local, older generation RTUs with features such as multi-center capacity and secure communication via transport layer security (TLS), FledgePOWER has enabled RTE to achieve business objectives while avoiding the high costs and risks associated with local RTU migration.</source>
+516,518d128
+< </trans-unit>
+< <trans-unit id="tu129" restype="x-h2">
+< <source xml:lang="en">Energy Industry Implications</source>
+520,522d129
+< </trans-unit>
+< <trans-unit id="tu130" restype="x-paragraph">
+< <source xml:lang="en">Like many operational technology (OT) environments, the energy market uses numerous protocols from various vendors, lacking a standardized way to map, transform, secure, or understand data. Some of these protocols include IEC103/104, Modbus, DNP3, TASE2, Open Platform Communications Unified Architecture (OPC-UA), S7, Message Queuing Telemetry Transport (MQTT), and IEC 61850.</source>
+524,526d130
+< </trans-unit>
+< <trans-unit id="tu131" restype="x-paragraph">
+< <source xml:lang="en">Suppliers to the energy industry have started to support and promote IEC 61850. IEC 61850 is not only used at the design and engineering stage of substation construction, but also provides a communication layer and semantic data model for sharing data context.</source>
+528,530d131
+< </trans-unit>
+< <trans-unit id="tu132" restype="x-paragraph">
+< <source xml:lang="en">Fledge supports IEC 61850 and other complex data types including vibration, video, acoustic, radiometric, and transactional. By using Fledge-based FledgePOWER, RTE has experienced a smooth migration from outdated technology and equipment to the new era. This evolution is critical considering that capital-intensive equipment, such as substation transformers, can have longer than 20-year life spans.</source>
+532,534d132
+< </trans-unit>
+< <trans-unit id="tu133" restype="x-paragraph">
+< <source xml:lang="en"><x id="1"/></source>
+536,538d133
+< </trans-unit>
+< <trans-unit id="tu134" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">The IEC 61850 standard ensures interoperability of data across all types of devices across energy systems.</g></source>
+540,542d134
+< </trans-unit>
+< <trans-unit id="tu135" restype="x-h2">
+< <source xml:lang="en">Moving Forward</source>
+544,546d135
+< </trans-unit>
+< <trans-unit id="tu136" restype="x-paragraph">
+< <source xml:lang="en">Open source solutions such as Fledge and FledgePOWER are crucial for seamless integration and data management. By supporting IEC 61850 and other complex data types, FledgePOWER enables RTE to smoothly transition to modern technologies, ensuring grid reliability and sustainability for years to come.</source>
+548,550d136
+< </trans-unit>
+< <trans-unit id="tu137" restype="x-paragraph">
+< <source xml:lang="en">RTE is one example of open source impact. The Fledge project has expanded into LF Energy’s FledgePOWER with 67 energy companies and suppliers and OSDU (an Open Group Project) with 167 oil and gas companies and suppliers, all working toward a common goal.</source>
+552,554d137
+< </trans-unit>
+< <trans-unit id="tu138" restype="x-paragraph">
+< <source xml:lang="en">Fledge cements LF Edge’s commitment to an open, modular framework for edge computing. Notably, Fledge has expanded its applications, reflecting its growing influence in edge computing ecosystems.<x id="1"/> Learn more about Fledge at <g id="2">https://lfedge.org/projects/fledge/</g> and FledgePOWER at <g id="3">https://lfenergy.org/projects/fledgepower/</g>.</source>
+556,558d138
+< </trans-unit>
+< <trans-unit id="tu139">
+< <source xml:lang="en"><g id="1">&lt; Back To All Blog Posts</g> <x id="2"/> <g id="3">View Next Blog Post ></g></source>
+560,562d139
+< </trans-unit>
+< <trans-unit id="tu140">
+< <source xml:lang="en"><x id="1"/></source>
+564,566d140
+< </trans-unit>
+< <trans-unit id="tu141" restype="x-h3">
+< <source xml:lang="en">Become A Member</source>
+568,570d141
+< </trans-unit>
+< <trans-unit id="tu142" restype="x-paragraph">
+< <source xml:lang="en">Gain a seat at the table to influence the strategic direction of LF Energy and the projects that will shape an industry for millennia.</source>
+572,574d142
+< </trans-unit>
+< <trans-unit id="tu143">
+< <source xml:lang="en"><g id="1"><g id="2">Join</g></g></source>
+576,578d143
+< </trans-unit>
+< <trans-unit id="tu144" restype="x-h3">
+< <source xml:lang="en">Stay Connected with the LF Energy Newsletter</source>
+580,582d144
+< </trans-unit>
+< <trans-unit id="tu145">
+< <source xml:lang="en"><x id="1"/></source>
+584,586d145
+< </trans-unit>
+< <trans-unit id="tu146" restype="x-paragraph">
+< <source xml:lang="en">Copyright © 2023 The Linux Foundation® . All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <g id="1">Trademark Usage</g> page. Linux is a registered trademark of Linus Torvalds. <g id="2">Privacy Policy</g> and <g id="3">Terms of Use</g>.</source>
+588,590d146
+< </trans-unit>
+< <trans-unit id="tu147">
+< <source xml:lang="en"><g id="1"><g id="2">Close Menu</g> <g id="3"></g> </g></source>
+592,594d147
+< </trans-unit>
+< <trans-unit id="tu148" restype="x-li">
+< <source xml:lang="en"><g id="1">About</g></source>
+596,598d148
+< </trans-unit>
+< <trans-unit id="tu149" restype="x-li">
+< <source xml:lang="en"><g id="1">Why Open Source Energy</g></source>
+600,602d149
+< </trans-unit>
+< <trans-unit id="tu150" restype="x-li">
+< <source xml:lang="en"><g id="1">Why LF Energy</g></source>
+604,606d150
+< </trans-unit>
+< <trans-unit id="tu151" restype="x-li">
+< <source xml:lang="en"><g id="1">Guiding Principles</g></source>
+608,610d151
+< </trans-unit>
+< <trans-unit id="tu152" restype="x-li">
+< <source xml:lang="en"><g id="1">Members</g></source>
+612,614d152
+< </trans-unit>
+< <trans-unit id="tu153" restype="x-li">
+< <source xml:lang="en"><g id="1">Get Involved</g></source>
+616,618d153
+< </trans-unit>
+< <trans-unit id="tu154" restype="x-li">
+< <source xml:lang="en"><g id="1">Governance</g></source>
+620,622d154
+< </trans-unit>
+< <trans-unit id="tu155" restype="x-li">
+< <source xml:lang="en"><g id="1">Governing Board</g></source>
+624,626d155
+< </trans-unit>
+< <trans-unit id="tu156" restype="x-li">
+< <source xml:lang="en"><g id="1">Technical Advisory Council</g></source>
+628,630d156
+< </trans-unit>
+< <trans-unit id="tu157" restype="x-li">
+< <source xml:lang="en"><g id="1">Executive Leadership and Support</g></source>
+632,634d157
+< </trans-unit>
+< <trans-unit id="tu158" restype="x-li">
+< <source xml:lang="en"><g id="1">LFESS Steering Committee Members</g></source>
+636,638d158
+< </trans-unit>
+< <trans-unit id="tu159" restype="x-li">
+< <source xml:lang="en"><g id="1">In Memoriam – Dr. Shuli Goodman</g></source>
+640,642d159
+< </trans-unit>
+< <trans-unit id="tu160" restype="x-li">
+< <source xml:lang="en"><g id="1">Brand Guidelines for LF Energy and Hosted Projects</g></source>
+644,646d160
+< </trans-unit>
+< <trans-unit id="tu161" restype="x-li">
+< <source xml:lang="en"><g id="1">Guidelines for Meeting and Webinar Tools</g></source>
+648,650d161
+< </trans-unit>
+< <trans-unit id="tu162" restype="x-li">
+< <source xml:lang="en"><g id="1">Contact</g></source>
+652,654d162
+< </trans-unit>
+< <trans-unit id="tu163" restype="x-li">
+< <source xml:lang="en"><g id="1">Swag Shop</g></source>
+656,658d163
+< </trans-unit>
+< <trans-unit id="tu164" restype="x-li">
+< <source xml:lang="en"><g id="1">Projects</g></source>
+660,662d164
+< </trans-unit>
+< <trans-unit id="tu165" restype="x-li">
+< <source xml:lang="en"><g id="1">All Projects</g></source>
+664,666d165
+< </trans-unit>
+< <trans-unit id="tu166" restype="x-li">
+< <source xml:lang="en"><g id="1">Host Your Project</g></source>
+668,670d166
+< </trans-unit>
+< <trans-unit id="tu167" restype="x-li">
+< <source xml:lang="en"><g id="1">Early Adoption Projects</g></source>
+672,674d167
+< </trans-unit>
+< <trans-unit id="tu168" restype="x-li">
+< <source xml:lang="en"><g id="1">EVerest</g></source>
+676,678d168
+< </trans-unit>
+< <trans-unit id="tu169" restype="x-li">
+< <source xml:lang="en"><g id="1">GXF</g></source>
+680,682d169
+< </trans-unit>
+< <trans-unit id="tu170" restype="x-li">
+< <source xml:lang="en"><g id="1">OperatorFabric</g></source>
+684,686d170
+< </trans-unit>
+< <trans-unit id="tu171" restype="x-li">
+< <source xml:lang="en"><g id="1">PowSyBl</g></source>
+688,690d171
+< </trans-unit>
+< <trans-unit id="tu172" restype="x-li">
+< <source xml:lang="en"><g id="1">SEAPATH</g></source>
+692,694d172
+< </trans-unit>
+< <trans-unit id="tu173" restype="x-li">
+< <source xml:lang="en"><g id="1">SOGNO</g></source>
+696,698d173
+< </trans-unit>
+< <trans-unit id="tu174" restype="x-li">
+< <source xml:lang="en"><g id="1">Incubating Projects</g></source>
+700,702d174
+< </trans-unit>
+< <trans-unit id="tu175" restype="x-li">
+< <source xml:lang="en"><g id="1">CoMPAS</g></source>
+704,706d175
+< </trans-unit>
+< <trans-unit id="tu176" restype="x-li">
+< <source xml:lang="en"><g id="1">Dynawo</g></source>
+708,710d176
+< </trans-unit>
+< <trans-unit id="tu177" restype="x-li">
+< <source xml:lang="en"><g id="1">FledgePOWER</g></source>
+712,714d177
+< </trans-unit>
+< <trans-unit id="tu178" restype="x-li">
+< <source xml:lang="en"><g id="1">FlexMeasures</g></source>
+716,718d178
+< </trans-unit>
+< <trans-unit id="tu179" restype="x-li">
+< <source xml:lang="en"><g id="1">Hyphae</g></source>
+720,722d179
+< </trans-unit>
+< <trans-unit id="tu180" restype="x-li">
+< <source xml:lang="en"><g id="1">OpenEEmeter</g></source>
+724,726d180
+< </trans-unit>
+< <trans-unit id="tu181" restype="x-li">
+< <source xml:lang="en"><g id="1">openLEADR</g></source>
+728,730d181
+< </trans-unit>
+< <trans-unit id="tu182" restype="x-li">
+< <source xml:lang="en"><g id="1">OpenSTEF</g></source>
+732,734d182
+< </trans-unit>
+< <trans-unit id="tu183" restype="x-li">
+< <source xml:lang="en"><g id="1">Power Grid Model</g></source>
+736,738d183
+< </trans-unit>
+< <trans-unit id="tu184" restype="x-li">
+< <source xml:lang="en"><g id="1">Shapeshifter</g></source>
+740,742d184
+< </trans-unit>
+< <trans-unit id="tu185" restype="x-li">
+< <source xml:lang="en"><g id="1">Sandbox</g></source>
+744,746d185
+< </trans-unit>
+< <trans-unit id="tu186" restype="x-li">
+< <source xml:lang="en"><g id="1">Arras</g></source>
+748,750d186
+< </trans-unit>
+< <trans-unit id="tu187" restype="x-li">
+< <source xml:lang="en"><g id="1">Battery Data Alliance</g></source>
+752,754d187
+< </trans-unit>
+< <trans-unit id="tu188" restype="x-li">
+< <source xml:lang="en"><g id="1">CitrineOS</g></source>
+756,758d188
+< </trans-unit>
+< <trans-unit id="tu189" restype="x-li">
+< <source xml:lang="en"><g id="1">covXtreme</g></source>
+760,762d189
+< </trans-unit>
+< <trans-unit id="tu190" restype="x-li">
+< <source xml:lang="en"><g id="1">Grid Capacity Map</g></source>
+764,766d190
+< </trans-unit>
+< <trans-unit id="tu191" restype="x-li">
+< <source xml:lang="en"><g id="1">GRIP</g></source>
+768,770d191
+< </trans-unit>
+< <trans-unit id="tu192" restype="x-li">
+< <source xml:lang="en"><g id="1">OpenGEH</g></source>
+772,774d192
+< </trans-unit>
+< <trans-unit id="tu193" restype="x-li">
+< <source xml:lang="en"><g id="1">OpenSynth</g></source>
+776,778d193
+< </trans-unit>
+< <trans-unit id="tu194" restype="x-li">
+< <source xml:lang="en"><g id="1">Real Time Data Ingestion Platform (RTDIP)</g></source>
+780,782d194
+< </trans-unit>
+< <trans-unit id="tu195" restype="x-li">
+< <source xml:lang="en"><g id="1">TROLIE</g></source>
+784,786d195
+< </trans-unit>
+< <trans-unit id="tu196" restype="x-li">
+< <source xml:lang="en"><g id="1">Working Groups</g></source>
+788,790d196
+< </trans-unit>
+< <trans-unit id="tu197" restype="x-li">
+< <source xml:lang="en"><g id="1">Archimate Working Group</g></source>
+792,794d197
+< </trans-unit>
+< <trans-unit id="tu198" restype="x-li">
+< <source xml:lang="en"><g id="1">LF Energy Artificial Intelligence (AI)</g></source>
+796,798d198
+< </trans-unit>
+< <trans-unit id="tu199" restype="x-li">
+< <source xml:lang="en"><g id="1">LF Energy Standards and Specifications</g></source>
+800,802d199
+< </trans-unit>
+< <trans-unit id="tu200" restype="x-li">
+< <source xml:lang="en"><g id="1">LF Energy Landscape</g></source>
+804,806d200
+< </trans-unit>
+< <trans-unit id="tu201" restype="x-li">
+< <source xml:lang="en"><g id="1">LF Energy Functional Architecture</g></source>
+808,810d201
+< </trans-unit>
+< <trans-unit id="tu202" restype="x-li">
+< <source xml:lang="en"><g id="1">Training &amp; Certification</g></source>
+812,814d202
+< </trans-unit>
+< <trans-unit id="tu203" restype="x-li">
+< <source xml:lang="en"><g id="1">Research</g></source>
+816,818d203
+< </trans-unit>
+< <trans-unit id="tu204" restype="x-li">
+< <source xml:lang="en"><g id="1">Case Studies</g></source>
+820,822d204
+< </trans-unit>
+< <trans-unit id="tu205" restype="x-li">
+< <source xml:lang="en"><g id="1">Industry Reports</g></source>
+824,826d205
+< </trans-unit>
+< <trans-unit id="tu206" restype="x-li">
+< <source xml:lang="en"><g id="1">Media</g></source>
+828,830d206
+< </trans-unit>
+< <trans-unit id="tu207" restype="x-li">
+< <source xml:lang="en"><g id="1">Blog</g></source>
+832,834d207
+< </trans-unit>
+< <trans-unit id="tu208" restype="x-li">
+< <source xml:lang="en"><g id="1">Press Releases</g></source>
+836,838d208
+< </trans-unit>
+< <trans-unit id="tu209" restype="x-li">
+< <source xml:lang="en"><g id="1">Media Coverage</g></source>
+840,842d209
+< </trans-unit>
+< <trans-unit id="tu210" restype="x-li">
+< <source xml:lang="en"><g id="1">Ambassador Program</g></source>
+844,846d210
+< </trans-unit>
+< <trans-unit id="tu211" restype="x-li">
+< <source xml:lang="en"><g id="1">Subscribe to our Newsletter</g></source>
+848,850d211
+< </trans-unit>
+< <trans-unit id="tu212" restype="x-li">
+< <source xml:lang="en"><g id="1">Join</g></source>
+852,855d212
+< </trans-unit>
+< </body>
+< </file>
+< </xliff>
