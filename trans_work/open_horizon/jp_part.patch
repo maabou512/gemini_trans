@@ -1,0 +1,584 @@
+1,6d0
+< <?xml version="1.0" encoding="UTF-8"?>
+< <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+< <file original="input.html" source-language="en" target-language="ja" datatype="html" okp:inputEncoding="UTF-8">
+< <body>
+< <trans-unit id="tu1" restype="x-title">
+< <source xml:lang="en">Open Horizon – LF EDGE: Building an Open Source Framework for the Edge.</source>
+8,10d1
+< </trans-unit>
+< <trans-unit id="tu2" restype="x-title">
+< <source xml:lang="en">LF EDGE: Building an Open Source Framework for the Edge. » Feed</source>
+12,14d2
+< </trans-unit>
+< <trans-unit id="tu3" restype="x-title">
+< <source xml:lang="en">LF EDGE: Building an Open Source Framework for the Edge. » Comments Feed</source>
+16,18d3
+< </trans-unit>
+< <trans-unit id="tu4" restype="x-title">
+< <source xml:lang="en">LF EDGE: Building an Open Source Framework for the Edge. » iCal Feed</source>
+20,22d4
+< </trans-unit>
+< <trans-unit id="tu5" restype="x-title">
+< <source xml:lang="en">RSD</source>
+24,26d5
+< </trans-unit>
+< <trans-unit id="tu7" restype="x-alt">
+< <source xml:lang="en">The Linux Foundation Projects</source>
+28,30d6
+< </trans-unit>
+< <trans-unit id="tu6">
+< <source xml:lang="en"><g id="1"><x id="2"/></g></source>
+32,34d7
+< </trans-unit>
+< <trans-unit id="tu8">
+< <source xml:lang="en"><g id="1"></g></source>
+36,38d8
+< </trans-unit>
+< <trans-unit id="tu9">
+< <source xml:lang="en"><g id="1">Skip to main content</g></source>
+40,42d9
+< </trans-unit>
+< <trans-unit id="tu11" restype="x-value">
+< <source xml:lang="en">Start Typing...</source>
+44,46d10
+< </trans-unit>
+< <trans-unit id="tu12" restype="x-aria-label">
+< <source xml:lang="en">Search</source>
+48,50d11
+< </trans-unit>
+< <trans-unit id="tu10">
+< <source xml:lang="en"><x id="1"/></source>
+52,54d12
+< </trans-unit>
+< <trans-unit id="tu13">
+< <source xml:lang="en"><g id="1"><g id="2">Close Search</g> <g id="3"></g> </g></source>
+56,58d13
+< </trans-unit>
+< <trans-unit id="tu15" restype="x-alt">
+< <source xml:lang="en">LF EDGE: Building an Open Source Framework for the Edge.</source>
+60,62d14
+< </trans-unit>
+< <trans-unit id="tu14">
+< <source xml:lang="en"><g id="1"> <x id="2"/> </g></source>
+64,66d15
+< </trans-unit>
+< <trans-unit id="tu16">
+< <source xml:lang="en"><g id="1"><g id="2"></g><g id="3">search</g></g></source>
+68,70d16
+< </trans-unit>
+< <trans-unit id="tu18" restype="x-aria-label">
+< <source xml:lang="en">Navigation Menu</source>
+72,74d17
+< </trans-unit>
+< <trans-unit id="tu17">
+< <source xml:lang="en"><g id="1"> <g id="2">Menu</g><g id="3"> <g id="4"> <g id="5"></g> </g> </g> </g></source>
+76,78d18
+< </trans-unit>
+< <trans-unit id="tu19" resname="menu-item-10928-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">About</g><g id="3"><g id="4"></g></g></g></source>
+80,82d19
+< </trans-unit>
+< <trans-unit id="tu20" resname="menu-item-10929-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">About LF Edge</g></g></source>
+84,86d20
+< </trans-unit>
+< <trans-unit id="tu21" resname="menu-item-10933-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Code of Conduct</g></g></source>
+88,90d21
+< </trans-unit>
+< <trans-unit id="tu22" resname="menu-item-10931-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Governing Board</g></g></source>
+92,94d22
+< </trans-unit>
+< <trans-unit id="tu23" resname="menu-item-10932-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Technical Advisory Council (TAC)</g></g></source>
+96,98d23
+< </trans-unit>
+< <trans-unit id="tu24" resname="menu-item-10930-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Contact Us</g></g></source>
+100,102d24
+< </trans-unit>
+< <trans-unit id="tu25" resname="menu-item-10934-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Projects</g><g id="3"><g id="4"></g></g></g></source>
+104,106d25
+< </trans-unit>
+< <trans-unit id="tu26" resname="menu-item-10935-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Impact Projects</g><g id="3"><g id="4"></g></g></g></source>
+108,110d26
+< </trans-unit>
+< <trans-unit id="tu27" resname="menu-item-10938-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Akraino</g></g></source>
+112,114d27
+< </trans-unit>
+< <trans-unit id="tu28" resname="menu-item-10937-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">EdgeX Foundry</g></g></source>
+116,118d28
+< </trans-unit>
+< <trans-unit id="tu29" resname="menu-item-10936-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Fledge</g></g></source>
+120,122d29
+< </trans-unit>
+< <trans-unit id="tu30" resname="menu-item-10939-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Growth Projects</g><g id="3"><g id="4"></g></g></g></source>
+124,126d30
+< </trans-unit>
+< <trans-unit id="tu31" resname="menu-item-10942-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">EVE</g></g></source>
+128,130d31
+< </trans-unit>
+< <trans-unit id="tu32" resname="menu-item-10945-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">FIDO Device Onboard</g></g></source>
+132,134d32
+< </trans-unit>
+< <trans-unit id="tu33" resname="menu-item-10940-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Open Horizon</g></g></source>
+136,138d33
+< </trans-unit>
+< <trans-unit id="tu34" resname="menu-item-10941-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">State of the Edge</g></g></source>
+140,142d34
+< </trans-unit>
+< <trans-unit id="tu35" resname="menu-item-10943-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">At-Large Projects</g><g id="3"><g id="4"></g></g></g></source>
+144,146d35
+< </trans-unit>
+< <trans-unit id="tu36" resname="menu-item-10948-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Alvarium</g></g></source>
+148,150d36
+< </trans-unit>
+< <trans-unit id="tu37" resname="menu-item-10947-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Baetyl</g></g></source>
+152,154d37
+< </trans-unit>
+< <trans-unit id="tu38" resname="menu-item-12206-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">EdgeLake</g></g></source>
+156,158d38
+< </trans-unit>
+< <trans-unit id="tu39" resname="menu-item-10946-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">eKuiper</g></g></source>
+160,162d39
+< </trans-unit>
+< <trans-unit id="tu40" resname="menu-item-12205-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">InfiniEdge AI</g></g></source>
+164,166d40
+< </trans-unit>
+< <trans-unit id="tu41" resname="menu-item-12238-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">InstantX</g></g></source>
+168,170d41
+< </trans-unit>
+< <trans-unit id="tu42" resname="menu-item-12027-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">NanoMQ</g></g></source>
+172,174d42
+< </trans-unit>
+< <trans-unit id="tu43" resname="menu-item-10944-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Nexoedge</g></g></source>
+176,178d43
+< </trans-unit>
+< <trans-unit id="tu44" resname="menu-item-12207-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">OpenBao</g></g></source>
+180,182d44
+< </trans-unit>
+< <trans-unit id="tu45" resname="menu-item-10949-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Emeritus Projects</g><g id="3"><g id="4"></g></g></g></source>
+184,186d45
+< </trans-unit>
+< <trans-unit id="tu46" resname="menu-item-10950-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Home Edge</g></g></source>
+188,190d46
+< </trans-unit>
+< <trans-unit id="tu47" resname="menu-item-10951-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Members</g><g id="3"><g id="4"></g></g></g></source>
+192,194d47
+< </trans-unit>
+< <trans-unit id="tu48" resname="menu-item-10952-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Members</g></g></source>
+196,198d48
+< </trans-unit>
+< <trans-unit id="tu49" resname="menu-item-10953-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Join</g></g></source>
+200,202d49
+< </trans-unit>
+< <trans-unit id="tu50" resname="menu-item-10954-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Resources</g><g id="3"><g id="4"></g></g></g></source>
+204,206d50
+< </trans-unit>
+< <trans-unit id="tu51" resname="menu-item-10958-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Whitepapers &amp; Reports</g></g></source>
+208,210d51
+< </trans-unit>
+< <trans-unit id="tu52" resname="menu-item-10957-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">User &amp; Deployment Studies</g></g></source>
+212,214d52
+< </trans-unit>
+< <trans-unit id="tu53" resname="menu-item-10956-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">LF Edge Sandbox</g></g></source>
+216,218d53
+< </trans-unit>
+< <trans-unit id="tu54" resname="menu-item-10955-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Get Involved</g></g></source>
+220,222d54
+< </trans-unit>
+< <trans-unit id="tu55" resname="menu-item-12115-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Wiki</g></g></source>
+224,226d55
+< </trans-unit>
+< <trans-unit id="tu56" resname="menu-item-10959-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">News &amp; Events</g><g id="3"><g id="4"></g></g></g></source>
+228,230d56
+< </trans-unit>
+< <trans-unit id="tu57" resname="menu-item-10961-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Blog</g></g></source>
+232,234d57
+< </trans-unit>
+< <trans-unit id="tu58" resname="menu-item-10962-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Press Releases</g></g></source>
+236,238d58
+< </trans-unit>
+< <trans-unit id="tu59" resname="menu-item-10960-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Events</g></g></source>
+240,242d59
+< </trans-unit>
+< <trans-unit id="tu60" resname="menu-item-10963-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Webinars</g></g></source>
+244,246d60
+< </trans-unit>
+< <trans-unit id="tu61" resname="menu-item-10964-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Join</g></g></source>
+248,250d61
+< </trans-unit>
+< <trans-unit id="tu62" resname="search-btn-id" restype="x-li">
+< <source xml:lang="en"></source>
+252,254d62
+< </trans-unit>
+< <trans-unit id="tu63">
+< <source xml:lang="en"><g id="1"><g id="2"></g><g id="3">search</g></g></source>
+256,258d63
+< </trans-unit>
+< <trans-unit id="tu64">
+< <source xml:lang="en"><x id="1"/></source>
+260,262d64
+< </trans-unit>
+< <trans-unit id="tu65" restype="x-h2">
+< <source xml:lang="en">Edge computing brings computation and data storage closer to where data is created by people, places, and things. Open Horizon simplifies the job of getting the right applications and machine learning onto the right compute devices and keeps those applications running and updated. It enables hands-free management of thousands of edge devices simultaneously using the <g id="1">all-in-one installation</g> – that’s more endpoints than traditional solutions.</source>
+264,266d65
+< </trans-unit>
+< <trans-unit id="tu66" restype="x-paragraph">
+< <source xml:lang="en">Open Horizon is a platform for managing the service software lifecycle of containerized workloads and related machine learning assets. It enables autonomous management of applications deployed to distributed webscale fleets of edge computing nodes and devices without requiring on-premise administrators.  If a managed Kubernetes cluster is analogous to a self-driving car (with a human safety driver behind the wheel supervising), then Open Horizon is analogous to a human managing a fleet of self-driving cars without safety drivers.</source>
+268,270d66
+< </trans-unit>
+< <trans-unit id="tu67" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+272,274d67
+< </trans-unit>
+< <trans-unit id="tu68" restype="x-paragraph">
+< <source xml:lang="en">With Open Horizon, you have the ability to:</source>
+276,278d68
+< </trans-unit>
+< <trans-unit id="tu69" restype="x-li">
+< <source xml:lang="en">Add new capabilities to a programmable device by running containers and ML</source>
+280,282d69
+< </trans-unit>
+< <trans-unit id="tu70" restype="x-li">
+< <source xml:lang="en">Enable your device to use other services (both nearby and cloud-based) to enhance its existing capabilities simply by adding them as dependencies</source>
+284,286d70
+< </trans-unit>
+< <trans-unit id="tu71" restype="x-li">
+< <source xml:lang="en">Automate the hands-free management of workload lifecycle on the device with embedded FDO support and remote service and deployment publishing</source>
+288,290d71
+< </trans-unit>
+< <trans-unit id="tu72" restype="x-li">
+< <source xml:lang="en">Automatically deploy applications to all devices where policies match and an agreement is negotiated through policy-based intents</source>
+292,294d72
+< </trans-unit>
+< <trans-unit id="tu73" restype="x-paragraph">
+< <source xml:lang="en"><x id="1"/></source>
+296,298d73
+< </trans-unit>
+< <trans-unit id="tu74" restype="x-paragraph">
+< <source xml:lang="en">Once Open Horizon is installed and configured, you can manage the work it performs without needing physical access to the devices. For example, you could take a Raspberry Pi Zero W device – the size of a pack of gum – and have it function as an offline home assistant one day, and then re-task it to monitor household power usage the next. Or, you could have a smart camera that is pointed at a street count the number of people walking by one day, and deploy new code and models to have it identify the make and model of vehicles passing by the next.</source>
+300,302d74
+< </trans-unit>
+< <trans-unit id="tu75" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+304,306d75
+< </trans-unit>
+< <trans-unit id="tu76" restype="x-paragraph">
+< <source xml:lang="en">Whether thinking about component solutions that could be assembled for a complete Cloud-to-Edge workload management implementation, or projects that would work together to solve a specific use case, Open Horizon is designed to work together with other solutions in an open, standardized approach.</source>
+308,310d76
+< </trans-unit>
+< <trans-unit id="tu77" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+312,314d77
+< </trans-unit>
+< <trans-unit id="tu78" restype="x-paragraph">
+< <source xml:lang="en">Formerly known as “Blue Horizon,” Open Horizon is contributed to LF Edge by IBM. Open Horizon joined LF Edge in April 2020 and is currently a <g id="1">Stage 2 “Growth” project.</g></source>
+316,318d78
+< </trans-unit>
+< <trans-unit id="tu79" restype="x-h3">
+< <source xml:lang="en">Cross-LF Edge Collaboration</source>
+320,322d79
+< </trans-unit>
+< <trans-unit id="tu80" restype="x-paragraph">
+< <source xml:lang="en">Open Horizon is working with several other LF Edge projects including <g id="1">EdgeX Foundry</g>, <g id="2">Akraino</g>, <g id="3">Home Edge</g>, <g id="4">Fledge</g> and <g id="5">Project EVE.</g></source>
+324,326d80
+< </trans-unit>
+< <trans-unit id="tu81" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+328,330d81
+< </trans-unit>
+< <trans-unit id="tu82" restype="x-h5">
+< <source xml:lang="en">Get Started With Open Horizon</source>
+332,334d82
+< </trans-unit>
+< <trans-unit id="tu83">
+< <source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+336,338d83
+< </trans-unit>
+< <trans-unit id="tu84" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">Get The Code</g></source>
+340,342d84
+< </trans-unit>
+< <trans-unit id="tu85">
+< <source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+344,346d85
+< </trans-unit>
+< <trans-unit id="tu86" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">View Documentation</g></source>
+348,350d86
+< </trans-unit>
+< <trans-unit id="tu87">
+< <source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+352,354d87
+< </trans-unit>
+< <trans-unit id="tu88" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">Visit Wiki</g></source>
+356,358d88
+< </trans-unit>
+< <trans-unit id="tu89">
+< <source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+360,362d89
+< </trans-unit>
+< <trans-unit id="tu90" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">Join Mail Lists</g></source>
+364,366d90
+< </trans-unit>
+< <trans-unit id="tu91">
+< <source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+368,370d91
+< </trans-unit>
+< <trans-unit id="tu92" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">Discuss in LFX Chat (#open-horizon)</g></source>
+372,374d92
+< </trans-unit>
+< <trans-unit id="tu93">
+< <source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+376,378d93
+< </trans-unit>
+< <trans-unit id="tu94" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">Visit Video Resources</g></source>
+380,382d94
+< </trans-unit>
+< <trans-unit id="tu95" restype="x-h2">
+< <source xml:lang="en"></source>
+384,386d95
+< </trans-unit>
+< <trans-unit id="tu96">
+< <source xml:lang="en"><x id="1"/></source>
+388,390d96
+< </trans-unit>
+< <trans-unit id="tu97" restype="x-h6">
+< <source xml:lang="en">Using Open Source to Scale Retail Applications at Edge Locations</source>
+392,394d97
+< </trans-unit>
+< <trans-unit id="tu98">
+< <source xml:lang="en"><g id="1">Download Now</g></source>
+396,398d98
+< </trans-unit>
+< <trans-unit id="tu99">
+< <source xml:lang="en"><x id="1"/></source>
+400,402d99
+< </trans-unit>
+< <trans-unit id="tu100" restype="x-paragraph">
+< <source xml:lang="en">Copyright © 2023 The Linux Foundation® . All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <g id="1">Trademark Usage</g> page. Linux is a registered trademark of Linus Torvalds. <g id="2">Privacy Policy</g> and <g id="3">Terms of Use</g>.</source>
+404,406d100
+< </trans-unit>
+< <trans-unit id="tu101">
+< <source xml:lang="en"><g id="1"><g id="2">Close Menu</g> <g id="3"></g> </g></source>
+408,410d101
+< </trans-unit>
+< <trans-unit id="tu102" restype="x-li">
+< <source xml:lang="en"><g id="1">About</g></source>
+412,414d102
+< </trans-unit>
+< <trans-unit id="tu103" restype="x-li">
+< <source xml:lang="en"><g id="1">About LF Edge</g></source>
+416,418d103
+< </trans-unit>
+< <trans-unit id="tu104" restype="x-li">
+< <source xml:lang="en"><g id="1">Code of Conduct</g></source>
+420,422d104
+< </trans-unit>
+< <trans-unit id="tu105" restype="x-li">
+< <source xml:lang="en"><g id="1">Governing Board</g></source>
+424,426d105
+< </trans-unit>
+< <trans-unit id="tu106" restype="x-li">
+< <source xml:lang="en"><g id="1">Technical Advisory Council (TAC)</g></source>
+428,430d106
+< </trans-unit>
+< <trans-unit id="tu107" restype="x-li">
+< <source xml:lang="en"><g id="1">Contact Us</g></source>
+432,434d107
+< </trans-unit>
+< <trans-unit id="tu108" restype="x-li">
+< <source xml:lang="en"><g id="1">Projects</g></source>
+436,438d108
+< </trans-unit>
+< <trans-unit id="tu109" restype="x-li">
+< <source xml:lang="en"><g id="1">Impact Projects</g></source>
+440,442d109
+< </trans-unit>
+< <trans-unit id="tu110" restype="x-li">
+< <source xml:lang="en"><g id="1">Akraino</g></source>
+444,446d110
+< </trans-unit>
+< <trans-unit id="tu111" restype="x-li">
+< <source xml:lang="en"><g id="1">EdgeX Foundry</g></source>
+448,450d111
+< </trans-unit>
+< <trans-unit id="tu112" restype="x-li">
+< <source xml:lang="en"><g id="1">Fledge</g></source>
+452,454d112
+< </trans-unit>
+< <trans-unit id="tu113" restype="x-li">
+< <source xml:lang="en"><g id="1">Growth Projects</g></source>
+456,458d113
+< </trans-unit>
+< <trans-unit id="tu114" restype="x-li">
+< <source xml:lang="en"><g id="1">EVE</g></source>
+460,462d114
+< </trans-unit>
+< <trans-unit id="tu115" restype="x-li">
+< <source xml:lang="en"><g id="1">FIDO Device Onboard</g></source>
+464,466d115
+< </trans-unit>
+< <trans-unit id="tu116" restype="x-li">
+< <source xml:lang="en"><g id="1">Open Horizon</g></source>
+468,470d116
+< </trans-unit>
+< <trans-unit id="tu117" restype="x-li">
+< <source xml:lang="en"><g id="1">State of the Edge</g></source>
+472,474d117
+< </trans-unit>
+< <trans-unit id="tu118" restype="x-li">
+< <source xml:lang="en"><g id="1">At-Large Projects</g></source>
+476,478d118
+< </trans-unit>
+< <trans-unit id="tu119" restype="x-li">
+< <source xml:lang="en"><g id="1">Alvarium</g></source>
+480,482d119
+< </trans-unit>
+< <trans-unit id="tu120" restype="x-li">
+< <source xml:lang="en"><g id="1">Baetyl</g></source>
+484,486d120
+< </trans-unit>
+< <trans-unit id="tu121" restype="x-li">
+< <source xml:lang="en"><g id="1">EdgeLake</g></source>
+488,490d121
+< </trans-unit>
+< <trans-unit id="tu122" restype="x-li">
+< <source xml:lang="en"><g id="1">eKuiper</g></source>
+492,494d122
+< </trans-unit>
+< <trans-unit id="tu123" restype="x-li">
+< <source xml:lang="en"><g id="1">InfiniEdge AI</g></source>
+496,498d123
+< </trans-unit>
+< <trans-unit id="tu124" restype="x-li">
+< <source xml:lang="en"><g id="1">InstantX</g></source>
+500,502d124
+< </trans-unit>
+< <trans-unit id="tu125" restype="x-li">
+< <source xml:lang="en"><g id="1">NanoMQ</g></source>
+504,506d125
+< </trans-unit>
+< <trans-unit id="tu126" restype="x-li">
+< <source xml:lang="en"><g id="1">Nexoedge</g></source>
+508,510d126
+< </trans-unit>
+< <trans-unit id="tu127" restype="x-li">
+< <source xml:lang="en"><g id="1">OpenBao</g></source>
+512,514d127
+< </trans-unit>
+< <trans-unit id="tu128" restype="x-li">
+< <source xml:lang="en"><g id="1">Emeritus Projects</g></source>
+516,518d128
+< </trans-unit>
+< <trans-unit id="tu129" restype="x-li">
+< <source xml:lang="en"><g id="1">Home Edge</g></source>
+520,522d129
+< </trans-unit>
+< <trans-unit id="tu130" restype="x-li">
+< <source xml:lang="en"><g id="1">Members</g></source>
+524,526d130
+< </trans-unit>
+< <trans-unit id="tu131" restype="x-li">
+< <source xml:lang="en"><g id="1">Members</g></source>
+528,530d131
+< </trans-unit>
+< <trans-unit id="tu132" restype="x-li">
+< <source xml:lang="en"><g id="1">Join</g></source>
+532,534d132
+< </trans-unit>
+< <trans-unit id="tu133" restype="x-li">
+< <source xml:lang="en"><g id="1">Resources</g></source>
+536,538d133
+< </trans-unit>
+< <trans-unit id="tu134" restype="x-li">
+< <source xml:lang="en"><g id="1">Whitepapers &amp; Reports</g></source>
+540,542d134
+< </trans-unit>
+< <trans-unit id="tu135" restype="x-li">
+< <source xml:lang="en"><g id="1">User &amp; Deployment Studies</g></source>
+544,546d135
+< </trans-unit>
+< <trans-unit id="tu136" restype="x-li">
+< <source xml:lang="en"><g id="1">LF Edge Sandbox</g></source>
+548,550d136
+< </trans-unit>
+< <trans-unit id="tu137" restype="x-li">
+< <source xml:lang="en"><g id="1">Get Involved</g></source>
+552,554d137
+< </trans-unit>
+< <trans-unit id="tu138" restype="x-li">
+< <source xml:lang="en"><g id="1">Wiki</g></source>
+556,558d138
+< </trans-unit>
+< <trans-unit id="tu139" restype="x-li">
+< <source xml:lang="en"><g id="1">News &amp; Events</g></source>
+560,562d139
+< </trans-unit>
+< <trans-unit id="tu140" restype="x-li">
+< <source xml:lang="en"><g id="1">Blog</g></source>
+564,566d140
+< </trans-unit>
+< <trans-unit id="tu141" restype="x-li">
+< <source xml:lang="en"><g id="1">Press Releases</g></source>
+568,570d141
+< </trans-unit>
+< <trans-unit id="tu142" restype="x-li">
+< <source xml:lang="en"><g id="1">Events</g></source>
+572,574d142
+< </trans-unit>
+< <trans-unit id="tu143" restype="x-li">
+< <source xml:lang="en"><g id="1">Webinars</g></source>
+576,578d143
+< </trans-unit>
+< <trans-unit id="tu144" restype="x-li">
+< <source xml:lang="en"><g id="1">Join</g></source>
+580,583d144
+< </trans-unit>
+< </body>
+< </file>
+< </xliff>

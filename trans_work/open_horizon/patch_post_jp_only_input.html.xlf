@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="input.html" source-language="en" target-language="ja" datatype="html" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" restype="x-title">
+<source xml:lang="en">Open Horizon – LF EDGE: Building an Open Source Framework for the Edge.</source>
+<target xml:lang="ja">Open Horizon – LF EDGE: エッジ向けオープンソースフレームワークの構築。</target>
+</trans-unit>
+<trans-unit id="tu2" restype="x-title">
+<source xml:lang="en">LF EDGE: Building an Open Source Framework for the Edge. » Feed</source>
+<target xml:lang="ja">LF EDGE: エッジ向けオープンソースフレームワークの構築。 » フィード</target>
+</trans-unit>
+<trans-unit id="tu3" restype="x-title">
+<source xml:lang="en">LF EDGE: Building an Open Source Framework for the Edge. » Comments Feed</source>
+<target xml:lang="ja">LF EDGE: オープンソースのフレームワークをエッジに構築する。 » コメントフィード</target>
+</trans-unit>
+<trans-unit id="tu4" restype="x-title">
+<source xml:lang="en">LF EDGE: Building an Open Source Framework for the Edge. » iCal Feed</source>
+<target xml:lang="ja">LF EDGE: エッジ向けオープンソースフレームワークの構築 » iCalフィード</target>
+</trans-unit>
+<trans-unit id="tu5" restype="x-title">
+<source xml:lang="en">RSD</source>
+<target xml:lang="ja">RSD</target>
+</trans-unit>
+<trans-unit id="tu7" restype="x-alt">
+<source xml:lang="en">The Linux Foundation Projects</source>
+<target xml:lang="ja">The Linux Foundation プロジェクト</target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><g id="1"><x id="2"/></g></source>
+<target xml:lang="ja"><g id="1"><x id="2"/></g></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><g id="1"></g></source>
+<target xml:lang="ja"><g id="1">メンバー</g></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><g id="1">Skip to main content</g></source>
+<target xml:lang="ja"><g id="1">メインコンテンツにスキップ</g></target>
+</trans-unit>
+<trans-unit id="tu11" restype="x-value">
+<source xml:lang="en">Start Typing...</source>
+<target xml:lang="ja">入力を開始してください...</target>
+</trans-unit>
+<trans-unit id="tu12" restype="x-aria-label">
+<source xml:lang="en">Search</source>
+<target xml:lang="ja">検索</target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><g id="1"><g id="2">Close Search</g> <g id="3"></g> </g></source>
+<target xml:lang="ja"><g id="1"><g id="2">検索を閉じる</g>g id="3"></g>/g></target>
+</trans-unit>
+<trans-unit id="tu15" restype="x-alt">
+<source xml:lang="en">LF EDGE: Building an Open Source Framework for the Edge.</source>
+<target xml:lang="ja">LF EDGE: エッジ向けオープンソースフレームワークの構築。</target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><g id="1"> <x id="2"/> </g></source>
+<target xml:lang="ja"><g id="1"><x id="2"/></g></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><g id="1"><g id="2"></g><g id="3">search</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2"></g><g id="3">検索</g></g></target>
+</trans-unit>
+<trans-unit id="tu18" restype="x-aria-label">
+<source xml:lang="en">Navigation Menu</source>
+<target xml:lang="ja">ナビゲーションメニュー</target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><g id="1"> <g id="2">Menu</g><g id="3"> <g id="4"> <g id="5"></g> </g> </g> </g></source>
+<target xml:lang="ja"><g id="1"<g id="2">メニュー</g><g id="3"<g id="4"<g id="5"></g>/g</g>/g></target>
+</trans-unit>
+<trans-unit id="tu19" resname="menu-item-10928-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">About</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">について</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu20" resname="menu-item-10929-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">About LF Edge</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">LF Edgeについて</g></g></target>
+</trans-unit>
+<trans-unit id="tu21" resname="menu-item-10933-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Code of Conduct</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">行動規範</g></g></target>
+</trans-unit>
+<trans-unit id="tu22" resname="menu-item-10931-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Governing Board</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">運営委員会</g></g></target>
+</trans-unit>
+<trans-unit id="tu23" resname="menu-item-10932-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Technical Advisory Council (TAC)</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">技術諮問委員会 (TAC)</g></g></target>
+</trans-unit>
+<trans-unit id="tu24" resname="menu-item-10930-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Contact Us</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">お問い合わせ</g></g></target>
+</trans-unit>
+<trans-unit id="tu25" resname="menu-item-10934-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Projects</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">プロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu26" resname="menu-item-10935-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Impact Projects</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">インパクトプロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu27" resname="menu-item-10938-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Akraino</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">Akraino</g></g></target>
+</trans-unit>
+<trans-unit id="tu28" resname="menu-item-10937-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">EdgeX Foundry</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">EdgeX Foundry</g></g></target>
+</trans-unit>
+<trans-unit id="tu29" resname="menu-item-10936-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Fledge</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">Fledge</g></g>/target>
+</trans-unit>
+<trans-unit id="tu30" resname="menu-item-10939-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Growth Projects</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">成長プロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu31" resname="menu-item-10942-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">EVE</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">EVE</g></g></target>
+</trans-unit>
+<trans-unit id="tu32" resname="menu-item-10945-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">FIDO Device Onboard</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">FIDOデバイスオンボード</g></g></target>
+</trans-unit>
+<trans-unit id="tu33" resname="menu-item-10940-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Open Horizon</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">Open Horizon</g></g></target>
+</trans-unit>
+<trans-unit id="tu34" resname="menu-item-10941-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">State of the Edge</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">エッジの状態</g></g></target>
+</trans-unit>
+<trans-unit id="tu35" resname="menu-item-10943-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">At-Large Projects</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">アットラージプロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu36" resname="menu-item-10948-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Alvarium</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">Alvarium</g></g></target>
+</trans-unit>
+<trans-unit id="tu37" resname="menu-item-10947-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Baetyl</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">バエテル</g></g></target>
+</trans-unit>
+<trans-unit id="tu38" resname="menu-item-12206-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">EdgeLake</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">EdgeLake</g></g></target>
+</trans-unit>
+<trans-unit id="tu39" resname="menu-item-10946-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">eKuiper</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">eKuiper</g></g></target>
+</trans-unit>
+<trans-unit id="tu40" resname="menu-item-12205-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">InfiniEdge AI</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">InfiniEdge AI</g></g></target>
+</trans-unit>
+<trans-unit id="tu41" resname="menu-item-12238-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">InstantX</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">InstantX</g></g></target>
+</trans-unit>
+<trans-unit id="tu42" resname="menu-item-12027-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">NanoMQ</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">NanoMQ</g></g>メンバー</target>
+</trans-unit>
+<trans-unit id="tu43" resname="menu-item-10944-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Nexoedge</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">ネクスエッジ</g></g></target>
+</trans-unit>
+<trans-unit id="tu44" resname="menu-item-12207-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">OpenBao</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">OpenBao</g></g></target>
+</trans-unit>
+<trans-unit id="tu45" resname="menu-item-10949-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Emeritus Projects</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">名誉プロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu46" resname="menu-item-10950-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Home Edge</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">ホーム エッジ</g></g></target>
+</trans-unit>
+<trans-unit id="tu47" resname="menu-item-10951-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Members</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">メンバー</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu48" resname="menu-item-10952-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Members</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">メンバー</g></g></target>
+</trans-unit>
+<trans-unit id="tu49" resname="menu-item-10953-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Join</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">参加する</g></g></target>
+</trans-unit>
+<trans-unit id="tu50" resname="menu-item-10954-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Resources</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">リソース</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu51" resname="menu-item-10958-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Whitepapers &amp; Reports</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">ホワイトペーパー＆レポート</g></g></target>
+</trans-unit>
+<trans-unit id="tu52" resname="menu-item-10957-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">User &amp; Deployment Studies</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">ユーザーと展開調査</g></g></target>
+</trans-unit>
+<trans-unit id="tu53" resname="menu-item-10956-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">LF Edge Sandbox</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">LF Edge Sandbox</g></g>/target>
+</trans-unit>
+<trans-unit id="tu54" resname="menu-item-10955-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Get Involved</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">参加する</g></g></target>
+</trans-unit>
+<trans-unit id="tu55" resname="menu-item-12115-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Wiki</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">Wiki</g></g></target>
+</trans-unit>
+<trans-unit id="tu56" resname="menu-item-10959-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">News &amp; Events</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">ニュース＆イベント</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu57" resname="menu-item-10961-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Blog</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">ブログ</g></g></target>
+</trans-unit>
+<trans-unit id="tu58" resname="menu-item-10962-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Press Releases</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">プレスリリース</g></g></target>
+</trans-unit>
+<trans-unit id="tu59" resname="menu-item-10960-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Events</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">イベント</g></g></target>
+</trans-unit>
+<trans-unit id="tu60" resname="menu-item-10963-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Webinars</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">ウェビナー</g></g></target>
+</trans-unit>
+<trans-unit id="tu61" resname="menu-item-10964-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Join</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">参加する</g></g></target>
+</trans-unit>
+<trans-unit id="tu62" resname="search-btn-id" restype="x-li">
+<source xml:lang="en"></source>
+<target xml:lang="ja"><g id="1">メンバー</g></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en"><g id="1"><g id="2"></g><g id="3">search</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2"></g><g id="3">検索</g></g></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+<trans-unit id="tu65" restype="x-h2">
+<source xml:lang="en">Edge computing brings computation and data storage closer to where data is created by people, places, and things. Open Horizon simplifies the job of getting the right applications and machine learning onto the right compute devices and keeps those applications running and updated. It enables hands-free management of thousands of edge devices simultaneously using the <g id="1">all-in-one installation</g> – that’s more endpoints than traditional solutions.</source>
+<target xml:lang="ja">エッジコンピューティングは、人、場所、物がデータを生成する場所に、計算およびデータストレージを近づけます。Open Horizonは、適切なアプリケーションと機械学習を適切なコンピューティングデバイスに配置し、それらのアプリケーションを実行して最新の状態に保つ作業を簡素化します。これは、<g id="1">オールインワンインストール</g>を使用して、数千台のエッジデバイスのハンズフリー管理を可能にします。これは、従来のソリューションよりも多くのエンドポイントです。</target>
+</trans-unit>
+<trans-unit id="tu66" restype="x-paragraph">
+<source xml:lang="en">Open Horizon is a platform for managing the service software lifecycle of containerized workloads and related machine learning assets. It enables autonomous management of applications deployed to distributed webscale fleets of edge computing nodes and devices without requiring on-premise administrators.  If a managed Kubernetes cluster is analogous to a self-driving car (with a human safety driver behind the wheel supervising), then Open Horizon is analogous to a human managing a fleet of self-driving cars without safety drivers.</source>
+<target xml:lang="ja">Open Horizonは、コンテナ化されたワークロードと関連する機械学習アセットのサービスソフトウェアライフサイクルを管理するためのプラットフォームです。これは、オンプレミスの管理者を必要とせずに、分散されたウェブスケールのエッジコンピューティングノードとデバイスのフリートにデプロイされたアプリケーションの自律的な管理を可能にします。 管理対象のKubernetesクラスターが（人間の安全ドライバーが監視している）自動運転車に類似しているとすると、Open Horizonは、安全ドライバーなしで自動運転車のフリートを管理する人間に類似しています。</target>
+</trans-unit>
+<trans-unit id="tu67" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<target xml:lang="ja">/target>
+</trans-unit>
+<trans-unit id="tu68" restype="x-paragraph">
+<source xml:lang="en">With Open Horizon, you have the ability to:</source>
+<target xml:lang="ja">Open Horizonを使用すると、次のことが可能になります。</target>
+</trans-unit>
+<trans-unit id="tu69" restype="x-li">
+<source xml:lang="en">Add new capabilities to a programmable device by running containers and ML</source>
+<target xml:lang="ja">コンテナやMLを実行することで、プログラマブルデバイスに新しい機能を追加します</target>
+</trans-unit>
+<trans-unit id="tu70" restype="x-li">
+<source xml:lang="en">Enable your device to use other services (both nearby and cloud-based) to enhance its existing capabilities simply by adding them as dependencies</source>
+<target xml:lang="ja"><g id="1">Members</g>が他のサービス（近距離とクラウドベースの両方）を使用して既存の機能を強化できるように、依存関係として追加するだけでデバイスを有効にします</target>
+</trans-unit>
+<trans-unit id="tu71" restype="x-li">
+<source xml:lang="en">Automate the hands-free management of workload lifecycle on the device with embedded FDO support and remote service and deployment publishing</source>
+<target xml:lang="ja">デバイス上で、組み込みのFDOサポートとリモートサービスおよびデプロイメントパブリッシングを使用して、ワークロードライフサイクルのハンズフリー管理を自動化します</target>
+</trans-unit>
+<trans-unit id="tu72" restype="x-li">
+<source xml:lang="en">Automatically deploy applications to all devices where policies match and an agreement is negotiated through policy-based intents</source>
+<target xml:lang="ja"><g id="1">Members</g>が一致し、ポリシーベースのインテントを通じて契約がネゴシエートされたすべてのデバイスに、アプリケーションを自動的に展開する</target>
+</trans-unit>
+<trans-unit id="tu73" restype="x-paragraph">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+<trans-unit id="tu74" restype="x-paragraph">
+<source xml:lang="en">Once Open Horizon is installed and configured, you can manage the work it performs without needing physical access to the devices. For example, you could take a Raspberry Pi Zero W device – the size of a pack of gum – and have it function as an offline home assistant one day, and then re-task it to monitor household power usage the next. Or, you could have a smart camera that is pointed at a street count the number of people walking by one day, and deploy new code and models to have it identify the make and model of vehicles passing by the next.</source>
+<target xml:lang="ja"><g id="1">Open Horizon</g>がインストールおよび構成されると、デバイスへの物理的なアクセスなしに、実行される作業を管理できます。たとえば、ガムのパッケージほどの大きさの<g id="2">Raspberry Pi Zero W</g>デバイスを使用して、ある日はオフラインのホームアシスタントとして機能させ、次の日には家庭の電力使用量を監視するように再タスクできます。または、通りに向けられたスマートカメラで、ある日は通行人の数をカウントし、次の日には新しいコードとモデルをデプロイして、通行する車両のメーカーとモデルを識別させることができます。</target>
+</trans-unit>
+<trans-unit id="tu75" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<target xml:lang="ja">/target>
+</trans-unit>
+<trans-unit id="tu76" restype="x-paragraph">
+<source xml:lang="en">Whether thinking about component solutions that could be assembled for a complete Cloud-to-Edge workload management implementation, or projects that would work together to solve a specific use case, Open Horizon is designed to work together with other solutions in an open, standardized approach.</source>
+<target xml:lang="ja">完全なクラウドツエッジワークロード管理を実装するために組み立てられるコンポーネントソリューションについて考えている場合でも、特定のユースケースを解決するために連携して動作するプロジェクトについて考えている場合でも、Open Horizonは、オープンで標準化されたアプローチで他のソリューションと連携するように設計されています。</target>
+</trans-unit>
+<trans-unit id="tu77" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<target xml:lang="ja"><g id="1">メンバー</g></target>
+</trans-unit>
+<trans-unit id="tu78" restype="x-paragraph">
+<source xml:lang="en">Formerly known as “Blue Horizon,” Open Horizon is contributed to LF Edge by IBM. Open Horizon joined LF Edge in April 2020 and is currently a <g id="1">Stage 2 “Growth” project.</g></source>
+<target xml:lang="ja">以前は「Blue Horizon」として知られていたOpen Horizonは、IBMによってLF Edgeに貢献されました。Open Horizonは2020年4月にLF Edgeに参加し、現在は<g id="1">ステージ2「成長」プロジェクト</g>です。</target>
+</trans-unit>
+<trans-unit id="tu79" restype="x-h3">
+<source xml:lang="en">Cross-LF Edge Collaboration</source>
+<target xml:lang="ja">クロスファンクショナルな最先端コラボレーション</target>
+</trans-unit>
+<trans-unit id="tu80" restype="x-paragraph">
+<source xml:lang="en">Open Horizon is working with several other LF Edge projects including <g id="1">EdgeX Foundry</g>, <g id="2">Akraino</g>, <g id="3">Home Edge</g>, <g id="4">Fledge</g> and <g id="5">Project EVE.</g></source>
+<target xml:lang="ja">Open Horizon は、<g id="1">EdgeX Foundry</g>、<g id="2">Akraino</g>、<g id="3">Home Edge</g>、<g id="4">Fledge</g>、<g id="5">Project EVE</g>など、他のいくつかのLF Edgeプロジェクトと連携しています。</target>
+</trans-unit>
+<trans-unit id="tu81" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<target xml:lang="ja">/target>
+</trans-unit>
+<trans-unit id="tu82" restype="x-h5">
+<source xml:lang="en">Get Started With Open Horizon</source>
+<target xml:lang="ja"><g id="1">Open Horizon</g>を使い始めましょう</target>
+</trans-unit>
+<trans-unit id="tu83">
+<source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2"></g></g></target>
+</trans-unit>
+<trans-unit id="tu84" restype="x-paragraph">
+<source xml:lang="en"><g id="1">Get The Code</g></source>
+<target xml:lang="ja"><g id="1">コードを取得する</g></target>
+</trans-unit>
+<trans-unit id="tu85">
+<source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2"></g></g></target>
+</trans-unit>
+<trans-unit id="tu86" restype="x-paragraph">
+<source xml:lang="en"><g id="1">View Documentation</g></source>
+<target xml:lang="ja"><g id="1">ドキュメントを表示</g></target>
+</trans-unit>
+<trans-unit id="tu87">
+<source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2"></g></g></target>
+</trans-unit>
+<trans-unit id="tu88" restype="x-paragraph">
+<source xml:lang="en"><g id="1">Visit Wiki</g></source>
+<target xml:lang="ja"><g id="1">Wikiにアクセス</g></target>
+</trans-unit>
+<trans-unit id="tu89">
+<source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2"></g></g></target>
+</trans-unit>
+<trans-unit id="tu90" restype="x-paragraph">
+<source xml:lang="en"><g id="1">Join Mail Lists</g></source>
+<target xml:lang="ja"><g id="1">メーリングリストに参加する</g></target>
+</trans-unit>
+<trans-unit id="tu91">
+<source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2"></g></g></target>
+</trans-unit>
+<trans-unit id="tu92" restype="x-paragraph">
+<source xml:lang="en"><g id="1">Discuss in LFX Chat (#open-horizon)</g></source>
+<target xml:lang="ja"><g id="1">LFX チャット (#open-horizon) で議論する</g></target>
+</trans-unit>
+<trans-unit id="tu93">
+<source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2"></g></g></target>
+</trans-unit>
+<trans-unit id="tu94" restype="x-paragraph">
+<source xml:lang="en"><g id="1">Visit Video Resources</g></source>
+<target xml:lang="ja"><g id="1">ビデオリソースにアクセスする</g></target>
+</trans-unit>
+<trans-unit id="tu95" restype="x-h2">
+<source xml:lang="en"></source>
+<target xml:lang="ja"><g id="1">メンバー</g></target>
+</trans-unit>
+<trans-unit id="tu96">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+<trans-unit id="tu97" restype="x-h6">
+<source xml:lang="en">Using Open Source to Scale Retail Applications at Edge Locations</source>
+<target xml:lang="ja">エッジロケーションで小売アプリケーションをスケールするためのオープンソースの活用</target>
+</trans-unit>
+<trans-unit id="tu98">
+<source xml:lang="en"><g id="1">Download Now</g></source>
+<target xml:lang="ja"><g id="1">今すぐダウンロード</g></target>
+</trans-unit>
+<trans-unit id="tu99">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+<trans-unit id="tu100" restype="x-paragraph">
+<source xml:lang="en">Copyright © 2023 The Linux Foundation® . All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <g id="1">Trademark Usage</g> page. Linux is a registered trademark of Linus Torvalds. <g id="2">Privacy Policy</g> and <g id="3">Terms of Use</g>.</source>
+<target xml:lang="ja">Copyright © 2023 The Linux Foundation® . All rights reserved. The Linux Foundationは登録商標を有しており、商標を使用しています。The Linux Foundationの商標リストについては、当社の<g id="1">商標使用</g>ページをご覧ください。Linuxは、Linus Torvaldsの登録商標です。<g id="2">プライバシーポリシー</g>および<g id="3">利用規約</g>。</target>
+</trans-unit>
+<trans-unit id="tu101">
+<source xml:lang="en"><g id="1"><g id="2">Close Menu</g> <g id="3"></g> </g></source>
+<target xml:lang="ja"><g id="1"><g id="2">メニューを閉じる</g>g id="3"></g>/g></target>
+</trans-unit>
+<trans-unit id="tu102" restype="x-li">
+<source xml:lang="en"><g id="1">About</g></source>
+<target xml:lang="ja"><g id="1">概要</g></target>
+</trans-unit>
+<trans-unit id="tu103" restype="x-li">
+<source xml:lang="en"><g id="1">About LF Edge</g></source>
+<target xml:lang="ja"><g id="1">LF Edgeについて</g></target>
+</trans-unit>
+<trans-unit id="tu104" restype="x-li">
+<source xml:lang="en"><g id="1">Code of Conduct</g></source>
+<target xml:lang="ja"><g id="1">行動規範</g></target>
+</trans-unit>
+<trans-unit id="tu105" restype="x-li">
+<source xml:lang="en"><g id="1">Governing Board</g></source>
+<target xml:lang="ja"><g id="1">運営委員会</g></target>
+</trans-unit>
+<trans-unit id="tu106" restype="x-li">
+<source xml:lang="en"><g id="1">Technical Advisory Council (TAC)</g></source>
+<target xml:lang="ja"><g id="1">技術諮問委員会 (TAC)</g></target>
+</trans-unit>
+<trans-unit id="tu107" restype="x-li">
+<source xml:lang="en"><g id="1">Contact Us</g></source>
+<target xml:lang="ja"><g id="1">お問い合わせ</g></target>
+</trans-unit>
+<trans-unit id="tu108" restype="x-li">
+<source xml:lang="en"><g id="1">Projects</g></source>
+<target xml:lang="ja"><g id="1">プロジェクト</g></target>
+</trans-unit>
+<trans-unit id="tu109" restype="x-li">
+<source xml:lang="en"><g id="1">Impact Projects</g></source>
+<target xml:lang="ja"><g id="1">インパクトプロジェクト</g></target>
+</trans-unit>
+<trans-unit id="tu110" restype="x-li">
+<source xml:lang="en"><g id="1">Akraino</g></source>
+<target xml:lang="ja"><g id="1">アクライノ</g></target>
+</trans-unit>
+<trans-unit id="tu111" restype="x-li">
+<source xml:lang="en"><g id="1">EdgeX Foundry</g></source>
+<target xml:lang="ja"><g id="1">EdgeX Foundry</g></target>
+</trans-unit>
+<trans-unit id="tu112" restype="x-li">
+<source xml:lang="en"><g id="1">Fledge</g></source>
+<target xml:lang="ja"><g id="1">Fledge</g></target>
+</trans-unit>
+<trans-unit id="tu113" restype="x-li">
+<source xml:lang="en"><g id="1">Growth Projects</g></source>
+<target xml:lang="ja"><g id="1">成長プロジェクト</g></target>
+</trans-unit>
+<trans-unit id="tu114" restype="x-li">
+<source xml:lang="en"><g id="1">EVE</g></source>
+<target xml:lang="ja"><g id="1">EVE</g></target>
+</trans-unit>
+<trans-unit id="tu115" restype="x-li">
+<source xml:lang="en"><g id="1">FIDO Device Onboard</g></source>
+<target xml:lang="ja"><g id="1">FIDOデバイス登録</g></target>
+</trans-unit>
+<trans-unit id="tu116" restype="x-li">
+<source xml:lang="en"><g id="1">Open Horizon</g></source>
+<target xml:lang="ja"><g id="1">オープン・ホライズン</g></target>
+</trans-unit>
+<trans-unit id="tu117" restype="x-li">
+<source xml:lang="en"><g id="1">State of the Edge</g></source>
+<target xml:lang="ja"><g id="1">エッジの状態</g></target>
+</trans-unit>
+<trans-unit id="tu118" restype="x-li">
+<source xml:lang="en"><g id="1">At-Large Projects</g></source>
+<target xml:lang="ja"><g id="1">アットラージプロジェクト</g></target>
+</trans-unit>
+<trans-unit id="tu119" restype="x-li">
+<source xml:lang="en"><g id="1">Alvarium</g></source>
+<target xml:lang="ja"><g id="1">Alvarium</g></target>
+</trans-unit>
+<trans-unit id="tu120" restype="x-li">
+<source xml:lang="en"><g id="1">Baetyl</g></source>
+<target xml:lang="ja"><g id="1">バエティル</g></target>
+</trans-unit>
+<trans-unit id="tu121" restype="x-li">
+<source xml:lang="en"><g id="1">EdgeLake</g></source>
+<target xml:lang="ja"><g id="1">EdgeLake</g></target>
+</trans-unit>
+<trans-unit id="tu122" restype="x-li">
+<source xml:lang="en"><g id="1">eKuiper</g></source>
+<target xml:lang="ja"><g id="1">eKuiper</g></target>
+</trans-unit>
+<trans-unit id="tu123" restype="x-li">
+<source xml:lang="en"><g id="1">InfiniEdge AI</g></source>
+<target xml:lang="ja"><g id="1">InfiniEdge AI</g></target>
+</trans-unit>
+<trans-unit id="tu124" restype="x-li">
+<source xml:lang="en"><g id="1">InstantX</g></source>
+<target xml:lang="ja"><g id="1">インスタントX</g></target>
+</trans-unit>
+<trans-unit id="tu125" restype="x-li">
+<source xml:lang="en"><g id="1">NanoMQ</g></source>
+<target xml:lang="ja"><g id="1">NanoMQ</g></target>
+</trans-unit>
+<trans-unit id="tu126" restype="x-li">
+<source xml:lang="en"><g id="1">Nexoedge</g></source>
+<target xml:lang="ja"><g id="1">ネクスエッジ</g></target>
+</trans-unit>
+<trans-unit id="tu127" restype="x-li">
+<source xml:lang="en"><g id="1">OpenBao</g></source>
+<target xml:lang="ja"><g id="1">OpenBao</g></target>
+</trans-unit>
+<trans-unit id="tu128" restype="x-li">
+<source xml:lang="en"><g id="1">Emeritus Projects</g></source>
+<target xml:lang="ja"><g id="1">エメリタスプロジェクト</g></target>
+</trans-unit>
+<trans-unit id="tu129" restype="x-li">
+<source xml:lang="en"><g id="1">Home Edge</g></source>
+<target xml:lang="ja"><g id="1">ホーム エッジ</g></target>
+</trans-unit>
+<trans-unit id="tu130" restype="x-li">
+<source xml:lang="en"><g id="1">Members</g></source>
+<target xml:lang="ja"><g id="1">メンバー</g></target>
+</trans-unit>
+<trans-unit id="tu131" restype="x-li">
+<source xml:lang="en"><g id="1">Members</g></source>
+<target xml:lang="ja"><g id="1">メンバー</g></target>
+</trans-unit>
+<trans-unit id="tu132" restype="x-li">
+<source xml:lang="en"><g id="1">Join</g></source>
+<target xml:lang="ja"><g id="1">参加する</g></target>
+</trans-unit>
+<trans-unit id="tu133" restype="x-li">
+<source xml:lang="en"><g id="1">Resources</g></source>
+<target xml:lang="ja"><g id="1">リソース</g></target>
+</trans-unit>
+<trans-unit id="tu134" restype="x-li">
+<source xml:lang="en"><g id="1">Whitepapers &amp; Reports</g></source>
+<target xml:lang="ja"><g id="1">ホワイトペーパー＆レポート</g></target>
+</trans-unit>
+<trans-unit id="tu135" restype="x-li">
+<source xml:lang="en"><g id="1">User &amp; Deployment Studies</g></source>
+<target xml:lang="ja"><g id="1">ユーザーと展開調査</g></target>
+</trans-unit>
+<trans-unit id="tu136" restype="x-li">
+<source xml:lang="en"><g id="1">LF Edge Sandbox</g></source>
+<target xml:lang="ja"><g id="1">LF Edge Sandbox</g></target>
+</trans-unit>
+<trans-unit id="tu137" restype="x-li">
+<source xml:lang="en"><g id="1">Get Involved</g></source>
+<target xml:lang="ja"><g id="1">参加する</g></target>
+</trans-unit>
+<trans-unit id="tu138" restype="x-li">
+<source xml:lang="en"><g id="1">Wiki</g></source>
+<target xml:lang="ja"><g id="1">Wiki</g></target>
+</trans-unit>
+<trans-unit id="tu139" restype="x-li">
+<source xml:lang="en"><g id="1">News &amp; Events</g></source>
+<target xml:lang="ja"><g id="1">ニュース＆イベント</g></target>
+</trans-unit>
+<trans-unit id="tu140" restype="x-li">
+<source xml:lang="en"><g id="1">Blog</g></source>
+<target xml:lang="ja"><g id="1">ブログ</g></target>
+</trans-unit>
+<trans-unit id="tu141" restype="x-li">
+<source xml:lang="en"><g id="1">Press Releases</g></source>
+<target xml:lang="ja"><g id="1">報道関係者向け情報</g></target>
+</trans-unit>
+<trans-unit id="tu142" restype="x-li">
+<source xml:lang="en"><g id="1">Events</g></source>
+<target xml:lang="ja"><g id="1">イベント</g></target>
+</trans-unit>
+<trans-unit id="tu143" restype="x-li">
+<source xml:lang="en"><g id="1">Webinars</g></source>
+<target xml:lang="ja"><g id="1">ウェビナー</g></target>
+</trans-unit>
+<trans-unit id="tu144" restype="x-li">
+<source xml:lang="en"><g id="1">Join</g></source>
+<target xml:lang="ja"><g id="1">参加する</g></target>
+</trans-unit>
+</body>
+</file>
+</xliff>
