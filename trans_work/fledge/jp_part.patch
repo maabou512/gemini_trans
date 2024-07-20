@@ -1,0 +1,1018 @@
+1,6d0
+< <?xml version="1.0" encoding="UTF-8"?>
+< <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+< <file original="input.html" source-language="en" target-language="ja" datatype="html" okp:inputEncoding="UTF-8">
+< <body>
+< <trans-unit id="tu1" restype="x-title">
+< <source xml:lang="en">Fledge – LF EDGE: Building an Open Source Framework for the Edge.</source>
+8,10d1
+< </trans-unit>
+< <trans-unit id="tu2" restype="x-title">
+< <source xml:lang="en">LF EDGE: Building an Open Source Framework for the Edge. » Feed</source>
+12,14d2
+< </trans-unit>
+< <trans-unit id="tu3" restype="x-title">
+< <source xml:lang="en">LF EDGE: Building an Open Source Framework for the Edge. » Comments Feed</source>
+16,18d3
+< </trans-unit>
+< <trans-unit id="tu4" restype="x-title">
+< <source xml:lang="en">LF EDGE: Building an Open Source Framework for the Edge. » iCal Feed</source>
+20,22d4
+< </trans-unit>
+< <trans-unit id="tu5" restype="x-title">
+< <source xml:lang="en">RSD</source>
+24,26d5
+< </trans-unit>
+< <trans-unit id="tu7" restype="x-alt">
+< <source xml:lang="en">The Linux Foundation Projects</source>
+28,30d6
+< </trans-unit>
+< <trans-unit id="tu6">
+< <source xml:lang="en"><g id="1"><x id="2"/></g></source>
+32,34d7
+< </trans-unit>
+< <trans-unit id="tu8">
+< <source xml:lang="en"><g id="1"></g></source>
+36,38d8
+< </trans-unit>
+< <trans-unit id="tu9">
+< <source xml:lang="en"><g id="1">Skip to main content</g></source>
+40,42d9
+< </trans-unit>
+< <trans-unit id="tu11" restype="x-value">
+< <source xml:lang="en">Start Typing...</source>
+44,46d10
+< </trans-unit>
+< <trans-unit id="tu12" restype="x-aria-label">
+< <source xml:lang="en">Search</source>
+48,54c12
+< </trans-unit>
+< <trans-unit id="tu10">
+< <source xml:lang="en"><x id="1"/></source>
+< <target xml:lang="ja"><x id="1"/></target>
+< </trans-unit>
+< <trans-unit id="tu13">
+< <source xml:lang="en"><g id="1"><g id="2">Close Search</g> <g id="3"></g> </g></source>
+---
+> <target xml:lang="ja"><x id="1"/></target>
+56,58d13
+< </trans-unit>
+< <trans-unit id="tu15" restype="x-alt">
+< <source xml:lang="en">LF EDGE: Building an Open Source Framework for the Edge.</source>
+60,62d14
+< </trans-unit>
+< <trans-unit id="tu14">
+< <source xml:lang="en"><g id="1"> <x id="2"/> </g></source>
+64,66d15
+< </trans-unit>
+< <trans-unit id="tu16">
+< <source xml:lang="en"><g id="1"><g id="2"></g><g id="3">search</g></g></source>
+68,70d16
+< </trans-unit>
+< <trans-unit id="tu18" restype="x-aria-label">
+< <source xml:lang="en">Navigation Menu</source>
+72,74d17
+< </trans-unit>
+< <trans-unit id="tu17">
+< <source xml:lang="en"><g id="1"> <g id="2">Menu</g><g id="3"> <g id="4"> <g id="5"></g> </g> </g> </g></source>
+76,78d18
+< </trans-unit>
+< <trans-unit id="tu19" resname="menu-item-10928-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">About</g><g id="3"><g id="4"></g></g></g></source>
+80,82d19
+< </trans-unit>
+< <trans-unit id="tu20" resname="menu-item-10929-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">About LF Edge</g></g></source>
+84,86d20
+< </trans-unit>
+< <trans-unit id="tu21" resname="menu-item-10933-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Code of Conduct</g></g></source>
+88,90d21
+< </trans-unit>
+< <trans-unit id="tu22" resname="menu-item-10931-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Governing Board</g></g></source>
+92,94d22
+< </trans-unit>
+< <trans-unit id="tu23" resname="menu-item-10932-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Technical Advisory Council (TAC)</g></g></source>
+96,98d23
+< </trans-unit>
+< <trans-unit id="tu24" resname="menu-item-10930-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Contact Us</g></g></source>
+100,102d24
+< </trans-unit>
+< <trans-unit id="tu25" resname="menu-item-10934-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Projects</g><g id="3"><g id="4"></g></g></g></source>
+104,106d25
+< </trans-unit>
+< <trans-unit id="tu26" resname="menu-item-10935-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Impact Projects</g><g id="3"><g id="4"></g></g></g></source>
+108,110d26
+< </trans-unit>
+< <trans-unit id="tu27" resname="menu-item-10938-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Akraino</g></g></source>
+112,114d27
+< </trans-unit>
+< <trans-unit id="tu28" resname="menu-item-10937-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">EdgeX Foundry</g></g></source>
+116,118d28
+< </trans-unit>
+< <trans-unit id="tu29" resname="menu-item-10936-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Fledge</g></g></source>
+120,122d29
+< </trans-unit>
+< <trans-unit id="tu30" resname="menu-item-10939-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Growth Projects</g><g id="3"><g id="4"></g></g></g></source>
+124,126d30
+< </trans-unit>
+< <trans-unit id="tu31" resname="menu-item-10942-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">EVE</g></g></source>
+128,130d31
+< </trans-unit>
+< <trans-unit id="tu32" resname="menu-item-10945-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">FIDO Device Onboard</g></g></source>
+132,134d32
+< </trans-unit>
+< <trans-unit id="tu33" resname="menu-item-10940-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Open Horizon</g></g></source>
+136,138d33
+< </trans-unit>
+< <trans-unit id="tu34" resname="menu-item-10941-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">State of the Edge</g></g></source>
+140,142d34
+< </trans-unit>
+< <trans-unit id="tu35" resname="menu-item-10943-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">At-Large Projects</g><g id="3"><g id="4"></g></g></g></source>
+144,146d35
+< </trans-unit>
+< <trans-unit id="tu36" resname="menu-item-10948-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Alvarium</g></g></source>
+148,150d36
+< </trans-unit>
+< <trans-unit id="tu37" resname="menu-item-10947-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Baetyl</g></g></source>
+152,154d37
+< </trans-unit>
+< <trans-unit id="tu38" resname="menu-item-12206-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">EdgeLake</g></g></source>
+156,158d38
+< </trans-unit>
+< <trans-unit id="tu39" resname="menu-item-10946-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">eKuiper</g></g></source>
+160,162d39
+< </trans-unit>
+< <trans-unit id="tu40" resname="menu-item-12205-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">InfiniEdge AI</g></g></source>
+164,166d40
+< </trans-unit>
+< <trans-unit id="tu41" resname="menu-item-12238-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">InstantX</g></g></source>
+168,170d41
+< </trans-unit>
+< <trans-unit id="tu42" resname="menu-item-12027-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">NanoMQ</g></g></source>
+172,174d42
+< </trans-unit>
+< <trans-unit id="tu43" resname="menu-item-10944-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Nexoedge</g></g></source>
+176,178d43
+< </trans-unit>
+< <trans-unit id="tu44" resname="menu-item-12207-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">OpenBao</g></g></source>
+180,182d44
+< </trans-unit>
+< <trans-unit id="tu45" resname="menu-item-10949-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Emeritus Projects</g><g id="3"><g id="4"></g></g></g></source>
+184,186d45
+< </trans-unit>
+< <trans-unit id="tu46" resname="menu-item-10950-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Home Edge</g></g></source>
+188,190d46
+< </trans-unit>
+< <trans-unit id="tu47" resname="menu-item-10951-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Members</g><g id="3"><g id="4"></g></g></g></source>
+192,194d47
+< </trans-unit>
+< <trans-unit id="tu48" resname="menu-item-10952-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Members</g></g></source>
+196,198d48
+< </trans-unit>
+< <trans-unit id="tu49" resname="menu-item-10953-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Join</g></g></source>
+200,202d49
+< </trans-unit>
+< <trans-unit id="tu50" resname="menu-item-10954-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Resources</g><g id="3"><g id="4"></g></g></g></source>
+204,206d50
+< </trans-unit>
+< <trans-unit id="tu51" resname="menu-item-10958-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Whitepapers &amp; Reports</g></g></source>
+208,210d51
+< </trans-unit>
+< <trans-unit id="tu52" resname="menu-item-10957-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">User &amp; Deployment Studies</g></g></source>
+212,214d52
+< </trans-unit>
+< <trans-unit id="tu53" resname="menu-item-10956-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">LF Edge Sandbox</g></g></source>
+216,218d53
+< </trans-unit>
+< <trans-unit id="tu54" resname="menu-item-10955-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Get Involved</g></g></source>
+220,222d54
+< </trans-unit>
+< <trans-unit id="tu55" resname="menu-item-12115-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Wiki</g></g></source>
+224,226d55
+< </trans-unit>
+< <trans-unit id="tu56" resname="menu-item-10959-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">News &amp; Events</g><g id="3"><g id="4"></g></g></g></source>
+228,230d56
+< </trans-unit>
+< <trans-unit id="tu57" resname="menu-item-10961-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Blog</g></g></source>
+232,234d57
+< </trans-unit>
+< <trans-unit id="tu58" resname="menu-item-10962-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Press Releases</g></g></source>
+236,238d58
+< </trans-unit>
+< <trans-unit id="tu59" resname="menu-item-10960-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Events</g></g></source>
+240,242d59
+< </trans-unit>
+< <trans-unit id="tu60" resname="menu-item-10963-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Webinars</g></g></source>
+244,246d60
+< </trans-unit>
+< <trans-unit id="tu61" resname="menu-item-10964-id" restype="x-li">
+< <source xml:lang="en"><g id="1"><g id="2">Join</g></g></source>
+248,250d61
+< </trans-unit>
+< <trans-unit id="tu62" resname="search-btn-id" restype="x-li">
+< <source xml:lang="en"></source>
+252,254d62
+< </trans-unit>
+< <trans-unit id="tu63">
+< <source xml:lang="en"><g id="1"><g id="2"></g><g id="3">search</g></g></source>
+256,262c64
+< </trans-unit>
+< <trans-unit id="tu64">
+< <source xml:lang="en"><x id="1"/></source>
+< <target xml:lang="ja"><x id="1"/></target>
+< </trans-unit>
+< <trans-unit id="tu65" restype="x-h2">
+< <source xml:lang="en">Fledge is a  leading open source industrial edge platform for industrial data pipelines, intelligent edge applications and ML.</source>
+---
+> <target xml:lang="ja"><x id="1"/></target>
+264,266d65
+< </trans-unit>
+< <trans-unit id="tu66" restype="x-h2">
+< <source xml:lang="en">Our Vision: Fledge’s project and community deliver data management for automation, advanced process control and IIoT, accelerating global smart manufacturing / Industry 4.0. As manufacturing becomes more data driven, the convergence of OT’s &amp; IT’s people, processes and technology gains greater importance. Like Apache Spark’s pipelines for data lakes, Fledge’s pipelines for the automation pyramid and IIoT unify data acquisition, raw integration of data, filter/clean/transform data, aggregate data and enable edge 4.0 application development, provisioning, execution and management.</source>
+268,282c67,69
+< </trans-unit>
+< <trans-unit id="tu67" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+< <target xml:lang="ja"> </target>
+< </trans-unit>
+< <trans-unit id="tu68" restype="x-paragraph">
+< <source xml:lang="en"><x id="1"/></source>
+< <target xml:lang="ja"><x id="1"/></target>
+< </trans-unit>
+< <trans-unit id="tu69" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+< <target xml:lang="ja"> </target>
+< </trans-unit>
+< <trans-unit id="tu70" restype="x-paragraph">
+< <source xml:lang="en">Fledge data pipelines run from sensors and actuators to on-prem systems to clouds and back. Fledge applications run on bare metal, VMs, containers or K3. Fledge can execute in distributed hardware as small as Raspberry Pi 0 to a well provisioned container in the cloud.</source>
+---
+> <target xml:lang="ja"> </target>
+> <target xml:lang="ja"><x id="1"/></target>
+> <target xml:lang="ja"> </target>
+284,298c71,73
+< </trans-unit>
+< <trans-unit id="tu71" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+< <target xml:lang="ja"> </target>
+< </trans-unit>
+< <trans-unit id="tu72" restype="x-paragraph">
+< <source xml:lang="en"><x id="1"/></source>
+< <target xml:lang="ja"><x id="1"/></target>
+< </trans-unit>
+< <trans-unit id="tu73" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+< <target xml:lang="ja"> </target>
+< </trans-unit>
+< <trans-unit id="tu74" restype="x-paragraph">
+< <source xml:lang="en">Manufacturing data systems and processes have unique requirements when compared to hyperscale data engineering and data science tools. Fledge is architected, built and system tested to meet industrial data management demands. <g id="1">Fledge Architecture.</g></source>
+---
+> <target xml:lang="ja"> </target>
+> <target xml:lang="ja"><x id="1"/></target>
+> <target xml:lang="ja"> </target>
+300,302d74
+< </trans-unit>
+< <trans-unit id="tu75">
+< <source xml:lang="en">“The actionable insights that Fledge’s Edge Machine Learning has delivered to our centrifuge operations team are a game changer…”</source>
+304,306d75
+< </trans-unit>
+< <trans-unit id="tu76">
+< <source xml:lang="en">—Jennifer Dominick, Director, Focused Improvement and Analytics, ADM</source>
+308,310d76
+< </trans-unit>
+< <trans-unit id="tu77" restype="x-h3">
+< <source xml:lang="en">Industrial Data Pipeline Requirements</source>
+312,322c78,79
+< </trans-unit>
+< <trans-unit id="tu78" restype="x-paragraph">
+< <source xml:lang="en"><x id="1"/></source>
+< <target xml:lang="ja"><x id="1"/></target>
+< </trans-unit>
+< <trans-unit id="tu79" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+< <target xml:lang="ja"> </target>
+< </trans-unit>
+< <trans-unit id="tu80" restype="x-paragraph">
+< <source xml:lang="en">Fledge <g id="1">is not</g> <g id="2">a simple Industry 3.0 data acquisition and transformation gateway. Industrial software products that connect various industrial protocols and translate them into OPC-UA or a cloud or a time series database are problematic. </g><g id="3">These legacy techniques create data silos, vendor locks, protocol locks, don’t support edge applications and can not host ML/AI on the edge.</g></source>
+---
+> <target xml:lang="ja"><x id="1"/></target>
+> <target xml:lang="ja"> </target>
+324,338c81,83
+< </trans-unit>
+< <trans-unit id="tu81" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+< <target xml:lang="ja"> </target>
+< </trans-unit>
+< <trans-unit id="tu82" restype="x-paragraph">
+< <source xml:lang="en"><x id="1"/></source>
+< <target xml:lang="ja"><x id="1"/></target>
+< </trans-unit>
+< <trans-unit id="tu83" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+< <target xml:lang="ja"> </target>
+< </trans-unit>
+< <trans-unit id="tu84">
+< <source xml:lang="en">“Fledge solves diversity and complexity issues when collecting and processing data from the process control network and beyond. OSIsoft recommends that all our industrial customers and partners begin their data pipeline and IIoT journey by integrating Fledge into their industrial 4.0 infrastructure.”</source>
+---
+> <target xml:lang="ja"></target>
+> <target xml:lang="ja"><x id="1"/></target>
+> <target xml:lang="ja"> </target>
+340,342d84
+< </trans-unit>
+< <trans-unit id="tu85">
+< <source xml:lang="en">—Richard Beeson, CTO, AVEVA/OSIsoft</source>
+344,346d85
+< </trans-unit>
+< <trans-unit id="tu86" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">Fledge’s microservice-based pipelines collect from any/multiple sources, process all data types and integrate to any/multiple destinations — including MQTT, KAFKA and clouds — natively. </g></source>
+348,350d86
+< </trans-unit>
+< <trans-unit id="tu87" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">Fledge resolves and democratizes Industrial data pipeline challenges including:</g></source>
+352,354d87
+< </trans-unit>
+< <trans-unit id="tu88" restype="x-li">
+< <source xml:lang="en"></source>
+356,358d88
+< </trans-unit>
+< <trans-unit id="tu89" restype="x-li">
+< <source xml:lang="en"><g id="1">Platform Agnostic </g></source>
+360,362d89
+< </trans-unit>
+< <trans-unit id="tu90" restype="x-li">
+< <source xml:lang="en"><g id="1">Diversity of source and destination protocols</g></source>
+364,366d90
+< </trans-unit>
+< <trans-unit id="tu91" restype="x-li">
+< <source xml:lang="en"><g id="1">Namespace mapping</g></source>
+368,370d91
+< </trans-unit>
+< <trans-unit id="tu92" restype="x-li">
+< <source xml:lang="en"><g id="1">Multiple data sources/asset of different types (PLC has time series data, accelerometer has array data requiring edge based signal processing) </g></source>
+372,374d92
+< </trans-unit>
+< <trans-unit id="tu93" restype="x-li">
+< <source xml:lang="en"><g id="1">Diversity of networks that may also be unreliable</g></source>
+376,378d93
+< </trans-unit>
+< <trans-unit id="tu94" restype="x-li">
+< <source xml:lang="en"><g id="1">Diversity of data types (timeseries, array, image, radiometric, transactional, etc)</g></source>
+380,382d94
+< </trans-unit>
+< <trans-unit id="tu95" restype="x-li">
+< <source xml:lang="en"><g id="1">Support existing equipment and analytics systems</g></source>
+384,386d95
+< </trans-unit>
+< <trans-unit id="tu96" restype="x-li">
+< <source xml:lang="en"><g id="1">Model and application diversity </g></source>
+388,390d96
+< </trans-unit>
+< <trans-unit id="tu97" restype="x-li">
+< <source xml:lang="en"><g id="1">Sensing, Analysis and Control Loops from manual to semi-autonomous to fully autonomous </g></source>
+392,394d97
+< </trans-unit>
+< <trans-unit id="tu98" restype="x-li">
+< <source xml:lang="en"><g id="1">Optimization model techniques include physics and chemistry based, predictive, simulation and AI</g></source>
+396,398d98
+< </trans-unit>
+< <trans-unit id="tu99" restype="x-li">
+< <source xml:lang="en"><g id="1">Ease-of-Use and Management</g></source>
+400,402d99
+< </trans-unit>
+< <trans-unit id="tu100" restype="x-li">
+< <source xml:lang="en"><g id="1">Open extensible UI</g></source>
+404,406d100
+< </trans-unit>
+< <trans-unit id="tu101" restype="x-li">
+< <source xml:lang="en"><g id="1">No code, low code and coded application development</g></source>
+408,410d101
+< </trans-unit>
+< <trans-unit id="tu102" restype="x-li">
+< <source xml:lang="en"><g id="1">Manage distributed data paths</g></source>
+412,414d102
+< </trans-unit>
+< <trans-unit id="tu103" restype="x-li">
+< <source xml:lang="en"><g id="1">Audit changes</g></source>
+416,418d103
+< </trans-unit>
+< <trans-unit id="tu104" restype="x-li">
+< <source xml:lang="en"><g id="1">Security and Orchestration</g></source>
+420,422d104
+< </trans-unit>
+< <trans-unit id="tu105" restype="x-li">
+< <source xml:lang="en"><g id="1">Pipelines and applications behind the DMZ with no outside access</g></source>
+424,426d105
+< </trans-unit>
+< <trans-unit id="tu106" restype="x-li">
+< <source xml:lang="en"><g id="1">Adapt to plant and protocol security capabilities</g></source>
+428,430d106
+< </trans-unit>
+< <trans-unit id="tu107" restype="x-li">
+< <source xml:lang="en"><g id="1">Encryption</g></source>
+432,434d107
+< </trans-unit>
+< <trans-unit id="tu108" restype="x-li">
+< <source xml:lang="en"><g id="1">Multiple user roles</g></source>
+436,438d108
+< </trans-unit>
+< <trans-unit id="tu109" restype="x-li">
+< <source xml:lang="en"><g id="1">Optional certificate based authentication</g></source>
+440,442d109
+< </trans-unit>
+< <trans-unit id="tu110" restype="x-li">
+< <source xml:lang="en"><g id="1">Kerberos</g></source>
+444,446d110
+< </trans-unit>
+< <trans-unit id="tu111" restype="x-li">
+< <source xml:lang="en"><g id="1">EVE and K3</g></source>
+448,450d111
+< </trans-unit>
+< <trans-unit id="tu112" restype="x-li">
+< <source xml:lang="en"><g id="1">Location and Distributed compute</g></source>
+452,454d112
+< </trans-unit>
+< <trans-unit id="tu113" restype="x-li">
+< <source xml:lang="en"><g id="1">Latency, data volumes, security, compliance and cost </g></source>
+456,458d113
+< </trans-unit>
+< <trans-unit id="tu114" restype="x-li">
+< <source xml:lang="en"><g id="1">Real time information</g></source>
+460,462d114
+< </trans-unit>
+< <trans-unit id="tu115" restype="x-li">
+< <source xml:lang="en"><g id="1">Machine edge transactions, events and alerts</g></source>
+464,466d115
+< </trans-unit>
+< <trans-unit id="tu116" restype="x-li">
+< <source xml:lang="en"><g id="1">Model Inference on the edge</g></source>
+468,470d116
+< </trans-unit>
+< <trans-unit id="tu117" restype="x-li">
+< <source xml:lang="en"><g id="1">Edge MLOps</g></source>
+472,474d117
+< </trans-unit>
+< <trans-unit id="tu118" restype="x-li">
+< <source xml:lang="en"><g id="1">Set point controls</g></source>
+476,478d118
+< </trans-unit>
+< <trans-unit id="tu119">
+< <source xml:lang="en">“Fledge’s ability to collect, process, transform and integrate machine data as well as run TensorFlow Lite on the edge makes it an excellent complement to Google’s AI platform… Google is proud to contribute to the Fledge project, empowering next generation industrial processes and intelligent automation.”</source>
+480,482d119
+< </trans-unit>
+< <trans-unit id="tu120">
+< <source xml:lang="en">—Craig Wiley, Director, Google Cloud AI</source>
+484,486d120
+< </trans-unit>
+< <trans-unit id="tu121" restype="x-h3">
+< <source xml:lang="en">Why Choose Fledge?</source>
+488,490d121
+< </trans-unit>
+< <trans-unit id="tu122" restype="x-li">
+< <source xml:lang="en"></source>
+492,494d122
+< </trans-unit>
+< <trans-unit id="tu123" restype="x-li">
+< <source xml:lang="en"></source>
+496,498d123
+< </trans-unit>
+< <trans-unit id="tu124" restype="x-li">
+< <source xml:lang="en"><g id="1">Fledge was developed by industrial data experts for industrial use cases.  Fledge is not a general purpose edge platform used in retail and consumer applications.   Our community of industrial software and hardware experts are focused on industry 4.0 application development and industrial data pipeline challenges.  Join us.</g></source>
+500,502d124
+< </trans-unit>
+< <trans-unit id="tu125" restype="x-li">
+< <source xml:lang="en"><g id="1">Some of Fledge’s unique industrial features include:</g></source>
+504,506d125
+< </trans-unit>
+< <trans-unit id="tu126" restype="x-td">
+< <source xml:lang="en"><g id="1">FEATURES </g></source>
+508,510d126
+< </trans-unit>
+< <trans-unit id="tu127" restype="x-td">
+< <source xml:lang="en"><g id="1">BENEFITS</g></source>
+512,514d127
+< </trans-unit>
+< <trans-unit id="tu128" restype="x-td">
+< <source xml:lang="en"><g id="1">Microservices with Plugins</g></source>
+516,518d128
+< </trans-unit>
+< <trans-unit id="tu129" restype="x-td">
+< <source xml:lang="en"></source>
+520,522d129
+< </trans-unit>
+< <trans-unit id="tu130" restype="x-li">
+< <source xml:lang="en"><g id="1">Highly modular reusable code</g></source>
+524,526d130
+< </trans-unit>
+< <trans-unit id="tu131" restype="x-li">
+< <source xml:lang="en"><g id="1">Faster more focused development</g></source>
+528,530d131
+< </trans-unit>
+< <trans-unit id="tu132" restype="x-li">
+< <source xml:lang="en"><g id="1">Less component test</g></source>
+532,534d132
+< </trans-unit>
+< <trans-unit id="tu133" restype="x-li">
+< <source xml:lang="en"><g id="1">No-code/Low-code development</g></source>
+536,538d133
+< </trans-unit>
+< <trans-unit id="tu134" restype="x-li">
+< <source xml:lang="en"><g id="1">Scalable, manageable</g></source>
+540,542d134
+< </trans-unit>
+< <trans-unit id="tu135" restype="x-td">
+< <source xml:lang="en"><g id="1">High Performance</g></source>
+544,546d135
+< </trans-unit>
+< <trans-unit id="tu136" restype="x-td">
+< <source xml:lang="en"></source>
+548,550d136
+< </trans-unit>
+< <trans-unit id="tu137" restype="x-li">
+< <source xml:lang="en"><g id="1">Vibration signal processing 4 channels 48 kHz/channel </g></source>
+552,554d137
+< </trans-unit>
+< <trans-unit id="tu138" restype="x-li">
+< <source xml:lang="en"><g id="1">120K total tags</g></source>
+556,558d138
+< </trans-unit>
+< <trans-unit id="tu139" restype="x-li">
+< <source xml:lang="en"><g id="1">120K events/sec</g></source>
+560,562d139
+< </trans-unit>
+< <trans-unit id="tu140" restype="x-li">
+< <source xml:lang="en"><g id="1">Computer vision</g></source>
+564,566d140
+< </trans-unit>
+< <trans-unit id="tu141" restype="x-li">
+< <source xml:lang="en"><g id="1">Real time edge inference with set point control</g></source>
+568,570d141
+< </trans-unit>
+< <trans-unit id="tu142" restype="x-td">
+< <source xml:lang="en"><g id="1">Push or Pull updates</g></source>
+572,574d142
+< </trans-unit>
+< <trans-unit id="tu143" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">Relay data paths </g></source>
+576,578d143
+< </trans-unit>
+< <trans-unit id="tu144" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">Redundant data paths</g></source>
+580,582d144
+< </trans-unit>
+< <trans-unit id="tu145" restype="x-td">
+< <source xml:lang="en"></source>
+584,586d145
+< </trans-unit>
+< <trans-unit id="tu146" restype="x-li">
+< <source xml:lang="en"><g id="1">Secure updates and rollbacks</g></source>
+588,590d146
+< </trans-unit>
+< <trans-unit id="tu147" restype="x-li">
+< <source xml:lang="en"><g id="1">Secure data paths</g></source>
+592,594d147
+< </trans-unit>
+< <trans-unit id="tu148" restype="x-li">
+< <source xml:lang="en"><g id="1">High availability</g></source>
+596,598d148
+< </trans-unit>
+< <trans-unit id="tu149" restype="x-td">
+< <source xml:lang="en"><g id="1">Open Extensible UI &amp; Open RestAPIs </g></source>
+600,602d149
+< </trans-unit>
+< <trans-unit id="tu150" restype="x-td">
+< <source xml:lang="en"></source>
+604,606d150
+< </trans-unit>
+< <trans-unit id="tu151" restype="x-li">
+< <source xml:lang="en"><g id="1">Faster time to market</g></source>
+608,610d151
+< </trans-unit>
+< <trans-unit id="tu152" restype="x-li">
+< <source xml:lang="en"><g id="1">Easy to use and configure</g></source>
+612,614d152
+< </trans-unit>
+< <trans-unit id="tu153" restype="x-li">
+< <source xml:lang="en"><g id="1">No-code app development</g></source>
+616,618d153
+< </trans-unit>
+< <trans-unit id="tu154" restype="x-td">
+< <source xml:lang="en"><g id="1">Abstracts: assets, data sources, compute, integrations and ML models</g></source>
+620,622d154
+< </trans-unit>
+< <trans-unit id="tu155" restype="x-td">
+< <source xml:lang="en"></source>
+624,626d155
+< </trans-unit>
+< <trans-unit id="tu156" restype="x-li">
+< <source xml:lang="en"><g id="1">Data in operational context</g></source>
+628,630d156
+< </trans-unit>
+< <trans-unit id="tu157" restype="x-li">
+< <source xml:lang="en"><g id="1">Enterprise level management and security</g></source>
+632,634d157
+< </trans-unit>
+< <trans-unit id="tu158" restype="x-li">
+< <source xml:lang="en"><g id="1">Edge MLOps</g></source>
+636,638d158
+< </trans-unit>
+< <trans-unit id="tu159" restype="x-li">
+< <source xml:lang="en"><g id="1">Intelligent automation</g></source>
+640,646c160
+< </trans-unit>
+< <trans-unit id="tu160" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+< <target xml:lang="ja"> </target>
+< </trans-unit>
+< <trans-unit id="tu161" restype="x-li">
+< <source xml:lang="en"><g id="1">Open, flexible, extensible — Independent of automation equipment, systems, clouds, ML tools.  No vendor lock.  No protocol lock. Works with new and old equipment alike. </g></source>
+---
+> <target xml:lang="ja"> </target>
+648,650d161
+< </trans-unit>
+< <trans-unit id="tu162" restype="x-li">
+< <source xml:lang="en"><g id="1">Focus on your unique requirements and value add.  Fledge manages the data pipelines from sensors to clouds and back enabling 4.0 applications and multi-protocol gateway services. </g></source>
+652,654d162
+< </trans-unit>
+< <trans-unit id="tu163" restype="x-li">
+< <source xml:lang="en"><g id="1">Cost, risk and time to market.   What open source is all about. </g></source>
+656,658d163
+< </trans-unit>
+< <trans-unit id="tu164" restype="x-li">
+< <source xml:lang="en"><g id="1">Plants, factories and mines don’t exist in clouds – Designed to scale, secure and manage operational technologies’ distributed computing reality. </g></source>
+660,666c165
+< </trans-unit>
+< <trans-unit id="tu165" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+< <target xml:lang="ja"> </target>
+< </trans-unit>
+< <trans-unit id="tu166">
+< <source xml:lang="en">“Fledge’s ability to collect, process, transform and integrate machine data as well as run TensorFlow Lite on the edge makes it an excellent complement to Google’s AI platform… Google is proud to contribute to the Fledge project, empowering next generation industrial processes and intelligent automation.”</source>
+---
+> <target xml:lang="ja"> </target>
+668,670d166
+< </trans-unit>
+< <trans-unit id="tu167">
+< <source xml:lang="en">—Craig Wiley, Director, Google Cloud AI</source>
+672,674d167
+< </trans-unit>
+< <trans-unit id="tu168" restype="x-h2">
+< <source xml:lang="en">Join our fast growing community of industrial users, contributors, technology providers, connectors, standards groups and system integrators.</source>
+676,678d168
+< </trans-unit>
+< <trans-unit id="tu169" restype="x-h3">
+< <source xml:lang="en">Industrial Pipelines</source>
+680,686c170
+< </trans-unit>
+< <trans-unit id="tu170" restype="x-paragraph">
+< <source xml:lang="en"><x id="1"/></source>
+< <target xml:lang="ja"><x id="1"/></target>
+< </trans-unit>
+< <trans-unit id="tu171" restype="x-h3">
+< <source xml:lang="en">Public Users and Contributors</source>
+---
+> <target xml:lang="ja"><x id="1"/></target>
+688,694c172
+< </trans-unit>
+< <trans-unit id="tu172" restype="x-h3">
+< <source xml:lang="en"><x id="1"/></source>
+< <target xml:lang="ja"><x id="1"/></target>
+< </trans-unit>
+< <trans-unit id="tu173" restype="x-h3">
+< <source xml:lang="en">Cloud / Data Management / Edge MLOps</source>
+---
+> <target xml:lang="ja"><x id="1"/></target>
+696,706c174,175
+< </trans-unit>
+< <trans-unit id="tu174" restype="x-paragraph">
+< <source xml:lang="en"><x id="1"/></source>
+< <target xml:lang="ja"><x id="1"/></target>
+< </trans-unit>
+< <trans-unit id="tu175" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+< <target xml:lang="ja"> </target>
+< </trans-unit>
+< <trans-unit id="tu176">
+< <source xml:lang="en">“As power systems transform to deliver energy transition successfully, grid operators must be able to monitor and interact with a variety of systems where a high-volume of data is exchanged with various protocols at high-velocity of change. These exchanges require real-time, efficient, robust, and secure communications. Fledge is the core platform of FledgePower which aims to solve the problem of multiple protocol translation for power systems operations.”</source>
+---
+> <target xml:lang="ja"><x id="1"/></target>
+> <target xml:lang="ja"> </target>
+708,710d176
+< </trans-unit>
+< <trans-unit id="tu177">
+< <source xml:lang="en">—Akli Rahmoun, Telecontrol systems expert, RTE</source>
+712,714d177
+< </trans-unit>
+< <trans-unit id="tu178" restype="x-paragraph">
+< <source xml:lang="en">The fourth industrial revolution requires a new open data pipeline infrastructure integrated into the automation pyramid and IIoT. Fledge is the Linux Foundation’s solution.</source>
+716,722c179
+< </trans-unit>
+< <trans-unit id="tu179" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+< <target xml:lang="ja"> </target>
+< </trans-unit>
+< <trans-unit id="tu180" restype="x-paragraph">
+< <source xml:lang="en">We encourage industrial companies, software developers, integrators and suppliers to read <g id="1">CESMII’s (Clean Energy Smart Manufacturing Innovation Institute) Principles of Smart Manufacturing article</g> for an overview of the market and its requirements. We concur with CESMII and Fledge embodies those principles.</source>
+---
+> <target xml:lang="ja"> </target>
+724,730c181
+< </trans-unit>
+< <trans-unit id="tu181" restype="x-paragraph">
+< <source xml:lang="en"> </source>
+< <target xml:lang="ja"> </target>
+< </trans-unit>
+< <trans-unit id="tu182" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">How to cite this article:</g> C. Leiva, <g id="2">J. Adv. Manuf. Process</g>. <g id="3">2022</g>, <g id="4">4</g>(4), e10123. <g id="5">https://doi.org/10.1002/amp2.10123</g></source>
+---
+> <target xml:lang="ja"> </target>
+732,734d182
+< </trans-unit>
+< <trans-unit id="tu183" restype="x-h5">
+< <source xml:lang="en">Get Started With Fledge</source>
+736,738d183
+< </trans-unit>
+< <trans-unit id="tu184">
+< <source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+740,742d184
+< </trans-unit>
+< <trans-unit id="tu185" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">Get The Code</g></source>
+744,746d185
+< </trans-unit>
+< <trans-unit id="tu186">
+< <source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+748,750d186
+< </trans-unit>
+< <trans-unit id="tu187" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">View Documentation</g></source>
+752,754d187
+< </trans-unit>
+< <trans-unit id="tu188">
+< <source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+756,758d188
+< </trans-unit>
+< <trans-unit id="tu189" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">Visit Wiki</g></source>
+760,762d189
+< </trans-unit>
+< <trans-unit id="tu190">
+< <source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+764,766d190
+< </trans-unit>
+< <trans-unit id="tu191" restype="x-paragraph">
+< <source xml:lang="en"><g id="1">Join Mail Lists</g></source>
+768,770d191
+< </trans-unit>
+< <trans-unit id="tu192">
+< <source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+772,774d192
+< </trans-unit>
+< <trans-unit id="tu193" restype="x-paragraph">
+< <source xml:lang="en"><g id="1"> Discuss in Slack (#fledge / #fledge-help / #fledge-tsc)</g></source>
+776,778d193
+< </trans-unit>
+< <trans-unit id="tu194" restype="x-h2">
+< <source xml:lang="en">User &amp; Deployment Studies</source>
+780,786c195
+< </trans-unit>
+< <trans-unit id="tu195">
+< <source xml:lang="en"><x id="1"/></source>
+< <target xml:lang="ja"><x id="1"/></target>
+< </trans-unit>
+< <trans-unit id="tu196" restype="x-h6">
+< <source xml:lang="en">UC Davis and Opus One Using Fledge to Produce World Class Wine in Safer Conditions</source>
+---
+> <target xml:lang="ja"><x id="1"/></target>
+788,790d196
+< </trans-unit>
+< <trans-unit id="tu197">
+< <source xml:lang="en"><g id="1">Download Now</g></source>
+792,798c198
+< </trans-unit>
+< <trans-unit id="tu198">
+< <source xml:lang="en"><x id="1"/></source>
+< <target xml:lang="ja"><x id="1"/></target>
+< </trans-unit>
+< <trans-unit id="tu199" restype="x-paragraph">
+< <source xml:lang="en">Copyright © 2023 The Linux Foundation® . All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <g id="1">Trademark Usage</g> page. Linux is a registered trademark of Linus Torvalds. <g id="2">Privacy Policy</g> and <g id="3">Terms of Use</g>.</source>
+---
+> <target xml:lang="ja"><x id="1"/></target>
+800,802d199
+< </trans-unit>
+< <trans-unit id="tu200">
+< <source xml:lang="en"><g id="1"><g id="2">Close Menu</g> <g id="3"></g> </g></source>
+804,806d200
+< </trans-unit>
+< <trans-unit id="tu201" restype="x-li">
+< <source xml:lang="en"><g id="1">About</g></source>
+808,810d201
+< </trans-unit>
+< <trans-unit id="tu202" restype="x-li">
+< <source xml:lang="en"><g id="1">About LF Edge</g></source>
+812,814d202
+< </trans-unit>
+< <trans-unit id="tu203" restype="x-li">
+< <source xml:lang="en"><g id="1">Code of Conduct</g></source>
+816,818d203
+< </trans-unit>
+< <trans-unit id="tu204" restype="x-li">
+< <source xml:lang="en"><g id="1">Governing Board</g></source>
+820,822d204
+< </trans-unit>
+< <trans-unit id="tu205" restype="x-li">
+< <source xml:lang="en"><g id="1">Technical Advisory Council (TAC)</g></source>
+824,826d205
+< </trans-unit>
+< <trans-unit id="tu206" restype="x-li">
+< <source xml:lang="en"><g id="1">Contact Us</g></source>
+828,830d206
+< </trans-unit>
+< <trans-unit id="tu207" restype="x-li">
+< <source xml:lang="en"><g id="1">Projects</g></source>
+832,834d207
+< </trans-unit>
+< <trans-unit id="tu208" restype="x-li">
+< <source xml:lang="en"><g id="1">Impact Projects</g></source>
+836,838d208
+< </trans-unit>
+< <trans-unit id="tu209" restype="x-li">
+< <source xml:lang="en"><g id="1">Akraino</g></source>
+840,842d209
+< </trans-unit>
+< <trans-unit id="tu210" restype="x-li">
+< <source xml:lang="en"><g id="1">EdgeX Foundry</g></source>
+844,846d210
+< </trans-unit>
+< <trans-unit id="tu211" restype="x-li">
+< <source xml:lang="en"><g id="1">Fledge</g></source>
+848,850d211
+< </trans-unit>
+< <trans-unit id="tu212" restype="x-li">
+< <source xml:lang="en"><g id="1">Growth Projects</g></source>
+852,854d212
+< </trans-unit>
+< <trans-unit id="tu213" restype="x-li">
+< <source xml:lang="en"><g id="1">EVE</g></source>
+856,858d213
+< </trans-unit>
+< <trans-unit id="tu214" restype="x-li">
+< <source xml:lang="en"><g id="1">FIDO Device Onboard</g></source>
+860,862d214
+< </trans-unit>
+< <trans-unit id="tu215" restype="x-li">
+< <source xml:lang="en"><g id="1">Open Horizon</g></source>
+864,866d215
+< </trans-unit>
+< <trans-unit id="tu216" restype="x-li">
+< <source xml:lang="en"><g id="1">State of the Edge</g></source>
+868,870d216
+< </trans-unit>
+< <trans-unit id="tu217" restype="x-li">
+< <source xml:lang="en"><g id="1">At-Large Projects</g></source>
+872,874d217
+< </trans-unit>
+< <trans-unit id="tu218" restype="x-li">
+< <source xml:lang="en"><g id="1">Alvarium</g></source>
+876,878d218
+< </trans-unit>
+< <trans-unit id="tu219" restype="x-li">
+< <source xml:lang="en"><g id="1">Baetyl</g></source>
+880,882d219
+< </trans-unit>
+< <trans-unit id="tu220" restype="x-li">
+< <source xml:lang="en"><g id="1">EdgeLake</g></source>
+884,886d220
+< </trans-unit>
+< <trans-unit id="tu221" restype="x-li">
+< <source xml:lang="en"><g id="1">eKuiper</g></source>
+888,890d221
+< </trans-unit>
+< <trans-unit id="tu222" restype="x-li">
+< <source xml:lang="en"><g id="1">InfiniEdge AI</g></source>
+892,894d222
+< </trans-unit>
+< <trans-unit id="tu223" restype="x-li">
+< <source xml:lang="en"><g id="1">InstantX</g></source>
+896,898d223
+< </trans-unit>
+< <trans-unit id="tu224" restype="x-li">
+< <source xml:lang="en"><g id="1">NanoMQ</g></source>
+900,902d224
+< </trans-unit>
+< <trans-unit id="tu225" restype="x-li">
+< <source xml:lang="en"><g id="1">Nexoedge</g></source>
+904,906d225
+< </trans-unit>
+< <trans-unit id="tu226" restype="x-li">
+< <source xml:lang="en"><g id="1">OpenBao</g></source>
+908,910d226
+< </trans-unit>
+< <trans-unit id="tu227" restype="x-li">
+< <source xml:lang="en"><g id="1">Emeritus Projects</g></source>
+912,914d227
+< </trans-unit>
+< <trans-unit id="tu228" restype="x-li">
+< <source xml:lang="en"><g id="1">Home Edge</g></source>
+916,918d228
+< </trans-unit>
+< <trans-unit id="tu229" restype="x-li">
+< <source xml:lang="en"><g id="1">Members</g></source>
+920,922d229
+< </trans-unit>
+< <trans-unit id="tu230" restype="x-li">
+< <source xml:lang="en"><g id="1">Members</g></source>
+924,926d230
+< </trans-unit>
+< <trans-unit id="tu231" restype="x-li">
+< <source xml:lang="en"><g id="1">Join</g></source>
+928,930d231
+< </trans-unit>
+< <trans-unit id="tu232" restype="x-li">
+< <source xml:lang="en"><g id="1">Resources</g></source>
+932,934d232
+< </trans-unit>
+< <trans-unit id="tu233" restype="x-li">
+< <source xml:lang="en"><g id="1">Whitepapers &amp; Reports</g></source>
+936,938d233
+< </trans-unit>
+< <trans-unit id="tu234" restype="x-li">
+< <source xml:lang="en"><g id="1">User &amp; Deployment Studies</g></source>
+940,942d234
+< </trans-unit>
+< <trans-unit id="tu235" restype="x-li">
+< <source xml:lang="en"><g id="1">LF Edge Sandbox</g></source>
+944,946d235
+< </trans-unit>
+< <trans-unit id="tu236" restype="x-li">
+< <source xml:lang="en"><g id="1">Get Involved</g></source>
+948,950d236
+< </trans-unit>
+< <trans-unit id="tu237" restype="x-li">
+< <source xml:lang="en"><g id="1">Wiki</g></source>
+952,954d237
+< </trans-unit>
+< <trans-unit id="tu238" restype="x-li">
+< <source xml:lang="en"><g id="1">News &amp; Events</g></source>
+956,958d238
+< </trans-unit>
+< <trans-unit id="tu239" restype="x-li">
+< <source xml:lang="en"><g id="1">Blog</g></source>
+960,962d239
+< </trans-unit>
+< <trans-unit id="tu240" restype="x-li">
+< <source xml:lang="en"><g id="1">Press Releases</g></source>
+964,966d240
+< </trans-unit>
+< <trans-unit id="tu241" restype="x-li">
+< <source xml:lang="en"><g id="1">Events</g></source>
+968,970d241
+< </trans-unit>
+< <trans-unit id="tu242" restype="x-li">
+< <source xml:lang="en"><g id="1">Webinars</g></source>
+972,974d242
+< </trans-unit>
+< <trans-unit id="tu243" restype="x-li">
+< <source xml:lang="en"><g id="1">Join</g></source>
+976,979d243
+< </trans-unit>
+< </body>
+< </file>
+< </xliff>

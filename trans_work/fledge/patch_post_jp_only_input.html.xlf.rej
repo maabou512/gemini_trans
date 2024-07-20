@@ -1,0 +1,23 @@
+*** /dev/null
+--- /dev/null
+***************
+*** 324,326
+- <target xml:lang="ja"> </target>
+- <target xml:lang="ja"><x id="1"/></target>
+- <target xml:lang="ja"> </target>
+--- 567,581 -----
++ </trans-unit>
++ <trans-unit id="tu81" restype="x-paragraph">
++ <source xml:lang="en"> </source>
++ <target xml:lang="ja"> </target>
++ </trans-unit>
++ <trans-unit id="tu82" restype="x-paragraph">
++ <source xml:lang="en"><x id="1"/></source>
++ <target xml:lang="ja"><x id="1"/></target>
++ </trans-unit>
++ <trans-unit id="tu83" restype="x-paragraph">
++ <source xml:lang="en"> </source>
++ <target xml:lang="ja"> </target>
++ </trans-unit>
++ <trans-unit id="tu84">
++ <source xml:lang="en">“Fledge solves diversity and complexity issues when collecting and processing data from the process control network and beyond. OSIsoft recommends that all our industrial customers and partners begin their data pipeline and IIoT journey by integrating Fledge into their industrial 4.0 infrastructure.”</source>

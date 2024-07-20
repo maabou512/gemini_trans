@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="input.html" source-language="en" target-language="ja" datatype="html" okp:inputEncoding="UTF-8">
+<body>
+<trans-unit id="tu1" restype="x-title">
+<source xml:lang="en">Fledge – LF EDGE: Building an Open Source Framework for the Edge.</source>
+<target xml:lang="ja">Fledge – LF EDGE: エッジ向けオープンソースフレームワークの構築。</target>
+</trans-unit>
+<trans-unit id="tu2" restype="x-title">
+<source xml:lang="en">LF EDGE: Building an Open Source Framework for the Edge. » Feed</source>
+<target xml:lang="ja">LF EDGE: エッジ向けオープンソースフレームワークの構築。 » フィード</target>
+</trans-unit>
+<trans-unit id="tu3" restype="x-title">
+<source xml:lang="en">LF EDGE: Building an Open Source Framework for the Edge. » Comments Feed</source>
+<target xml:lang="ja">LF EDGE: エッジ向けオープンソースフレームワークの構築 » コメントフィード</target>
+</trans-unit>
+<trans-unit id="tu4" restype="x-title">
+<source xml:lang="en">LF EDGE: Building an Open Source Framework for the Edge. » iCal Feed</source>
+<target xml:lang="ja">LF EDGE: エッジ向けオープンソースフレームワークの構築。 » iCalフィード</target>
+</trans-unit>
+<trans-unit id="tu5" restype="x-title">
+<source xml:lang="en">RSD</source>
+<target xml:lang="ja">RSD</target>
+</trans-unit>
+<trans-unit id="tu7" restype="x-alt">
+<source xml:lang="en">The Linux Foundation Projects</source>
+<target xml:lang="ja">The Linux Foundation プロジェクト</target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><g id="1"><x id="2"/></g></source>
+<target xml:lang="ja"><g id="1"><x id="2"/></g></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><g id="1"></g></source>
+<target xml:lang="ja"><g id="1">メンバー</g></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><g id="1">Skip to main content</g></source>
+<target xml:lang="ja"><g id="1">メインコンテンツにスキップ</g></target>
+</trans-unit>
+<trans-unit id="tu11" restype="x-value">
+<source xml:lang="en">Start Typing...</source>
+<target xml:lang="ja">入力を開始してください...</target>
+</trans-unit>
+<trans-unit id="tu12" restype="x-aria-label">
+<source xml:lang="en">Search</source>
+<target xml:lang="ja">検索</target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><g id="1"><g id="2">Close Search</g> <g id="3"></g> </g></source>
+<target xml:lang="ja"><g id="1"><g id="2">検索を閉じる</g> <g id="3"></g> </g></target>
+</trans-unit>
+<trans-unit id="tu15" restype="x-alt">
+<source xml:lang="en">LF EDGE: Building an Open Source Framework for the Edge.</source>
+<target xml:lang="ja">LF EDGE: エッジ向けオープンソースフレームワークの構築。</target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><g id="1"> <x id="2"/> </g></source>
+<target xml:lang="ja"><g id="1"> <x id="2"/> </g></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><g id="1"><g id="2"></g><g id="3">search</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2"></g><g id="3">検索</g></g></target>
+</trans-unit>
+<trans-unit id="tu18" restype="x-aria-label">
+<source xml:lang="en">Navigation Menu</source>
+<target xml:lang="ja">ナビゲーションメニュー</target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><g id="1"> <g id="2">Menu</g><g id="3"> <g id="4"> <g id="5"></g> </g> </g> </g></source>
+<target xml:lang="ja"><g id="1"> <g id="2">メニュー</g><g id="3"> <g id="4"> <g id="5"></g> </g> </g> </g></target>
+</trans-unit>
+<trans-unit id="tu19" resname="menu-item-10928-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">About</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">情報</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu20" resname="menu-item-10929-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">About LF Edge</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">LF Edgeについて</g></g></target>
+</trans-unit>
+<trans-unit id="tu21" resname="menu-item-10933-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Code of Conduct</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">行動規範</g></g></target>
+</trans-unit>
+<trans-unit id="tu22" resname="menu-item-10931-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Governing Board</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">運営委員会</g></g></target>
+</trans-unit>
+<trans-unit id="tu23" resname="menu-item-10932-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Technical Advisory Council (TAC)</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">技術諮問委員会（TAC）</g></g></target>
+</trans-unit>
+<trans-unit id="tu24" resname="menu-item-10930-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Contact Us</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">お問い合わせ</g></g></target>
+</trans-unit>
+<trans-unit id="tu25" resname="menu-item-10934-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Projects</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">プロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu26" resname="menu-item-10935-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Impact Projects</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">インパクトプロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu27" resname="menu-item-10938-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Akraino</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">Akraino</g></g></target>
+</trans-unit>
+<trans-unit id="tu28" resname="menu-item-10937-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">EdgeX Foundry</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">EdgeX Foundry</g></g></target>
+</trans-unit>
+<trans-unit id="tu29" resname="menu-item-10936-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Fledge</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">Fledge</g></g></target>
+</trans-unit>
+<trans-unit id="tu30" resname="menu-item-10939-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Growth Projects</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">グロースプロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu31" resname="menu-item-10942-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">EVE</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">EVE</g></g></target>
+</trans-unit>
+<trans-unit id="tu32" resname="menu-item-10945-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">FIDO Device Onboard</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">FIDO デバイス登録</g></g></target>
+</trans-unit>
+<trans-unit id="tu33" resname="menu-item-10940-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Open Horizon</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">Open Horizon</g></g></target>
+</trans-unit>
+<trans-unit id="tu34" resname="menu-item-10941-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">State of the Edge</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">エッジの現状</g></g></target>
+</trans-unit>
+<trans-unit id="tu35" resname="menu-item-10943-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">At-Large Projects</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">アットラージプロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu36" resname="menu-item-10948-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Alvarium</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">Alvarium</g></g></target>
+</trans-unit>
+<trans-unit id="tu37" resname="menu-item-10947-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Baetyl</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">バエテル</g></g></target>
+</trans-unit>
+<trans-unit id="tu38" resname="menu-item-12206-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">EdgeLake</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">エッジレイク</g></g></target>
+</trans-unit>
+<trans-unit id="tu39" resname="menu-item-10946-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">eKuiper</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">eKuiper</g></g></target>
+</trans-unit>
+<trans-unit id="tu40" resname="menu-item-12205-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">InfiniEdge AI</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">InfiniEdge AI</g></g></target>
+</trans-unit>
+<trans-unit id="tu41" resname="menu-item-12238-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">InstantX</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">InstantX</g></g></target>
+</trans-unit>
+<trans-unit id="tu42" resname="menu-item-12027-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">NanoMQ</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">NanoMQ</g></g> </target>
+</trans-unit>
+<trans-unit id="tu43" resname="menu-item-10944-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Nexoedge</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">Nexoedge</g></g></target>
+</trans-unit>
+<trans-unit id="tu44" resname="menu-item-12207-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">OpenBao</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">OpenBao</g></g></target>
+</trans-unit>
+<trans-unit id="tu45" resname="menu-item-10949-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Emeritus Projects</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">名誉プロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu46" resname="menu-item-10950-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Home Edge</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">ホーム エッジ</g></g></target>
+</trans-unit>
+<trans-unit id="tu47" resname="menu-item-10951-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Members</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">メンバー</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu48" resname="menu-item-10952-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Members</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">メンバー</g></g></target>
+</trans-unit>
+<trans-unit id="tu49" resname="menu-item-10953-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Join</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">参加する</g></g></target>
+</trans-unit>
+<trans-unit id="tu50" resname="menu-item-10954-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Resources</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">リソース</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu51" resname="menu-item-10958-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Whitepapers &amp; Reports</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">ホワイトペーパー＆レポート</g></g></target>
+</trans-unit>
+<trans-unit id="tu52" resname="menu-item-10957-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">User &amp; Deployment Studies</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">ユーザーとデプロイメントの研究</g></g></target>
+</trans-unit>
+<trans-unit id="tu53" resname="menu-item-10956-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">LF Edge Sandbox</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">LF Edge Sandbox</g></g></target>
+</trans-unit>
+<trans-unit id="tu54" resname="menu-item-10955-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Get Involved</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">参加する</g></g></target>
+</trans-unit>
+<trans-unit id="tu55" resname="menu-item-12115-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Wiki</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">Wiki</g></g></target>
+</trans-unit>
+<trans-unit id="tu56" resname="menu-item-10959-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">News &amp; Events</g><g id="3"><g id="4"></g></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">ニュース＆イベント</g><g id="3"><g id="4"></g></g></g></target>
+</trans-unit>
+<trans-unit id="tu57" resname="menu-item-10961-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Blog</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">ブログ</g></g></target>
+</trans-unit>
+<trans-unit id="tu58" resname="menu-item-10962-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Press Releases</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">プレスリリース</g></g></target>
+</trans-unit>
+<trans-unit id="tu59" resname="menu-item-10960-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Events</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">イベント</g></g></target>
+</trans-unit>
+<trans-unit id="tu60" resname="menu-item-10963-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Webinars</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">ウェビナー</g></g></target>
+</trans-unit>
+<trans-unit id="tu61" resname="menu-item-10964-id" restype="x-li">
+<source xml:lang="en"><g id="1"><g id="2">Join</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2">参加する</g></g></target>
+</trans-unit>
+<trans-unit id="tu62" resname="search-btn-id" restype="x-li">
+<source xml:lang="en"></source>
+<target xml:lang="ja"><g id="1">メンバー</g></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en"><g id="1"><g id="2"></g><g id="3">search</g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2"></g><g id="3">検索</g></g></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+<trans-unit id="tu65" restype="x-h2">
+<source xml:lang="en">Fledge is a  leading open source industrial edge platform for industrial data pipelines, intelligent edge applications and ML.</source>
+<target xml:lang="ja">Fledgeは、産業データパイプライン、インテリジェントエッジアプリケーション、およびML向けの主要なオープンソース産業エッジプラットフォームです。</target>
+</trans-unit>
+<trans-unit id="tu66" restype="x-h2">
+<source xml:lang="en">Our Vision: Fledge’s project and community deliver data management for automation, advanced process control and IIoT, accelerating global smart manufacturing / Industry 4.0. As manufacturing becomes more data driven, the convergence of OT’s &amp; IT’s people, processes and technology gains greater importance. Like Apache Spark’s pipelines for data lakes, Fledge’s pipelines for the automation pyramid and IIoT unify data acquisition, raw integration of data, filter/clean/transform data, aggregate data and enable edge 4.0 application development, provisioning, execution and management.</source>
+<target xml:lang="ja">私たちのビジョン: Fledgeのプロジェクトとコミュニティは、オートメーション、高度なプロセス制御、およびIIoTのためのデータ管理を提供し、グローバルなスマートマニュファクチャリング/インダストリー4.0を加速します。製造がますますデータドリブンになるにつれて、OTとITの人員、プロセス、テクノロジーの統合がさらに重要になります。データレイク向けのApache Sparkのパイプラインのように、オートメーションピラミッドとIIoT向けのFledgeのパイプラインは、データ収集、データの未加工の統合、データのフィルタリング/クレンジング/変換、データの集約を統合し、エッジ4.0アプリケーションの開発、プロビジョニング、実行、管理を可能にします。</target>
+</trans-unit>
+<trans-unit id="tu67" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<target xml:lang="ja"> </target>
+</trans-unit>
+<trans-unit id="tu68" restype="x-paragraph">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+<trans-unit id="tu69" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<target xml:lang="ja"> </target>
+</trans-unit>
+<trans-unit id="tu70" restype="x-paragraph">
+<source xml:lang="en">Fledge data pipelines run from sensors and actuators to on-prem systems to clouds and back. Fledge applications run on bare metal, VMs, containers or K3. Fledge can execute in distributed hardware as small as Raspberry Pi 0 to a well provisioned container in the cloud.</source>
+<target xml:lang="ja">Fledge データパイプラインは、センサーやアクチュエータからオンプレミスシステム、クラウド、そして再び戻ってくるまで実行されます。Fledge アプリケーションは、ベアメタル、VM、コンテナ、または K3 上で実行されます。Fledge は、Raspberry Pi 0 のような小規模な分散ハードウェアから、クラウド内の十分にプロビジョニングされたコンテナまで、さまざまな環境で実行できます。</target>
+</trans-unit>
+<trans-unit id="tu71" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<target xml:lang="ja"> </target>
+</trans-unit>
+<trans-unit id="tu72" restype="x-paragraph">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+<trans-unit id="tu73" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<target xml:lang="ja"> </target>
+</trans-unit>
+<trans-unit id="tu74" restype="x-paragraph">
+<source xml:lang="en">Manufacturing data systems and processes have unique requirements when compared to hyperscale data engineering and data science tools. Fledge is architected, built and system tested to meet industrial data management demands. <g id="1">Fledge Architecture.</g></source>
+<target xml:lang="ja">製造データシステムとプロセスには、ハイパースケールデータエンジニアリングおよびデータサイエンスツールと比較して、独自の要件があります。Fledgeは、産業データ管理の要求を満たすように設計、構築、およびシステムテストされています。<g id="1">Fledgeアーキテクチャ。</g></target>
+</trans-unit>
+<trans-unit id="tu75">
+<source xml:lang="en">“The actionable insights that Fledge’s Edge Machine Learning has delivered to our centrifuge operations team are a game changer…”</source>
+<target xml:lang="ja"><g id="1">Fledge</g>のエッジ機械学習によってもたらされた、実行可能な洞察は、当社の遠心分離機運用チームにとってゲームチェンジャーです...</target>
+</trans-unit>
+<trans-unit id="tu76">
+<source xml:lang="en">—Jennifer Dominick, Director, Focused Improvement and Analytics, ADM</source>
+<target xml:lang="ja">—ジェニファー・ドミニク、取締役、フォーカスド・インプルーブメント・アンド・アナリティクス、ADM</target>
+</trans-unit>
+<trans-unit id="tu77" restype="x-h3">
+<source xml:lang="en">Industrial Data Pipeline Requirements</source>
+<target xml:lang="ja">産業データパイプラインの要件</target>
+</trans-unit>
+<trans-unit id="tu78" restype="x-paragraph">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+<trans-unit id="tu79" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<target xml:lang="ja"> </target>
+</trans-unit>
+<trans-unit id="tu80" restype="x-paragraph">
+<source xml:lang="en">Fledge <g id="1">is not</g> <g id="2">a simple Industry 3.0 data acquisition and transformation gateway. Industrial software products that connect various industrial protocols and translate them into OPC-UA or a cloud or a time series database are problematic. </g><g id="3">These legacy techniques create data silos, vendor locks, protocol locks, don’t support edge applications and can not host ML/AI on the edge.</g></source>
+<target xml:lang="ja">Fledge <g id="1">は</g> <g id="2">単純なインダストリー3.0のデータ取得および変換ゲートウェイではありません。さまざまな産業用プロトコルを接続し、それらをOPC-UAまたはクラウドまたは時系列データベースに変換する産業用ソフトウェア製品には問題があります。</g><g id="3">これらの従来の技術は、データサイロ、ベンダーロック、プロトコルロックを作成し、エッジアプリケーションをサポートせず、エッジでML / AIをホストすることができません。</g></target>
+</trans-unit>
+<trans-unit id="tu81" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<target xml:lang="ja"> </target>
+</trans-unit>
+<trans-unit id="tu82" restype="x-paragraph">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+<trans-unit id="tu83" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<target xml:lang="ja"> </target>
+</trans-unit>
+<trans-unit id="tu84">
+<source xml:lang="en">“Fledge solves diversity and complexity issues when collecting and processing data from the process control network and beyond. OSIsoft recommends that all our industrial customers and partners begin their data pipeline and IIoT journey by integrating Fledge into their industrial 4.0 infrastructure.”</source>
+<target xml:lang="ja">「Fledgeは、プロセス制御ネットワークなどからデータを収集および処理する際の多様性と複雑さの問題を解決します。 OSIsoftは、すべてのお客様とパートナーが、インダストリアル4.0インフラストラクチャにFledgeを統合することで、データパイプラインとIIoTのジャーニーを開始することを推奨しています。」</target>
+</trans-unit>
+<trans-unit id="tu85">
+<source xml:lang="en">—Richard Beeson, CTO, AVEVA/OSIsoft</source>
+<target xml:lang="ja">―リチャード・ビーソン、最高技術責任者（CTO）、AVEVA/OSIsoft</target>
+</trans-unit>
+<trans-unit id="tu86" restype="x-paragraph">
+<source xml:lang="en"><g id="1">Fledge’s microservice-based pipelines collect from any/multiple sources, process all data types and integrate to any/multiple destinations — including MQTT, KAFKA and clouds — natively. </g></source>
+<target xml:lang="ja"><g id="1">Fledgeのマイクロサービスベースのパイプラインは、あらゆる/複数のソースからデータを収集し、すべてのデータ型を処理して、MQTT、KAFKA、クラウドなど、あらゆる/複数の宛先にネイティブに統合します。</g></target>
+</trans-unit>
+<trans-unit id="tu87" restype="x-paragraph">
+<source xml:lang="en"><g id="1">Fledge resolves and democratizes Industrial data pipeline challenges including:</g></source>
+<target xml:lang="ja"><g id="1">Fledgeは、以下を含む産業データパイプラインの課題を解決し、民主化します。</g></target>
+</trans-unit>
+<trans-unit id="tu88" restype="x-li">
+<source xml:lang="en"></source>
+<target xml:lang="ja">メンバー</target>
+</trans-unit>
+<trans-unit id="tu89" restype="x-li">
+<source xml:lang="en"><g id="1">Platform Agnostic </g></source>
+<target xml:lang="ja"><g id="1">プラットフォーム非依存</g></target>
+</trans-unit>
+<trans-unit id="tu90" restype="x-li">
+<source xml:lang="en"><g id="1">Diversity of source and destination protocols</g></source>
+<target xml:lang="ja"><g id="1">送信元と送信先のプロトコルの多様性</g></target>
+</trans-unit>
+<trans-unit id="tu91" restype="x-li">
+<source xml:lang="en"><g id="1">Namespace mapping</g></source>
+<target xml:lang="ja"><g id="1">名前空間マッピング</g></target>
+</trans-unit>
+<trans-unit id="tu92" restype="x-li">
+<source xml:lang="en"><g id="1">Multiple data sources/asset of different types (PLC has time series data, accelerometer has array data requiring edge based signal processing) </g></source>
+<target xml:lang="ja"><g id="1">複数のデータソース/異なるタイプの資産（PLCは時系列データを、加速度計はエッジベースの信号処理を必要とする配列データを保有） </g></target>
+</trans-unit>
+<trans-unit id="tu93" restype="x-li">
+<source xml:lang="en"><g id="1">Diversity of networks that may also be unreliable</g></source>
+<target xml:lang="ja"><g id="1">信頼性の低い可能性のある多様なネットワーク</g></target>
+</trans-unit>
+<trans-unit id="tu94" restype="x-li">
+<source xml:lang="en"><g id="1">Diversity of data types (timeseries, array, image, radiometric, transactional, etc)</g></source>
+<target xml:lang="ja"><g id="1">データ型の種類の多様性（時系列、配列、画像、放射測定、トランザクションなど）</g></target>
+</trans-unit>
+<trans-unit id="tu95" restype="x-li">
+<source xml:lang="en"><g id="1">Support existing equipment and analytics systems</g></source>
+<target xml:lang="ja"><g id="1">既存の機器と分析システムをサポートする</g></target>
+</trans-unit>
+<trans-unit id="tu96" restype="x-li">
+<source xml:lang="en"><g id="1">Model and application diversity </g></source>
+<target xml:lang="ja"><g id="1">モデルとアプリケーションの多様性 </g></target>
+</trans-unit>
+<trans-unit id="tu97" restype="x-li">
+<source xml:lang="en"><g id="1">Sensing, Analysis and Control Loops from manual to semi-autonomous to fully autonomous </g></source>
+<target xml:lang="ja"><g id="1">手動から半自律、完全自律までのセンシング、分析、制御ループ</g></target>
+</trans-unit>
+<trans-unit id="tu98" restype="x-li">
+<source xml:lang="en"><g id="1">Optimization model techniques include physics and chemistry based, predictive, simulation and AI</g></source>
+<target xml:lang="ja"><g id="1">物理および化学ベース、予測、シミュレーション、およびAIを含む最適化モデル手法</g></target>
+</trans-unit>
+<trans-unit id="tu99" restype="x-li">
+<source xml:lang="en"><g id="1">Ease-of-Use and Management</g></source>
+<target xml:lang="ja"><g id="1">使いやすさと管理</g></target>
+</trans-unit>
+<trans-unit id="tu100" restype="x-li">
+<source xml:lang="en"><g id="1">Open extensible UI</g></source>
+<target xml:lang="ja"><g id="1">オープンで拡張可能なUI</g></target>
+</trans-unit>
+<trans-unit id="tu101" restype="x-li">
+<source xml:lang="en"><g id="1">No code, low code and coded application development</g></source>
+<target xml:lang="ja"><g id="1">ノーコード、ローコード、コーディングを伴うアプリケーション開発</g></target>
+</trans-unit>
+<trans-unit id="tu102" restype="x-li">
+<source xml:lang="en"><g id="1">Manage distributed data paths</g></source>
+<target xml:lang="ja"><g id="1">分散データパスを管理する</g></target>
+</trans-unit>
+<trans-unit id="tu103" restype="x-li">
+<source xml:lang="en"><g id="1">Audit changes</g></source>
+<target xml:lang="ja"><g id="1">監査変更</g></target>
+</trans-unit>
+<trans-unit id="tu104" restype="x-li">
+<source xml:lang="en"><g id="1">Security and Orchestration</g></source>
+<target xml:lang="ja"><g id="1">セキュリティとオーケストレーション</g></target>
+</trans-unit>
+<trans-unit id="tu105" restype="x-li">
+<source xml:lang="en"><g id="1">Pipelines and applications behind the DMZ with no outside access</g></source>
+<target xml:lang="ja"><g id="1">DMZ の背後にある、外部アクセスがないパイプラインとアプリケーション</g></target>
+</trans-unit>
+<trans-unit id="tu106" restype="x-li">
+<source xml:lang="en"><g id="1">Adapt to plant and protocol security capabilities</g></source>
+<target xml:lang="ja"><g id="1">プラントおよびプロトコルセキュリティ機能に適応する</g></target>
+</trans-unit>
+<trans-unit id="tu107" restype="x-li">
+<source xml:lang="en"><g id="1">Encryption</g></source>
+<target xml:lang="ja"><g id="1">暗号化</g></target>
+</trans-unit>
+<trans-unit id="tu108" restype="x-li">
+<source xml:lang="en"><g id="1">Multiple user roles</g></source>
+<target xml:lang="ja"><g id="1">複数のユーザーロール</g></target>
+</trans-unit>
+<trans-unit id="tu109" restype="x-li">
+<source xml:lang="en"><g id="1">Optional certificate based authentication</g></source>
+<target xml:lang="ja"><g id="1">オプションの証明書ベースの認証</g></target>
+</trans-unit>
+<trans-unit id="tu110" restype="x-li">
+<source xml:lang="en"><g id="1">Kerberos</g></source>
+<target xml:lang="ja"><g id="1">Kerberos</g></target>
+</trans-unit>
+<trans-unit id="tu111" restype="x-li">
+<source xml:lang="en"><g id="1">EVE and K3</g></source>
+<target xml:lang="ja"><g id="1">EVEとK3</g></target>
+</trans-unit>
+<trans-unit id="tu112" restype="x-li">
+<source xml:lang="en"><g id="1">Location and Distributed compute</g></source>
+<target xml:lang="ja"><g id="1">場所と分散コンピューティング</g></target>
+</trans-unit>
+<trans-unit id="tu113" restype="x-li">
+<source xml:lang="en"><g id="1">Latency, data volumes, security, compliance and cost </g></source>
+<target xml:lang="ja"><g id="1">レイテンシ、データ量、セキュリティ、コンプライアンス、コスト </g></target>
+</trans-unit>
+<trans-unit id="tu114" restype="x-li">
+<source xml:lang="en"><g id="1">Real time information</g></source>
+<target xml:lang="ja"><g id="1">リアルタイム情報</g></target>
+</trans-unit>
+<trans-unit id="tu115" restype="x-li">
+<source xml:lang="en"><g id="1">Machine edge transactions, events and alerts</g></source>
+<target xml:lang="ja"><g id="1">マシンエッジトランザクション、イベント、アラート</g></target>
+</trans-unit>
+<trans-unit id="tu116" restype="x-li">
+<source xml:lang="en"><g id="1">Model Inference on the edge</g></source>
+<target xml:lang="ja"><g id="1">エッジでのモデル推論</g></target>
+</trans-unit>
+<trans-unit id="tu117" restype="x-li">
+<source xml:lang="en"><g id="1">Edge MLOps</g></source>
+<target xml:lang="ja"><g id="1">エッジMLOps</g></target>
+</trans-unit>
+<trans-unit id="tu118" restype="x-li">
+<source xml:lang="en"><g id="1">Set point controls</g></source>
+<target xml:lang="ja"><g id="1">設定値制御</g></target>
+</trans-unit>
+<trans-unit id="tu119">
+<source xml:lang="en">“Fledge’s ability to collect, process, transform and integrate machine data as well as run TensorFlow Lite on the edge makes it an excellent complement to Google’s AI platform… Google is proud to contribute to the Fledge project, empowering next generation industrial processes and intelligent automation.”</source>
+<target xml:lang="ja">“Fledgeの<g id="1">machine data</g>を収集、処理、変換、統合する機能と、エッジで<g id="2">TensorFlow Lite</g>を実行する機能により、FledgeはGoogleのAIプラットフォームの優れた補完になります… Googleは、次世代の産業プロセスとインテリジェントオートメーションを強化するFledgeプロジェクトに貢献できることを誇りに思います。”</target>
+</trans-unit>
+<trans-unit id="tu120">
+<source xml:lang="en">—Craig Wiley, Director, Google Cloud AI</source>
+<target xml:lang="ja">―<g id="1">Craig Wiley</g>氏、<g id="2">Google Cloud AI</g>担当<g id="3">Director</g></target>
+</trans-unit>
+<trans-unit id="tu121" restype="x-h3">
+<source xml:lang="en">Why Choose Fledge?</source>
+<target xml:lang="ja">Fledgeを選択する理由</target>
+</trans-unit>
+<trans-unit id="tu122" restype="x-li">
+<source xml:lang="en"></source>
+<target xml:lang="ja">メンバー</target>
+</trans-unit>
+<trans-unit id="tu123" restype="x-li">
+<source xml:lang="en"></source>
+<target xml:lang="ja">メンバー</target>
+</trans-unit>
+<trans-unit id="tu124" restype="x-li">
+<source xml:lang="en"><g id="1">Fledge was developed by industrial data experts for industrial use cases.  Fledge is not a general purpose edge platform used in retail and consumer applications.   Our community of industrial software and hardware experts are focused on industry 4.0 application development and industrial data pipeline challenges.  Join us.</g></source>
+<target xml:lang="ja"><g id="1">Fledgeは、産業データの専門家によって、産業ユースケース向けに開発されました。  Fledgeは、小売や消費者向けアプリケーションで使用されるような、汎用のエッジプラットフォームではありません。   産業用ソフトウェアおよびハードウェアの専門家からなる私たちのコミュニティは、インダストリー4.0アプリケーションの開発と、産業データパイプラインの課題に重点を置いています。  ぜひご参加ください。</g></target>
+</trans-unit>
+<trans-unit id="tu125" restype="x-li">
+<source xml:lang="en"><g id="1">Some of Fledge’s unique industrial features include:</g></source>
+<target xml:lang="ja"><g id="1">Fledge独自の特徴的な産業機能には次のようなものがあります。</g></target>
+</trans-unit>
+<trans-unit id="tu126" restype="x-td">
+<source xml:lang="en"><g id="1">FEATURES </g></source>
+<target xml:lang="ja"><g id="1">機能 </g></target>
+</trans-unit>
+<trans-unit id="tu127" restype="x-td">
+<source xml:lang="en"><g id="1">BENEFITS</g></source>
+<target xml:lang="ja"><g id="1">特典</g></target>
+</trans-unit>
+<trans-unit id="tu128" restype="x-td">
+<source xml:lang="en"><g id="1">Microservices with Plugins</g></source>
+<target xml:lang="ja"><g id="1">プラグインを使用したマイクロサービス</g></target>
+</trans-unit>
+<trans-unit id="tu129" restype="x-td">
+<source xml:lang="en"></source>
+<target xml:lang="ja">メンバー</target>
+</trans-unit>
+<trans-unit id="tu130" restype="x-li">
+<source xml:lang="en"><g id="1">Highly modular reusable code</g></source>
+<target xml:lang="ja"><g id="1">高度にモジュール化された再利用可能なコード</g></target>
+</trans-unit>
+<trans-unit id="tu131" restype="x-li">
+<source xml:lang="en"><g id="1">Faster more focused development</g></source>
+<target xml:lang="ja"><g id="1">より速く、より焦点を絞った開発</g></target>
+</trans-unit>
+<trans-unit id="tu132" restype="x-li">
+<source xml:lang="en"><g id="1">Less component test</g></source>
+<target xml:lang="ja"><g id="1">Lessコンポーネントテスト</g></target>
+</trans-unit>
+<trans-unit id="tu133" restype="x-li">
+<source xml:lang="en"><g id="1">No-code/Low-code development</g></source>
+<target xml:lang="ja"><g id="1">ノーコード/ローコード開発</g></target>
+</trans-unit>
+<trans-unit id="tu134" restype="x-li">
+<source xml:lang="en"><g id="1">Scalable, manageable</g></source>
+<target xml:lang="ja"><g id="1">スケーラブルで管理しやすい</g></target>
+</trans-unit>
+<trans-unit id="tu135" restype="x-td">
+<source xml:lang="en"><g id="1">High Performance</g></source>
+<target xml:lang="ja"><g id="1">高性能</g></target>
+</trans-unit>
+<trans-unit id="tu136" restype="x-td">
+<source xml:lang="en"></source>
+<target xml:lang="ja">メンバー</target>
+</trans-unit>
+<trans-unit id="tu137" restype="x-li">
+<source xml:lang="en"><g id="1">Vibration signal processing 4 channels 48 kHz/channel </g></source>
+<target xml:lang="ja"><g id="1">振動信号処理 4チャンネル 48 kHz/チャンネル </g></target>
+</trans-unit>
+<trans-unit id="tu138" restype="x-li">
+<source xml:lang="en"><g id="1">120K total tags</g></source>
+<target xml:lang="ja"><g id="1">合計120Kタグ</g></target>
+</trans-unit>
+<trans-unit id="tu139" restype="x-li">
+<source xml:lang="en"><g id="1">120K events/sec</g></source>
+<target xml:lang="ja"><g id="1">120Kイベント/秒</g></target>
+</trans-unit>
+<trans-unit id="tu140" restype="x-li">
+<source xml:lang="en"><g id="1">Computer vision</g></source>
+<target xml:lang="ja"><g id="1">コンピュータービジョン</g></target>
+</trans-unit>
+<trans-unit id="tu141" restype="x-li">
+<source xml:lang="en"><g id="1">Real time edge inference with set point control</g></source>
+<target xml:lang="ja"><g id="1">設定値制御を備えたリアルタイムエッジ推論</g></target>
+</trans-unit>
+<trans-unit id="tu142" restype="x-td">
+<source xml:lang="en"><g id="1">Push or Pull updates</g></source>
+<target xml:lang="ja"><g id="1">プッシュまたはプルによる更新</g></target>
+</trans-unit>
+<trans-unit id="tu143" restype="x-paragraph">
+<source xml:lang="en"><g id="1">Relay data paths </g></source>
+<target xml:lang="ja"><g id="1">リレーデータパス </g></target>
+</trans-unit>
+<trans-unit id="tu144" restype="x-paragraph">
+<source xml:lang="en"><g id="1">Redundant data paths</g></source>
+<target xml:lang="ja"><g id="1">冗長なデータパス</g></target>
+</trans-unit>
+<trans-unit id="tu145" restype="x-td">
+<source xml:lang="en"></source>
+<target xml:lang="ja">メンバー</target>
+</trans-unit>
+<trans-unit id="tu146" restype="x-li">
+<source xml:lang="en"><g id="1">Secure updates and rollbacks</g></source>
+<target xml:lang="ja"><g id="1">安全な更新とロールバック</g></target>
+</trans-unit>
+<trans-unit id="tu147" restype="x-li">
+<source xml:lang="en"><g id="1">Secure data paths</g></source>
+<target xml:lang="ja"><g id="1">セキュアなデータパス</g></target>
+</trans-unit>
+<trans-unit id="tu148" restype="x-li">
+<source xml:lang="en"><g id="1">High availability</g></source>
+<target xml:lang="ja"><g id="1">高可用性</g></target>
+</trans-unit>
+<trans-unit id="tu149" restype="x-td">
+<source xml:lang="en"><g id="1">Open Extensible UI &amp; Open RestAPIs </g></source>
+<target xml:lang="ja"><g id="1">オープン拡張UI & オープンRestAPI</g></target>
+</trans-unit>
+<trans-unit id="tu150" restype="x-td">
+<source xml:lang="en"></source>
+<target xml:lang="ja"><g id="1">メンバー</g></target>
+</trans-unit>
+<trans-unit id="tu151" restype="x-li">
+<source xml:lang="en"><g id="1">Faster time to market</g></source>
+<target xml:lang="ja"><g id="1">市場投入までの時間短縮</g></target>
+</trans-unit>
+<trans-unit id="tu152" restype="x-li">
+<source xml:lang="en"><g id="1">Easy to use and configure</g></source>
+<target xml:lang="ja"><g id="1">使いやすく、設定が簡単</g></target>
+</trans-unit>
+<trans-unit id="tu153" restype="x-li">
+<source xml:lang="en"><g id="1">No-code app development</g></source>
+<target xml:lang="ja"><g id="1">ノーコードアプリ開発</g></target>
+</trans-unit>
+<trans-unit id="tu154" restype="x-td">
+<source xml:lang="en"><g id="1">Abstracts: assets, data sources, compute, integrations and ML models</g></source>
+<target xml:lang="ja"><g id="1">アブストラクト: 資産、データソース、コンピュート、インテグレーション、およびMLモデル</g></target>
+</trans-unit>
+<trans-unit id="tu155" restype="x-td">
+<source xml:lang="en"></source>
+<target xml:lang="ja"><g id="1">メンバー</g></target>
+</trans-unit>
+<trans-unit id="tu156" restype="x-li">
+<source xml:lang="en"><g id="1">Data in operational context</g></source>
+<target xml:lang="ja"><g id="1">運用コンテキストにおけるデータ</g></target>
+</trans-unit>
+<trans-unit id="tu157" restype="x-li">
+<source xml:lang="en"><g id="1">Enterprise level management and security</g></source>
+<target xml:lang="ja"><g id="1">エンタープライズレベルの管理とセキュリティ</g></target>
+</trans-unit>
+<trans-unit id="tu158" restype="x-li">
+<source xml:lang="en"><g id="1">Edge MLOps</g></source>
+<target xml:lang="ja"><g id="1">エッジMLOps</g></target>
+</trans-unit>
+<trans-unit id="tu159" restype="x-li">
+<source xml:lang="en"><g id="1">Intelligent automation</g></source>
+<target xml:lang="ja"><g id="1">インテリジェントオートメーション</g></target>
+</trans-unit>
+<trans-unit id="tu160" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<target xml:lang="ja"> </target>
+</trans-unit>
+<trans-unit id="tu161" restype="x-li">
+<source xml:lang="en"><g id="1">Open, flexible, extensible — Independent of automation equipment, systems, clouds, ML tools.  No vendor lock.  No protocol lock. Works with new and old equipment alike. </g></source>
+<target xml:lang="ja"><g id="1">オープン、柔軟、拡張可能 - 自動化装置、システム、クラウド、MLツールに依存しません。  ベンダーロックインはありません。  プロトコルロックもありません。 新旧の機器で同様に動作します。 </g></target>
+</trans-unit>
+<trans-unit id="tu162" restype="x-li">
+<source xml:lang="en"><g id="1">Focus on your unique requirements and value add.  Fledge manages the data pipelines from sensors to clouds and back enabling 4.0 applications and multi-protocol gateway services. </g></source>
+<target xml:lang="ja"><g id="1">独自の要件と価値の追加に焦点を当てます。  Fledgeは、センサーからクラウド、そしてクラウドからセンサーに戻るデータパイプラインを管理し、4.0アプリケーションとマルチプロトコルゲートウェイサービスを実現します。 </g></target>
+</trans-unit>
+<trans-unit id="tu163" restype="x-li">
+<source xml:lang="en"><g id="1">Cost, risk and time to market.   What open source is all about. </g></source>
+<target xml:lang="ja"><g id="1">コスト、リスク、そして市場投入までの時間。それがオープンソースのすべてです。</g></target>
+</trans-unit>
+<trans-unit id="tu164" restype="x-li">
+<source xml:lang="en"><g id="1">Plants, factories and mines don’t exist in clouds – Designed to scale, secure and manage operational technologies’ distributed computing reality. </g></source>
+<target xml:lang="ja"><g id="1">プラント、工場、鉱山はクラウドには存在しません – 運用テクノロジーの分散コンピューティングの現実を拡張、保護、管理するように設計されています。 </g></target>
+</trans-unit>
+<trans-unit id="tu165" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<target xml:lang="ja"> </target>
+</trans-unit>
+<trans-unit id="tu166">
+<source xml:lang="en">“Fledge’s ability to collect, process, transform and integrate machine data as well as run TensorFlow Lite on the edge makes it an excellent complement to Google’s AI platform… Google is proud to contribute to the Fledge project, empowering next generation industrial processes and intelligent automation.”</source>
+<target xml:lang="ja">“Fledge’s ability to <g id="1">collect</g>, <g id="2">process</g>, <g id="3">transform</g> and <g id="4">integrate</g> <g id="5">machine data</g> as well as <g id="6">run</g> <g id="7">TensorFlow Lite</g> on the <g id="8">edge</g> makes it an excellent <g id="9">complement</g> to Google’s <g id="10">AI platform</g>… Google is <g id="11">proud</g> to <g id="12">contribute</g> to the Fledge <g id="13">project</g>, <g id="14">empowering</g> next <g id="15">generation</g> <g id="16">industrial processes</g> and <g id="17">intelligent automation</g>.”</target>
+</trans-unit>
+<trans-unit id="tu167">
+<source xml:lang="en">—Craig Wiley, Director, Google Cloud AI</source>
+<target xml:lang="ja">―<g id="1">Craig Wiley</g>、<g id="2">Director</g>、<g id="3">Google Cloud AI</g></target>
+</trans-unit>
+<trans-unit id="tu168" restype="x-h2">
+<source xml:lang="en">Join our fast growing community of industrial users, contributors, technology providers, connectors, standards groups and system integrators.</source>
+<target xml:lang="ja"><g id="1">Members</g>、<g id="2">contributors</g>、<g id="3">technology providers</g>、<g id="4">connectors</g>、<g id="5">standards group</g>、<g id="6">system integrators</g>からなる、急速に成長しているコミュニティにご参加ください。</target>
+</trans-unit>
+<trans-unit id="tu169" restype="x-h3">
+<source xml:lang="en">Industrial Pipelines</source>
+<target xml:lang="ja"><g id="1">Industrial Pipelines</g></target>
+</trans-unit>
+<trans-unit id="tu170" restype="x-paragraph">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+<trans-unit id="tu171" restype="x-h3">
+<source xml:lang="en">Public Users and Contributors</source>
+<target xml:lang="ja"><g id="1">Public Users and Contributors</g></target>
+</trans-unit>
+<trans-unit id="tu172" restype="x-h3">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+<trans-unit id="tu173" restype="x-h3">
+<source xml:lang="en">Cloud / Data Management / Edge MLOps</source>
+<target xml:lang="ja">クラウド / データ管理 / エッジMLOps</target>
+</trans-unit>
+<trans-unit id="tu174" restype="x-paragraph">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+<trans-unit id="tu175" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<target xml:lang="ja"> </target>
+</trans-unit>
+<trans-unit id="tu176">
+<source xml:lang="en">“As power systems transform to deliver energy transition successfully, grid operators must be able to monitor and interact with a variety of systems where a high-volume of data is exchanged with various protocols at high-velocity of change. These exchanges require real-time, efficient, robust, and secure communications. Fledge is the core platform of FledgePower which aims to solve the problem of multiple protocol translation for power systems operations.”</source>
+<target xml:lang="ja">電力システムがエネルギー移行を成功させるために変革していく中で、電力会社は、大量のデータがさまざまなプロトコルでやり取りされ、変化の速度が速い、さまざまなシステムを監視し、対話できる必要があります。これらのやり取りには、リアルタイムで、効率的、堅牢、かつ安全な通信が必要です。Fledgeは、電力システム運用における複数プロトコル変換の問題を解決することを目的としたFledgePowerの中核プラットフォームです。</target>
+</trans-unit>
+<trans-unit id="tu177">
+<source xml:lang="en">—Akli Rahmoun, Telecontrol systems expert, RTE</source>
+<target xml:lang="ja">―アクリ・ラフムン、遠隔制御システム専門家、RTE</target>
+</trans-unit>
+<trans-unit id="tu178" restype="x-paragraph">
+<source xml:lang="en">The fourth industrial revolution requires a new open data pipeline infrastructure integrated into the automation pyramid and IIoT. Fledge is the Linux Foundation’s solution.</source>
+<target xml:lang="ja">第4次産業革命では、オートメーションピラミッドとIIoTに統合された新しいオープンデータパイプラインインフラストラクチャが必要です。 FledgeはLinux Foundationのソリューションです。</target>
+</trans-unit>
+<trans-unit id="tu179" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<target xml:lang="ja"> </target>
+</trans-unit>
+<trans-unit id="tu180" restype="x-paragraph">
+<source xml:lang="en">We encourage industrial companies, software developers, integrators and suppliers to read <g id="1">CESMII’s (Clean Energy Smart Manufacturing Innovation Institute) Principles of Smart Manufacturing article</g> for an overview of the market and its requirements. We concur with CESMII and Fledge embodies those principles.</source>
+<target xml:lang="ja">私たちは、業界企業、ソフトウェア開発者、インテグレーター、サプライヤーの皆様に、市場とその要件の概要について、<g id="1">CESMII（クリーンエナジー スマートマニュファクチャリングイノベーションインスティテュート）のスマートマニュファクチャリングの原則に関する記事</g>をお読みになることをお勧めします。私たちはCESMIIに同意しており、Fledgeはこれらの原則を具現化しています。</target>
+</trans-unit>
+<trans-unit id="tu181" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<target xml:lang="ja"> </target>
+</trans-unit>
+<trans-unit id="tu182" restype="x-paragraph">
+<source xml:lang="en"><g id="1">How to cite this article:</g> C. Leiva, <g id="2">J. Adv. Manuf. Process</g>. <g id="3">2022</g>, <g id="4">4</g>(4), e10123. <g id="5">https://doi.org/10.1002/amp2.10123</g></source>
+<target xml:lang="ja"><g id="1">この記事の引用方法:</g> C. Leiva, <g id="2">J. Adv. Manuf. Process</g>. <g id="3">2022</g>, <g id="4">4</g>(4), e10123. <g id="5">https://doi.org/10.1002/amp2.10123</g></target>
+</trans-unit>
+<trans-unit id="tu183" restype="x-h5">
+<source xml:lang="en">Get Started With Fledge</source>
+<target xml:lang="ja">Fledgeを使い始める</target>
+</trans-unit>
+<trans-unit id="tu184">
+<source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2"></g></g></target>
+</trans-unit>
+<trans-unit id="tu185" restype="x-paragraph">
+<source xml:lang="en"><g id="1">Get The Code</g></source>
+<target xml:lang="ja"><g id="1">コードを取得する</g></target>
+</trans-unit>
+<trans-unit id="tu186">
+<source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2"></g></g></target>
+</trans-unit>
+<trans-unit id="tu187" restype="x-paragraph">
+<source xml:lang="en"><g id="1">View Documentation</g></source>
+<target xml:lang="ja"><g id="1">ドキュメントを表示</g></target>
+</trans-unit>
+<trans-unit id="tu188">
+<source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2"></g></g></target>
+</trans-unit>
+<trans-unit id="tu189" restype="x-paragraph">
+<source xml:lang="en"><g id="1">Visit Wiki</g></source>
+<target xml:lang="ja"><g id="1">Wikiにアクセス</g></target>
+</trans-unit>
+<trans-unit id="tu190">
+<source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2"></g></g></target>
+</trans-unit>
+<trans-unit id="tu191" restype="x-paragraph">
+<source xml:lang="en"><g id="1">Join Mail Lists</g></source>
+<target xml:lang="ja"><g id="1">メーリングリストに参加する</g></target>
+</trans-unit>
+<trans-unit id="tu192">
+<source xml:lang="en"><g id="1"><g id="2"></g></g></source>
+<target xml:lang="ja"><g id="1"><g id="2"></g></g></target>
+</trans-unit>
+<trans-unit id="tu193" restype="x-paragraph">
+<source xml:lang="en"><g id="1"> Discuss in Slack (#fledge / #fledge-help / #fledge-tsc)</g></source>
+<target xml:lang="ja"><g id="1">Slackで議論する（#fledge / #fledge-help / #fledge-tsc）</g></target>
+</trans-unit>
+<trans-unit id="tu194" restype="x-h2">
+<source xml:lang="en">User &amp; Deployment Studies</source>
+<target xml:lang="ja">ユーザーと展開の研究</target>
+</trans-unit>
+<trans-unit id="tu195">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+<trans-unit id="tu196" restype="x-h6">
+<source xml:lang="en">UC Davis and Opus One Using Fledge to Produce World Class Wine in Safer Conditions</source>
+<target xml:lang="ja">UC DavisとOpus OneがFledgeを使用してより安全な条件で世界クラスのワインを生産</target>
+</trans-unit>
+<trans-unit id="tu197">
+<source xml:lang="en"><g id="1">Download Now</g></source>
+<target xml:lang="ja"><g id="1">今すぐダウンロード</g></target>
+</trans-unit>
+<trans-unit id="tu198">
+<source xml:lang="en"><x id="1"/></source>
+<target xml:lang="ja"><x id="1"/></target>
+</trans-unit>
+<trans-unit id="tu199" restype="x-paragraph">
+<source xml:lang="en">Copyright © 2023 The Linux Foundation® . All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <g id="1">Trademark Usage</g> page. Linux is a registered trademark of Linus Torvalds. <g id="2">Privacy Policy</g> and <g id="3">Terms of Use</g>.</source>
+<target xml:lang="ja">Copyright © 2023 The Linux Foundation® . All rights reserved. The Linux Foundationは登録商標を有しており、商標を使用しています。The Linux Foundationの商標リストについては、<g id="1">商標使用</g>ページをご覧ください。Linuxは、Linus Torvaldsの登録商標です。<g id="2">プライバシーポリシー</g>と<g id="3">利用規約</g>。</target>
+</trans-unit>
+<trans-unit id="tu200">
+<source xml:lang="en"><g id="1"><g id="2">Close Menu</g> <g id="3"></g> </g></source>
+<target xml:lang="ja"><g id="1"><g id="2">メニューを閉じる</g> <g id="3"></g> </g></target>
+</trans-unit>
+<trans-unit id="tu201" restype="x-li">
+<source xml:lang="en"><g id="1">About</g></source>
+<target xml:lang="ja"><g id="1">About</g></target>
+</trans-unit>
+<trans-unit id="tu202" restype="x-li">
+<source xml:lang="en"><g id="1">About LF Edge</g></source>
+<target xml:lang="ja"><g id="1">LF Edgeについて</g></target>
+</trans-unit>
+<trans-unit id="tu203" restype="x-li">
+<source xml:lang="en"><g id="1">Code of Conduct</g></source>
+<target xml:lang="ja"><g id="1">行動規範</g></target>
+</trans-unit>
+<trans-unit id="tu204" restype="x-li">
+<source xml:lang="en"><g id="1">Governing Board</g></source>
+<target xml:lang="ja"><g id="1">運営委員会</g></target>
+</trans-unit>
+<trans-unit id="tu205" restype="x-li">
+<source xml:lang="en"><g id="1">Technical Advisory Council (TAC)</g></source>
+<target xml:lang="ja"><g id="1">技術諮問委員会（TAC）</g></target>
+</trans-unit>
+<trans-unit id="tu206" restype="x-li">
+<source xml:lang="en"><g id="1">Contact Us</g></source>
+<target xml:lang="ja"><g id="1">お問い合わせ</g></target>
+</trans-unit>
+<trans-unit id="tu207" restype="x-li">
+<source xml:lang="en"><g id="1">Projects</g></source>
+<target xml:lang="ja"><g id="1">プロジェクト</g></target>
+</trans-unit>
+<trans-unit id="tu208" restype="x-li">
+<source xml:lang="en"><g id="1">Impact Projects</g></source>
+<target xml:lang="ja"><g id="1">インパクトプロジェクト</g></target>
+</trans-unit>
+<trans-unit id="tu209" restype="x-li">
+<source xml:lang="en"><g id="1">Akraino</g></source>
+<target xml:lang="ja"><g id="1">アクライノ</g></target>
+</trans-unit>
+<trans-unit id="tu210" restype="x-li">
+<source xml:lang="en"><g id="1">EdgeX Foundry</g></source>
+<target xml:lang="ja"><g id="1">EdgeX Foundry</g></target>
+</trans-unit>
+<trans-unit id="tu211" restype="x-li">
+<source xml:lang="en"><g id="1">Fledge</g></source>
+<target xml:lang="ja"><g id="1">Fledge</g></target>
+</trans-unit>
+<trans-unit id="tu212" restype="x-li">
+<source xml:lang="en"><g id="1">Growth Projects</g></source>
+<target xml:lang="ja"><g id="1">成長プロジェクト</g></target>
+</trans-unit>
+<trans-unit id="tu213" restype="x-li">
+<source xml:lang="en"><g id="1">EVE</g></source>
+<target xml:lang="ja"><g id="1">EVE</g></target>
+</trans-unit>
+<trans-unit id="tu214" restype="x-li">
+<source xml:lang="en"><g id="1">FIDO Device Onboard</g></source>
+<target xml:lang="ja"><g id="1">FIDOデバイス登録</g></target>
+</trans-unit>
+<trans-unit id="tu215" restype="x-li">
+<source xml:lang="en"><g id="1">Open Horizon</g></source>
+<target xml:lang="ja"><g id="1">オープンホライズン</g></target>
+</trans-unit>
+<trans-unit id="tu216" restype="x-li">
+<source xml:lang="en"><g id="1">State of the Edge</g></source>
+<target xml:lang="ja"><g id="1">エッジの状態</g></target>
+</trans-unit>
+<trans-unit id="tu217" restype="x-li">
+<source xml:lang="en"><g id="1">At-Large Projects</g></source>
+<target xml:lang="ja"><g id="1">アットラージプロジェクト</g></target>
+</trans-unit>
+<trans-unit id="tu218" restype="x-li">
+<source xml:lang="en"><g id="1">Alvarium</g></source>
+<target xml:lang="ja"><g id="1">アルバリウム</g></target>
+</trans-unit>
+<trans-unit id="tu219" restype="x-li">
+<source xml:lang="en"><g id="1">Baetyl</g></source>
+<target xml:lang="ja"><g id="1">バエティル</g></target>
+</trans-unit>
+<trans-unit id="tu220" restype="x-li">
+<source xml:lang="en"><g id="1">EdgeLake</g></source>
+<target xml:lang="ja"><g id="1">EdgeLake</g></target>
+</trans-unit>
+<trans-unit id="tu221" restype="x-li">
+<source xml:lang="en"><g id="1">eKuiper</g></source>
+<target xml:lang="ja"><g id="1">eKuiper</g></target>
+</trans-unit>
+<trans-unit id="tu222" restype="x-li">
+<source xml:lang="en"><g id="1">InfiniEdge AI</g></source>
+<target xml:lang="ja"><g id="1">InfiniEdge AI</g></target>
+</trans-unit>
+<trans-unit id="tu223" restype="x-li">
+<source xml:lang="en"><g id="1">InstantX</g></source>
+<target xml:lang="ja"><g id="1">インスタントX</g></target>
+</trans-unit>
+<trans-unit id="tu224" restype="x-li">
+<source xml:lang="en"><g id="1">NanoMQ</g></source>
+<target xml:lang="ja"><g id="1">NanoMQ</g></target>
+</trans-unit>
+<trans-unit id="tu225" restype="x-li">
+<source xml:lang="en"><g id="1">Nexoedge</g></source>
+<target xml:lang="ja"><g id="1">ネクスエッジ</g></target>
+</trans-unit>
+<trans-unit id="tu226" restype="x-li">
+<source xml:lang="en"><g id="1">OpenBao</g></source>
+<target xml:lang="ja"><g id="1">OpenBao</g></target>
+</trans-unit>
+<trans-unit id="tu227" restype="x-li">
+<source xml:lang="en"><g id="1">Emeritus Projects</g></source>
+<target xml:lang="ja"><g id="1">エメリタスプロジェクト</g></target>
+</trans-unit>
+<trans-unit id="tu228" restype="x-li">
+<source xml:lang="en"><g id="1">Home Edge</g></source>
+<target xml:lang="ja"><g id="1">ホーム エッジ</g></target>
+</trans-unit>
+<trans-unit id="tu229" restype="x-li">
+<source xml:lang="en"><g id="1">Members</g></source>
+<target xml:lang="ja"><g id="1">メンバー</g></target>
+</trans-unit>
+<trans-unit id="tu230" restype="x-li">
+<source xml:lang="en"><g id="1">Members</g></source>
+<target xml:lang="ja"><g id="1">メンバー</g></target>
+</trans-unit>
+<trans-unit id="tu231" restype="x-li">
+<source xml:lang="en"><g id="1">Join</g></source>
+<target xml:lang="ja"><g id="1">参加する</g></target>
+</trans-unit>
+<trans-unit id="tu232" restype="x-li">
+<source xml:lang="en"><g id="1">Resources</g></source>
+<target xml:lang="ja"><g id="1">リソース</g></target>
+</trans-unit>
+<trans-unit id="tu233" restype="x-li">
+<source xml:lang="en"><g id="1">Whitepapers &amp; Reports</g></source>
+<target xml:lang="ja"><g id="1">ホワイトペーパー＆レポート</g></target>
+</trans-unit>
+<trans-unit id="tu234" restype="x-li">
+<source xml:lang="en"><g id="1">User &amp; Deployment Studies</g></source>
+<target xml:lang="ja"><g id="1">ユーザーと展開の研究</g></target>
+</trans-unit>
+<trans-unit id="tu235" restype="x-li">
+<source xml:lang="en"><g id="1">LF Edge Sandbox</g></source>
+<target xml:lang="ja"><g id="1">LF Edge Sandbox</g></target>
+</trans-unit>
+<trans-unit id="tu236" restype="x-li">
+<source xml:lang="en"><g id="1">Get Involved</g></source>
+<target xml:lang="ja"><g id="1">参加する</g></target>
+</trans-unit>
+<trans-unit id="tu237" restype="x-li">
+<source xml:lang="en"><g id="1">Wiki</g></source>
+<target xml:lang="ja"><g id="1">Wiki</g></target>
+</trans-unit>
+<trans-unit id="tu238" restype="x-li">
+<source xml:lang="en"><g id="1">News &amp; Events</g></source>
+<target xml:lang="ja"><g id="1">ニュース＆イベント</g></target>
+</trans-unit>
+<trans-unit id="tu239" restype="x-li">
+<source xml:lang="en"><g id="1">Blog</g></source>
+<target xml:lang="ja"><g id="1">ブログ</g></target>
+</trans-unit>
+<trans-unit id="tu240" restype="x-li">
+<source xml:lang="en"><g id="1">Press Releases</g></source>
+<target xml:lang="ja"><g id="1">報道関係者向け情報</g></target>
+</trans-unit>
+<trans-unit id="tu241" restype="x-li">
+<source xml:lang="en"><g id="1">Events</g></source>
+<target xml:lang="ja"><g id="1">イベント</g></target>
+</trans-unit>
+<trans-unit id="tu242" restype="x-li">
+<source xml:lang="en"><g id="1">Webinars</g></source>
+<target xml:lang="ja"><g id="1">ウェビナー</g></target>
+</trans-unit>
+<trans-unit id="tu243" restype="x-li">
+<source xml:lang="en"><g id="1">Join</g></source>
+<target xml:lang="ja"><g id="1">参加する</g></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

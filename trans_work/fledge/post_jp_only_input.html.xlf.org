@@ -1,0 +1,424 @@
+```
+<target xml:lang="ja">Fledge – LF EDGE: エッジ向けオープンソースフレームワークの構築。</target>
+``````xml
+<target xml:lang="ja">LF EDGE: エッジ向けオープンソースフレームワークの構築。 » フィード</target>
+``````
+<target xml:lang="ja">LF EDGE: エッジ向けオープンソースフレームワークの構築 » コメントフィード</target>
+```
+<target xml:lang="ja">LF EDGE: エッジ向けオープンソースフレームワークの構築。 » iCalフィード</target> 
+```xml
+<target xml:lang="ja">RSD</target>
+```<target xml:lang="ja">The Linux Foundation プロジェクト</target> 
+```xml
+<target xml:lang="ja"><g id="1"><x id="2"/></g></target>
+``````xml
+<target xml:lang="ja"><g id="1">メンバー</g></target>
+``````
+<target xml:lang="ja"><g id="1">メインコンテンツにスキップ</g></target>
+```<target xml:lang="ja">入力を開始してください...</target>
+<target xml:lang="ja">検索</target>
+<target xml:lang="ja"><x id="1"/></target> 
+```
+<target xml:lang="ja"><g id="1"><g id="2">検索を閉じる</g> <g id="3"></g> </g></target>
+```<target xml:lang="ja">LF EDGE: エッジ向けオープンソースフレームワークの構築。</target>
+```xml
+<target xml:lang="ja"><g id="1"> <x id="2"/> </g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2"></g><g id="3">検索</g></g></target>
+```<target xml:lang="ja">ナビゲーションメニュー</target>
+```xml
+<target xml:lang="ja"><g id="1"> <g id="2">メニュー</g><g id="3"> <g id="4"> <g id="5"></g> </g> </g> </g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">情報</g><g id="3"><g id="4"></g></g></g></target>
+``````
+<target xml:lang="ja"><g id="1"><g id="2">LF Edgeについて</g></g></target>
+``````
+<target xml:lang="ja"><g id="1"><g id="2">行動規範</g></g></target>
+``````
+<target xml:lang="ja"><g id="1"><g id="2">運営委員会</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">技術諮問委員会（TAC）</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">お問い合わせ</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">プロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+```<target xml:lang="ja"><g id="1"><g id="2">インパクトプロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+<target xml:lang="ja"><g id="1"><g id="2">Akraino</g></g></target> 
+```xml
+<target xml:lang="ja"><g id="1"><g id="2">EdgeX Foundry</g></g></target>
+```<target xml:lang="ja"><g id="1"><g id="2">Fledge</g></g></target> 
+```xml
+<target xml:lang="ja"><g id="1"><g id="2">グロースプロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">EVE</g></g></target>
+```<target xml:lang="ja"><g id="1"><g id="2">FIDO デバイス登録</g></g></target>
+<target xml:lang="ja"><g id="1"><g id="2">Open Horizon</g></g></target>
+```xml
+<target xml:lang="ja"><g id="1"><g id="2">エッジの現状</g></g></target>
+```<target xml:lang="ja"><g id="1"><g id="2">アットラージプロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+```xml
+<target xml:lang="ja"><g id="1"><g id="2">Alvarium</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">バエテル</g></g></target>
+``````
+<target xml:lang="ja"><g id="1"><g id="2">エッジレイク</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">eKuiper</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">InfiniEdge AI</g></g></target>
+```<target xml:lang="ja"><g id="1"><g id="2">InstantX</g></g></target>
+```
+<target xml:lang="ja"><g id="1"><g id="2">NanoMQ</g></g> </target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">Nexoedge</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">OpenBao</g></g></target>
+``````
+<target xml:lang="ja"><g id="1"><g id="2">名誉プロジェクト</g><g id="3"><g id="4"></g></g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">ホーム エッジ</g></g></target>
+```<target xml:lang="ja"><g id="1"><g id="2">メンバー</g><g id="3"><g id="4"></g></g></g></target>
+<target xml:lang="ja"><g id="1"><g id="2">メンバー</g></g></target>
+<target xml:lang="ja"><g id="1"><g id="2">参加する</g></g></target>
+<target xml:lang="ja"><g id="1"><g id="2">リソース</g><g id="3"><g id="4"></g></g></g></target>
+```
+<target xml:lang="ja"><g id="1"><g id="2">ホワイトペーパー＆レポート</g></g></target>
+``````
+<target xml:lang="ja"><g id="1"><g id="2">ユーザーとデプロイメントの研究</g></g></target>
+``````
+<target xml:lang="ja"><g id="1"><g id="2">LF Edge Sandbox</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">参加する</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">Wiki</g></g></target>
+```<target xml:lang="ja"><g id="1"><g id="2">ニュース＆イベント</g><g id="3"><g id="4"></g></g></g></target>
+```xml
+<target xml:lang="ja"><g id="1"><g id="2">ブログ</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">プレスリリース</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">イベント</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">ウェビナー</g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1"><g id="2">参加する</g></g></target>
+```<target xml:lang="ja"><g id="1">メンバー</g></target> 
+```
+<target xml:lang="ja"><g id="1"><g id="2"></g><g id="3">検索</g></g></target>
+``````xml
+<target xml:lang="ja"><x id="1"/></target>
+``````xml
+<target xml:lang="ja">Fledgeは、産業データパイプライン、インテリジェントエッジアプリケーション、およびML向けの主要なオープンソース産業エッジプラットフォームです。</target>
+```<target xml:lang="ja">私たちのビジョン: Fledgeのプロジェクトとコミュニティは、オートメーション、高度なプロセス制御、およびIIoTのためのデータ管理を提供し、グローバルなスマートマニュファクチャリング/インダストリー4.0を加速します。製造がますますデータドリブンになるにつれて、OTとITの人員、プロセス、テクノロジーの統合がさらに重要になります。データレイク向けのApache Sparkのパイプラインのように、オートメーションピラミッドとIIoT向けのFledgeのパイプラインは、データ収集、データの未加工の統合、データのフィルタリング/クレンジング/変換、データの集約を統合し、エッジ4.0アプリケーションの開発、プロビジョニング、実行、管理を可能にします。</target>
+<target xml:lang="ja"> </target> 
+```xml
+<target xml:lang="ja"><x id="1"/></target>
+``````xml
+<target xml:lang="ja"> </target>
+```<target xml:lang="ja">Fledge データパイプラインは、センサーやアクチュエータからオンプレミスシステム、クラウド、そして再び戻ってくるまで実行されます。Fledge アプリケーションは、ベアメタル、VM、コンテナ、または K3 上で実行されます。Fledge は、Raspberry Pi 0 のような小規模な分散ハードウェアから、クラウド内の十分にプロビジョニングされたコンテナまで、さまざまな環境で実行できます。</target>
+<target xml:lang="ja"> </target>
+```
+<target xml:lang="ja"><x id="1"/></target>
+```<target xml:lang="ja"> </target> 
+<target xml:lang="ja">製造データシステムとプロセスには、ハイパースケールデータエンジニアリングおよびデータサイエンスツールと比較して、独自の要件があります。Fledgeは、産業データ管理の要求を満たすように設計、構築、およびシステムテストされています。<g id="1">Fledgeアーキテクチャ。</g></target>
+```xml
+<target xml:lang="ja"><g id="1">Fledge</g>のエッジ機械学習によってもたらされた、実行可能な洞察は、当社の遠心分離機運用チームにとってゲームチェンジャーです...</target>
+```<target xml:lang="ja">—ジェニファー・ドミニク、取締役、フォーカスド・インプルーブメント・アンド・アナリティクス、ADM</target>
+<target xml:lang="ja">産業データパイプラインの要件</target> 
+<target xml:lang="ja"><x id="1"/></target>
+<target xml:lang="ja"> </target> 
+<target xml:lang="ja">Fledge <g id="1">は</g> <g id="2">単純なインダストリー3.0のデータ取得および変換ゲートウェイではありません。さまざまな産業用プロトコルを接続し、それらをOPC-UAまたはクラウドまたは時系列データベースに変換する産業用ソフトウェア製品には問題があります。</g><g id="3">これらの従来の技術は、データサイロ、ベンダーロック、プロトコルロックを作成し、エッジアプリケーションをサポートせず、エッジでML / AIをホストすることができません。</g></target> 
+<target xml:lang="ja"></target>
+<target xml:lang="ja"><x id="1"/></target> 
+<target xml:lang="ja"> </target> 
+<target xml:lang="ja">「Fledgeは、プロセス制御ネットワークなどからデータを収集および処理する際の多様性と複雑さの問題を解決します。 OSIsoftは、すべてのお客様とパートナーが、インダストリアル4.0インフラストラクチャにFledgeを統合することで、データパイプラインとIIoTのジャーニーを開始することを推奨しています。」</target>
+<target xml:lang="ja">―リチャード・ビーソン、最高技術責任者（CTO）、AVEVA/OSIsoft</target> 
+<target xml:lang="ja"><g id="1">Fledgeのマイクロサービスベースのパイプラインは、あらゆる/複数のソースからデータを収集し、すべてのデータ型を処理して、MQTT、KAFKA、クラウドなど、あらゆる/複数の宛先にネイティブに統合します。</g></target>
+```xml
+<target xml:lang="ja"><g id="1">Fledgeは、以下を含む産業データパイプラインの課題を解決し、民主化します。</g></target>
+```<target xml:lang="ja">メンバー</target> 
+```xml
+<target xml:lang="ja"><g id="1">プラットフォーム非依存</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">送信元と送信先のプロトコルの多様性</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">名前空間マッピング</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">複数のデータソース/異なるタイプの資産（PLCは時系列データを、加速度計はエッジベースの信号処理を必要とする配列データを保有） </g></target>
+``````xml
+<target xml:lang="ja"><g id="1">信頼性の低い可能性のある多様なネットワーク</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">データ型の種類の多様性（時系列、配列、画像、放射測定、トランザクションなど）</g></target>
+``````
+<target xml:lang="ja"><g id="1">既存の機器と分析システムをサポートする</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">モデルとアプリケーションの多様性 </g></target>
+``````
+<target xml:lang="ja"><g id="1">手動から半自律、完全自律までのセンシング、分析、制御ループ</g></target>
+```
+```
+<target xml:lang="ja"><g id="1">物理および化学ベース、予測、シミュレーション、およびAIを含む最適化モデル手法</g></target>
+``````
+<target xml:lang="ja"><g id="1">使いやすさと管理</g></target>
+```<target xml:lang="ja"><g id="1">オープンで拡張可能なUI</g></target>
+```xml
+<target xml:lang="ja"><g id="1">ノーコード、ローコード、コーディングを伴うアプリケーション開発</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">分散データパスを管理する</g></target>
+```<target xml:lang="ja"><g id="1">監査変更</g></target>
+```
+<target xml:lang="ja"><g id="1">セキュリティとオーケストレーション</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">DMZ の背後にある、外部アクセスがないパイプラインとアプリケーション</g></target>
+```<target xml:lang="ja"><g id="1">プラントおよびプロトコルセキュリティ機能に適応する</g></target>
+```xml
+<target xml:lang="ja"><g id="1">暗号化</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">複数のユーザーロール</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">オプションの証明書ベースの認証</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">Kerberos</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">EVEとK3</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">場所と分散コンピューティング</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">レイテンシ、データ量、セキュリティ、コンプライアンス、コスト </g></target>
+``````xml
+<target xml:lang="ja"><g id="1">リアルタイム情報</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">マシンエッジトランザクション、イベント、アラート</g></target>
+``````
+<target xml:lang="ja"><g id="1">エッジでのモデル推論</g></target>
+```
+```xml
+<target xml:lang="ja"><g id="1">エッジMLOps</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">設定値制御</g></target>
+```<target xml:lang="ja">“Fledgeの<g id="1">machine data</g>を収集、処理、変換、統合する機能と、エッジで<g id="2">TensorFlow Lite</g>を実行する機能により、FledgeはGoogleのAIプラットフォームの優れた補完になります… Googleは、次世代の産業プロセスとインテリジェントオートメーションを強化するFledgeプロジェクトに貢献できることを誇りに思います。”</target> 
+```xml
+<target xml:lang="ja">―<g id="1">Craig Wiley</g>氏、<g id="2">Google Cloud AI</g>担当<g id="3">Director</g></target>
+``````xml
+<target xml:lang="ja">Fledgeを選択する理由</target>
+```
+<target xml:lang="ja">メンバー</target> 
+<target xml:lang="ja">メンバー</target>
+<target xml:lang="ja"><g id="1">Fledgeは、産業データの専門家によって、産業ユースケース向けに開発されました。  Fledgeは、小売や消費者向けアプリケーションで使用されるような、汎用のエッジプラットフォームではありません。   産業用ソフトウェアおよびハードウェアの専門家からなる私たちのコミュニティは、インダストリー4.0アプリケーションの開発と、産業データパイプラインの課題に重点を置いています。  ぜひご参加ください。</g></target>
+```xml
+<target xml:lang="ja"><g id="1">Fledge独自の特徴的な産業機能には次のようなものがあります。</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">機能 </g></target>
+```
+```xml
+<target xml:lang="ja"><g id="1">特典</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">プラグインを使用したマイクロサービス</g></target>
+```<target xml:lang="ja">メンバー</target> 
+```xml
+<target xml:lang="ja"><g id="1">高度にモジュール化された再利用可能なコード</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">より速く、より焦点を絞った開発</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">Lessコンポーネントテスト</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">ノーコード/ローコード開発</g></target>
+```<target xml:lang="ja"><g id="1">スケーラブルで管理しやすい</g></target>
+```xml
+<target xml:lang="ja"><g id="1">高性能</g></target>
+```<target xml:lang="ja">メンバー</target>
+```xml
+<target xml:lang="ja"><g id="1">振動信号処理 4チャンネル 48 kHz/チャンネル </g></target>
+``````xml
+<target xml:lang="ja"><g id="1">合計120Kタグ</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">120Kイベント/秒</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">コンピュータービジョン</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">設定値制御を備えたリアルタイムエッジ推論</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">プッシュまたはプルによる更新</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">リレーデータパス </g></target>
+``````xml
+<target xml:lang="ja"><g id="1">冗長なデータパス</g></target>
+```<target xml:lang="ja">メンバー</target>
+```
+<target xml:lang="ja"><g id="1">安全な更新とロールバック</g></target>
+```
+```xml
+<target xml:lang="ja"><g id="1">セキュアなデータパス</g></target>
+``````
+<target xml:lang="ja"><g id="1">高可用性</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">オープン拡張UI & オープンRestAPI</g></target>
+```<target xml:lang="ja"><g id="1">メンバー</g></target>
+```xml
+<target xml:lang="ja"><g id="1">市場投入までの時間短縮</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">使いやすく、設定が簡単</g></target>
+```<target xml:lang="ja"><g id="1">ノーコードアプリ開発</g></target>
+```xml
+<target xml:lang="ja"><g id="1">アブストラクト: 資産、データソース、コンピュート、インテグレーション、およびMLモデル</g></target>
+```<target xml:lang="ja"><g id="1">メンバー</g></target>
+```
+<target xml:lang="ja"><g id="1">運用コンテキストにおけるデータ</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">エンタープライズレベルの管理とセキュリティ</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">エッジMLOps</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">インテリジェントオートメーション</g></target>
+```<target xml:lang="ja"> </target> 
+<target xml:lang="ja"><g id="1">オープン、柔軟、拡張可能 - 自動化装置、システム、クラウド、MLツールに依存しません。  ベンダーロックインはありません。  プロトコルロックもありません。 新旧の機器で同様に動作します。 </g></target>
+<target xml:lang="ja"><g id="1">独自の要件と価値の追加に焦点を当てます。  Fledgeは、センサーからクラウド、そしてクラウドからセンサーに戻るデータパイプラインを管理し、4.0アプリケーションとマルチプロトコルゲートウェイサービスを実現します。 </g></target>
+```
+<target xml:lang="ja"><g id="1">コスト、リスク、そして市場投入までの時間。それがオープンソースのすべてです。</g></target>
+```<target xml:lang="ja"><g id="1">プラント、工場、鉱山はクラウドには存在しません – 運用テクノロジーの分散コンピューティングの現実を拡張、保護、管理するように設計されています。 </g></target>
+```xml
+<target xml:lang="ja"> </target>
+```<target xml:lang="ja">“Fledge’s ability to <g id="1">collect</g>, <g id="2">process</g>, <g id="3">transform</g> and <g id="4">integrate</g> <g id="5">machine data</g> as well as <g id="6">run</g> <g id="7">TensorFlow Lite</g> on the <g id="8">edge</g> makes it an excellent <g id="9">complement</g> to Google’s <g id="10">AI platform</g>… Google is <g id="11">proud</g> to <g id="12">contribute</g> to the Fledge <g id="13">project</g>, <g id="14">empowering</g> next <g id="15">generation</g> <g id="16">industrial processes</g> and <g id="17">intelligent automation</g>.”</target>
+```xml
+<target xml:lang="ja">―<g id="1">Craig Wiley</g>、<g id="2">Director</g>、<g id="3">Google Cloud AI</g></target>
+``````
+<target xml:lang="ja"><g id="1">Members</g>、<g id="2">contributors</g>、<g id="3">technology providers</g>、<g id="4">connectors</g>、<g id="5">standards group</g>、<g id="6">system integrators</g>からなる、急速に成長しているコミュニティにご参加ください。</target>
+``````xml
+<target xml:lang="ja"><g id="1">Industrial Pipelines</g></target>
+``````xml
+<target xml:lang="ja"><x id="1"/></target>
+``````xml
+<target xml:lang="ja"><g id="1">Public Users and Contributors</g></target>
+``````xml
+<target xml:lang="ja"><x id="1"/></target>
+``````xml
+<target xml:lang="ja">クラウド / データ管理 / エッジMLOps</target>
+``````xml
+<target xml:lang="ja"><x id="1"/></target>
+```<target xml:lang="ja"> </target>
+<target xml:lang="ja">電力システムがエネルギー移行を成功させるために変革していく中で、電力会社は、大量のデータがさまざまなプロトコルでやり取りされ、変化の速度が速い、さまざまなシステムを監視し、対話できる必要があります。これらのやり取りには、リアルタイムで、効率的、堅牢、かつ安全な通信が必要です。Fledgeは、電力システム運用における複数プロトコル変換の問題を解決することを目的としたFledgePowerの中核プラットフォームです。</target>
+<target xml:lang="ja">―アクリ・ラフムン、遠隔制御システム専門家、RTE</target>
+<target xml:lang="ja">第4次産業革命では、オートメーションピラミッドとIIoTに統合された新しいオープンデータパイプラインインフラストラクチャが必要です。 FledgeはLinux Foundationのソリューションです。</target>
+```xml
+<target xml:lang="ja"> </target>
+```<target xml:lang="ja">私たちは、業界企業、ソフトウェア開発者、インテグレーター、サプライヤーの皆様に、市場とその要件の概要について、<g id="1">CESMII（クリーンエナジー スマートマニュファクチャリングイノベーションインスティテュート）のスマートマニュファクチャリングの原則に関する記事</g>をお読みになることをお勧めします。私たちはCESMIIに同意しており、Fledgeはこれらの原則を具現化しています。</target>
+<target xml:lang="ja"> </target> 
+<target xml:lang="ja"><g id="1">この記事の引用方法:</g> C. Leiva, <g id="2">J. Adv. Manuf. Process</g>. <g id="3">2022</g>, <g id="4">4</g>(4), e10123. <g id="5">https://doi.org/10.1002/amp2.10123</g></target> 
+```
+<target xml:lang="ja">Fledgeを使い始める</target>
+```<target xml:lang="ja"><g id="1"><g id="2"></g></g></target>
+```
+<target xml:lang="ja"><g id="1">コードを取得する</g></target> 
+```
+```xml
+<target xml:lang="ja"><g id="1"><g id="2"></g></g></target>
+``````xml
+<target xml:lang="ja"><g id="1">ドキュメントを表示</g></target>
+```<target xml:lang="ja"><g id="1"><g id="2"></g></g></target> 
+```
+<target xml:lang="ja"><g id="1">Wikiにアクセス</g></target>
+```<target xml:lang="ja"><g id="1"><g id="2"></g></g></target>
+<target xml:lang="ja"><g id="1">メーリングリストに参加する</g></target>
+
+<target xml:lang="ja"><g id="1"><g id="2"></g></g></target>
+```
+<target xml:lang="ja"><g id="1">Slackで議論する（#fledge / #fledge-help / #fledge-tsc）</g></target>
+``````
+<target xml:lang="ja">ユーザーと展開の研究</target>
+``````xml
+<target xml:lang="ja"><x id="1"/></target>
+``````xml
+<target xml:lang="ja">UC DavisとOpus OneがFledgeを使用してより安全な条件で世界クラスのワインを生産</target>
+``````xml
+<target xml:lang="ja"><g id="1">今すぐダウンロード</g></target>
+``````xml
+<target xml:lang="ja"><x id="1"/></target>
+```<target xml:lang="ja">Copyright © 2023 The Linux Foundation® . All rights reserved. The Linux Foundationは登録商標を有しており、商標を使用しています。The Linux Foundationの商標リストについては、<g id="1">商標使用</g>ページをご覧ください。Linuxは、Linus Torvaldsの登録商標です。<g id="2">プライバシーポリシー</g>と<g id="3">利用規約</g>。</target>
+```xml
+<target xml:lang="ja"><g id="1"><g id="2">メニューを閉じる</g> <g id="3"></g> </g></target>
+```<target xml:lang="ja"><g id="1">About</g></target>
+```xml
+<target xml:lang="ja"><g id="1">LF Edgeについて</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">行動規範</g></target>
+``````
+<target xml:lang="ja"><g id="1">運営委員会</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">技術諮問委員会（TAC）</g></target>
+``````
+<target xml:lang="ja"><g id="1">お問い合わせ</g></target>
+``````
+<target xml:lang="ja"><g id="1">プロジェクト</g></target>
+```
+```xml
+<target xml:lang="ja"><g id="1">インパクトプロジェクト</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">アクライノ</g></target>
+``````
+<target xml:lang="ja"><g id="1">EdgeX Foundry</g></target> 
+``````xml
+<target xml:lang="ja"><g id="1">Fledge</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">成長プロジェクト</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">EVE</g></target>
+``````
+<target xml:lang="ja"><g id="1">FIDOデバイス登録</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">オープンホライズン</g></target>
+``````
+<target xml:lang="ja"><g id="1">エッジの状態</g></target>
+```
+```xml
+<target xml:lang="ja"><g id="1">アットラージプロジェクト</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">アルバリウム</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">バエティル</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">EdgeLake</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">eKuiper</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">InfiniEdge AI</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">インスタントX</g></target>
+``````
+<target xml:lang="ja"><g id="1">NanoMQ</g></target>
+```<target xml:lang="ja"><g id="1">ネクスエッジ</g></target> 
+```xml
+<target xml:lang="ja"><g id="1">OpenBao</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">エメリタスプロジェクト</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">ホーム エッジ</g></target>
+``````
+<target xml:lang="ja"><g id="1">メンバー</g></target>
+``````
+<target xml:lang="ja"><g id="1">メンバー</g></target>
+``````
+<target xml:lang="ja"><g id="1">参加する</g></target>
+``````<target xml:lang="ja"><g id="1">リソース</g></target>
+``````
+<target xml:lang="ja"><g id="1">ホワイトペーパー＆レポート</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">ユーザーと展開の研究</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">LF Edge Sandbox</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">参加する</g></target>
+``````
+<target xml:lang="ja"><g id="1">Wiki</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">ニュース＆イベント</g></target>
+``````
+<target xml:lang="ja"><g id="1">ブログ</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">報道関係者向け情報</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">イベント</g></target>
+``````xml
+<target xml:lang="ja"><g id="1">ウェビナー</g></target>
+``````
+<target xml:lang="ja"><g id="1">参加する</g></target>
+```
