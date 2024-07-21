@@ -6,14 +6,9 @@
 # Note: you need to swtith venv and 
 # set PYTHONPATH by ```source ../../scripts/settings.conf)```
 
-
-
 import google.generativeai as genai
 import sys
 import time
-
-
-
 
 # 翻訳ファイル
 
@@ -21,7 +16,7 @@ import time
 API_KEY = "YOUR API KEY"
 genai.configure(api_key=API_KEY)
 
-##　入力ファイル名と出力ファイル名をチェック
+## 入力ファイル名と出力ファイル名をチェック
 
 ## --------------------------------------------------
 # Check if the first argument is provided
@@ -39,8 +34,6 @@ f_name1 = sys.argv[1]
 
 # Set the second argument to the variable f_name2
 f_name2 = sys.argv[2]
-## --------------------------------------------------
-
 
 # プロンプト準備
 
@@ -51,12 +44,9 @@ prompt = """
 あなたはITおよびOSS（オープンソースソフトウェア）の専門家です。次の文章を日本語に翻訳してください
 * ですます調で翻訳してください
 * 翻訳にあたってはそれ以前に翻訳した用語を踏襲するようにしてください
-
 ### 条件
 * マークダウン記法は維持してください
-
 ## 出力（この先だけ表示）
-
 """
 
 # モデルをインスタンス化
@@ -75,24 +65,10 @@ def main():
         with open(output_file_path, "w", encoding="utf-8") as output_file:
             result = generate_content(prompt,text)
             print(result)
-            # 加工結果を書き込む
+            # 翻訳結果を書き込む
             output_file.write(result)
-            #time.sleep(0.5)
 
-  #  # 入力ファイルを開く
-  #  with open(input_file_path, "r", encoding="utf-8") as input_file:
-  #      # 出力ファイルを開く
-  #      with open(output_file_path, "w", encoding="utf-8") as output_file:
-  #          # 一行ずつ処理
-  #          for line in input_file:
-  #              # 各行を加工
-  #              result = generate_content(prompt,line)
-  #              print(result)
-  #              # 加工結果を書き込む
-  #              output_file.write(result)
-  #              time.sleep(0.5)
-
-# 各行での翻訳処理
+# 翻訳処理
 def generate_content(prompt,text):
     #request=prompt + line
     request=prompt + text
