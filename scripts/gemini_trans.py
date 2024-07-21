@@ -8,7 +8,7 @@ import time
 # 翻訳ファイル
 
 # API キーを設定
-API_KEY = "AIzaSyBR_EPjinAGt2kS_jVNAZV5OYYxZ3f2Yho"
+API_KEY = "YOUR API KEY"
 genai.configure(api_key=API_KEY)
 
 ##　入力ファイル名と出力ファイル名をチェック
@@ -71,7 +71,7 @@ def main():
                 print(result)
                 # 加工結果を書き込む
                 output_file.write(result)
-                time.sleep(5)
+                time.sleep(1)
 
 # 各行での翻訳処理
 def generate_content(prompt,line):
