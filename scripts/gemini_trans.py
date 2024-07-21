@@ -3,12 +3,13 @@
 import google.generativeai as genai
 import sys
 import time
+import os
 
 
 # 翻訳ファイル
 
 # API キーを設定
-API_KEY = "YOUR API KEY"
+API_KEY=os.path.expandvars("$GEMINI_API_KEY")
 genai.configure(api_key=API_KEY)
 
 ##　入力ファイル名と出力ファイル名をチェック
