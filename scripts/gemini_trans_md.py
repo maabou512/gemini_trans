@@ -18,7 +18,7 @@ import time
 # 翻訳ファイル
 
 # API キーを設定
-API_KEY = "AIzaSyBR_EPjinAGt2kS_jVNAZV5OYYxZ3f2Yho"
+API_KEY = "YOUR API KEY"
 genai.configure(api_key=API_KEY)
 
 ##　入力ファイル名と出力ファイル名をチェック
