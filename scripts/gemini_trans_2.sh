@@ -2,7 +2,7 @@
 
 # Machine Translation using Gemini API 
 # Command: 
-# bash ../scripts/gemini_trans_1.sh [arg1]
+# bash ../scripts/gemini_trans_2.sh 
 # arg1: original file to be translated  
 
 # Steps ( [x] : This script's scope)  
@@ -17,7 +17,7 @@
 #Note: step 1-4 is done in previous process (gemini_trans_1.sh) 　
 
 ## import variables  
-source ../scripts/settings.conf
+source ../../scripts/settings.conf
 source ./variables.conf
 
 ## List up all variables

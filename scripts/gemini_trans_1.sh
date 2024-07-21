@@ -22,7 +22,7 @@
 ## [ ] 7. Create final, translated file(such as HTML) 
 
 ## Import static setting
-source "../scripts/settings.conf"
+source "../../scripts/settings.conf"
 
 
 ## Set the first argument to the variable original_file
@@ -103,6 +103,9 @@ echo ${post_trans_file}
 
 
 ${python_path} ${script_path}/gemini_trans.py ${pre_trans_file} ${post_trans_file}
+
+# Back up post_trans_file
+cp ${post_trans_file} ${post_trans_file}.bak
 
 echo "****** Ph1 of 3 was done. ******"
 exit
